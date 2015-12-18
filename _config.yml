@@ -7,7 +7,7 @@ title: JIE's Blos
 subtitle: time machine
 description: JIE's Blos
 author: JIE
-language: zh-CN
+language: zh
 timezone:
 
 # URL
@@ -69,5 +69,5 @@ theme: jacman
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: http://github.com/stableShip/stableShip.github.io.git
+  repo: git@github.com:stableShip/stableShip.github.io.git
   branch: master
