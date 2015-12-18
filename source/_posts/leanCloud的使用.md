@@ -1,5 +1,8 @@
 ---
 title: leancloud的使用
+date: 2015-09-27 19:07:43
+tags: [leancloud]
+categories: [leancloud]
 ---
 ##leanCloud介绍
 官网:[leancloud](https://leancloud.cn/)
