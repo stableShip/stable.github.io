@@ -12,14 +12,10 @@ tags: [pomelo,服务器]
 
 # 部署服务端
 
-## 下载源码
-
-`git clone http://git.meiriq.com/wangxinwen/twolandlord_server.git`
-
 ## 安装依赖包 
 
 进入目录：
-`cd twolandlord_server`
+`cd xxx_server`
 
 安装依赖包：
 `sh npm-install.sh`(Windows: `npm-install.bat`)
