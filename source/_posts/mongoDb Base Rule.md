@@ -1,8 +1,10 @@
----  
-title: MongoDb Base Rule 
-date: 2019-01-29 20:19:32  
-tags: [MongoDb]  
+---
+
+title: MongoDb Base Rule
+date: 2019-01-29 20:19:32
+tags: [mongoDb]
 categories: [mongoDb]
+
 ---
 
 ### Select 只获取必要的字段
