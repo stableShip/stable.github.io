@@ -1,11 +1,7 @@
 ---
-
- title: SpringBoot Unit Test
-
+title: SpringBoot Unit Test
 date: 2020-01-15 10:19:32
-
 tags: [SpringBoot, UnitTest]
-
 ---
 
 ## For What
