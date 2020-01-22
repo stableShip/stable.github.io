@@ -99,7 +99,7 @@ _效率低_
 
   
 
-[MongoDb_Demo](https://alm-github.systems.uk.hsbc/45022338/MongoDb_Demo)
+[MongoDb_Demo](https://github.com/stableShip/Spring_MongoDb)
 
   
 

@@ -129,5 +129,3 @@ integration test is a better choice
 ### Example:
 
 [https://howtodoinjava.com/spring-boot2/testing/spring-integration-testing/](https://howtodoinjava.com/spring-boot2/testing/spring-integration-testing/)
-
-demo- [https://alm-github.systems.uk.hsbc/45022338/spring_tag](https://alm-github.systems.uk.hsbc/45022338/spring_tag)
