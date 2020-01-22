@@ -42,7 +42,7 @@ Reducer: listen to the event, and change the data in Store
 
 Store: data store in it, and the components use `connect + mapStageToProps` to watch/compute the data change.
 
-  
+<!-- more -->
 
 ## different between Action and Reducer
 

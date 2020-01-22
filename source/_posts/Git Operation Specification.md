@@ -35,6 +35,8 @@ The main rule of GitHub Flow is that master should  _always_  be deployable.
 4.  the deploy server pull the newest code and restart server
 5.  test!
 
+<!-- more -->
+
 ### deploy to production
 
 1.  commit pr to master
