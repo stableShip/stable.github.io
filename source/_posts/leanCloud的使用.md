@@ -1,10 +1,12 @@
 ---
+
 title: leancloud的使用
 date: 2015-09-27 19:07:43
 tags: [leancloud]
 categories: [leancloud]
+
 ---
-##leanCloud介绍
+## leanCloud介绍
 官网:[leancloud](https://leancloud.cn/)
 LeanCloud 是国内的移动应用一站式云服务。
 LeanCloud提供了数据存储、实时消息、统计分析以及多种扩展组件，全面涵盖移动应用开发的需求，支持 iOS、Android、Web 等多平台。
@@ -16,23 +18,23 @@ LeanCloud提供了数据存储、实时消息、统计分析以及多种扩展�
 
 ----
 
-##正文
+## 正文
 
-###环境
+### 环境
 
 [nodejs](http://nodejs.org/)
 [leancloud命令行工具](https://leancloud.cn/docs/cloud_code_commandline.html)
 
-####下载安装nodejs
+#### 下载安装nodejs
 [百度](http://www.baidu.com/s?wd=nodejs%E5%AE%89%E8%A3%85)
 
-####下载安装leancloud命令行工具(在已安装nodejs的基础上)
+#### 下载安装leancloud命令行工具(在已安装nodejs的基础上)
 `npm install -g avoscloud-code`
 
 环境搭建完毕
 
 <!-- more -->
-###相关文档的熟悉
+### 相关文档的熟悉
 [nodejs项目搭建文档](https://leancloud.cn/docs/leanengine_guide-node.html)
 
 [第三方平台接入文档](https://leancloud.cn/docs/sns.html)
@@ -45,7 +47,7 @@ LeanEngine Node.js 项目必须有 $PROJECT_DIR/server.js 文件，该文件为�
 在项目里面必须要有server.js文件,不要使用avoscloud new 生成的项目结构,可以参考[node-js-getting-started](https://github.com/leancloud/node-js-getting-started)项目
 
 
-###安装leancloud依赖
+### 安装leancloud依赖
 ```
 npm init
 npm install leanengine --save
@@ -53,7 +55,7 @@ npm install leanengine --save
 ```
 
 
-###相关代码的编写
+### 相关代码的编写
 [一个基础的express项目](http://www.tuicool.com/articles/nIJfUnU)
 1. 在上面项目的基础上修改app.js, 将`app.listen(3000)`修改为'module.exports = app'
 2. 在app.js中添加leancloud的库的中间件`var AV = require('leanengine'); app.use(AV.Cloud)`来支持leancloud的部署检测
@@ -80,11 +82,11 @@ var server = app.listen(PORT, function () {
 
 ```
 
-###本地测试
+### 本地测试
 运行`avoscloud`命令
 或者直接`node server.js`
 
-###部署到leancloud
+### 部署到leancloud
 运行`avoscloud deploy`部署到测试服
 设置域名:点击项目--云代码--设置--Web 主机域名 设置你想要的域名
 **坑点:通过dev.+你设置的域名可以访问到测试服.**

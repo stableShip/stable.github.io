@@ -14,6 +14,8 @@ When we developing a project and serving for the user with a lot of function. An
 
 we use mockito to mock all the  dependencies injected (the database, the third party api) to the layer, in the **Controller** layer , we mock the  **Service**  function, in the  **Service**  layer, we mock the  **Dao**  function;
 
+<!-- more -->
+
 ****
 Controller:
 
