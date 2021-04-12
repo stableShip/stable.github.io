@@ -6,6 +6,7 @@
     "version": "3.9.0"
   },
   "scripts": {
+    "local": "hexo generate && hexo server",
     "publish": "hexo generate && hexo deploy"
   },
   "dependencies": {
