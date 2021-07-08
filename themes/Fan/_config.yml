@@ -20,7 +20,7 @@ menu:
 toc:
   enable: true
   friendlink:
-    enable: false
+    enable: true
     data:
       - url: http://www.chalet581.xyz
         text: tommyZZM
