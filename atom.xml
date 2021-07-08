@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JIE&#39;s Blos</title>
+  
+  <subtitle>time machine</subtitle>
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2021-07-08T03:43:54.995Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>JIE</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>敏捷之自驱力</title>
+    <link href="http://yoursite.com/2021/07/03/%E6%95%8F%E6%8D%B7%E4%B9%8B%E8%87%AA%E9%A9%B1%E5%8A%9B/"/>
+    <id>http://yoursite.com/2021/07/03/%E6%95%8F%E6%8D%B7%E4%B9%8B%E8%87%AA%E9%A9%B1%E5%8A%9B/</id>
+    <published>2021-07-03T02:19:32.000Z</published>
+    <updated>2021-07-08T03:43:54.995Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="敏捷之自驱力"><a href="#敏捷之自驱力" class="headerlink" title="敏捷之自驱力"></a>敏捷之自驱力</h2><p>聊聊敏捷的自驱力， 很多团队使用了敏捷进行管理， 但是在跑了一段时间后， 很多管理人员反应， 敏捷就是个噱头，团队工作并没有得到改善，反而变得更加糟糕。 是的， 糟糕！！团队成员为了每个sprint的需求， 疲于奔命， 后面的需求又来了。团队自驱力也没有提高， 还是处于任务式的被动接受。 这个sprint有需求安排下来就开发。以上都是没有认识到敏捷到底是要达到什么样的目的。</p><h3 id="敏捷的目的"><a href="#敏捷的目的" class="headerlink" title="敏捷的目的"></a>敏捷的目的</h3><p>“团队的自组织，团队成员的自驱动”。 敏捷的目的归根到底是这一句话， 所有敏捷所做的事， sprint，回顾会议，OKR， 都是为了上面的目的服务而做的。 要清晰的认识到这一点， 才能够较好的实施敏捷。 说一说看到的问题</p><h3 id="没有让团队成员主动思考"><a href="#没有让团队成员主动思考" class="headerlink" title="没有让团队成员主动思考"></a>没有让团队成员主动思考</h3><p>很多管理人员说，<br>“我已经按照敏捷的流程，安排了整个项目的流程，团队成员没有自驱力，我也没办法，有些人就是这样”。<br> 非常错误的想法。 执着于流程，但是没有认识到 <strong>管理也是对人的管理</strong>. </p><p>“对人管理， 有啊，我经常和他们说： 这是你的项目，你要对项目负责。让他们意识到要对项目负责， 要求他们进行分享，要求他们进行总结”。<br>可以看到这种说法的管理人员还是处于 “下发任务式， 主动要求式的管理” ， 这种管理方式不能说错，但是在敏捷中，不应该用“你要， 你去， 你做” 这种下发任务式，命令式的形式，让团队成员去做事。 那么应该怎么做呢？<br>是的， 让团队成员自己思考自己做什么。但是怎么让成员主动思考呢？</p><ol><li>在入职，one onne review 等沟通中， 和团队成员灌输， “我不会告诉你要做什么，你告诉我 你想做什么， 你能做什么， 展示你的工作成果给我看” ， “想一下 自己能做什么，怎么展示自己的工作成果” ， 让团队成员主动思考自己能做什么。</li><li>Sprint的制定， 让团队成员一起讨论， 这个Sprint他们想做什么，在保证项目进度基础上， 加上成员自身思考得出的任务：Devops相关， 学习相关，优化 等等。</li><li>OKR的制定，在团队OKR的基础上， 让团队成员自己确定自己的OKR要做什么，可以给一些建议，但是要让团队成员自己思考， 自己做什么。</li><li>回顾会议，复盘。 是一个很好的团队思考的方式，在会议上，让整个团队一起思考， 团队现在缺少了什么东西， 什么做得好，什么做得不好，接下来要怎么做。团队的事要团队成员一起思考，不是由管理人员一个人决定。</li></ol><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>管理人员需要认识到敏捷的目的：“团队的自组织，团队成员的自驱动”。 所有的流程，方式都是为了达到这个目的而做的。行动起来就会游刃有余。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;敏捷之自驱力&quot;&gt;&lt;a href=&quot;#敏捷之自驱力&quot; class=&quot;headerlink&quot; title=&quot;敏捷之自驱力&quot;&gt;&lt;/a&gt;敏捷之自驱力&lt;/h2&gt;&lt;p&gt;聊聊敏捷的自驱力， 很多团队使用了敏捷进行管理， 但是在跑了一段时间后， 很多管理人员反应， 敏捷就是个噱头</summary>
+      
+    
+    
+    
+    
+    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    
+    <category term="Agile" scheme="http://yoursite.com/tags/Agile/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IT项目的工程化， 流水化</title>
+    <link href="http://yoursite.com/2021/06/23/%E5%B7%A5%E7%A8%8B%E6%B5%81%E6%B0%B4%E5%8C%96%E5%BC%80%E5%8F%91/"/>
+    <id>http://yoursite.com/2021/06/23/%E5%B7%A5%E7%A8%8B%E6%B5%81%E6%B0%B4%E5%8C%96%E5%BC%80%E5%8F%91/</id>
+    <published>2021-06-23T07:19:32.000Z</published>
+    <updated>2021-06-23T07:55:08.249Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="IT项目的工程化，-流水化"><a href="#IT项目的工程化，-流水化" class="headerlink" title="IT项目的工程化， 流水化"></a>IT项目的工程化， 流水化</h2><h3 id="IT的工程化"><a href="#IT的工程化" class="headerlink" title="IT的工程化"></a>IT的工程化</h3><p>标准化， 自动化，低代码，快速无缝衔接</p><h3 id="哪些项目适合工程化生产"><a href="#哪些项目适合工程化生产" class="headerlink" title="哪些项目适合工程化生产"></a>哪些项目适合工程化生产</h3><p>广告营销类（推广小游戏，推广页面）</p><h3 id="标准化"><a href="#标准化" class="headerlink" title="标准化"></a>标准化</h3><h4 id="项目的标准化"><a href="#项目的标准化" class="headerlink" title="项目的标准化"></a>项目的标准化</h4><p>业务人员的标准化<br>统一的项目流程，话术，过程产出物，交付物，合同, 上线后相关跟踪（数据反馈）。</p><p>流程的标准化，简略化<br>部署，上线，下线，快速迭代</p><p>开发人员的标准化<br>统一的开发框架，复杂的内容交给第三方（动画交给UI人员），只做简单的应用开发</p><h3 id="统一的开发框架"><a href="#统一的开发框架" class="headerlink" title="统一的开发框架"></a>统一的开发框架</h3><h4 id="后端开发框架"><a href="#后端开发框架" class="headerlink" title="后端开发框架"></a>后端开发框架</h4><h5 id="基础功能"><a href="#基础功能" class="headerlink" title="基础功能"></a>基础功能</h5><p>基础的web项目后端功能封装， 数据库事务</p><h5 id="可靠性，稳定性"><a href="#可靠性，稳定性" class="headerlink" title="可靠性，稳定性"></a>可靠性，稳定性</h5><p>监控报警<br>单元测试<br>文档（前后端，客户）</p><h5 id="快速开发"><a href="#快速开发" class="headerlink" title="快速开发"></a>快速开发</h5><p>根据模板 自动生成新项目<br>自动生成文档<br>数据库表自动生成增删改查管理后台<br>单元测试框架自动生成</p><h5 id="集成"><a href="#集成" class="headerlink" title="集成"></a>集成</h5><p>CI/CD 部署集成</p><h4 id="前端开发框架"><a href="#前端开发框架" class="headerlink" title="前端开发框架"></a>前端开发框架</h4><h5 id="api自动生成"><a href="#api自动生成" class="headerlink" title="api自动生成"></a>api自动生成</h5><p>根据后端接口文档 或后端提供一个接口(生成前端请求api文件) , 生成前端请求对应的api文件</p><h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><h5 id="jmeter接口测试文件自动生成"><a href="#jmeter接口测试文件自动生成" class="headerlink" title="jmeter接口测试文件自动生成"></a>jmeter接口测试文件自动生成</h5><p>后端提供对应接口,生成jmeter接口测试配置文件, 测试人员直接导入到jmeter就可以进行测试</p><h4 id="集成，统一的部署流程"><a href="#集成，统一的部署流程" class="headerlink" title="集成，统一的部署流程"></a>集成，统一的部署流程</h4><p>集成<br>项目集成docker, CICD pipline(github, gitlab), git hook关联，提交代码到仓库自动触发部署行为。无需人员进行配置。　生成对应的链接</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;IT项目的工程化，-流水化&quot;&gt;&lt;a href=&quot;#IT项目的工程化，-流水化&quot; class=&quot;headerlink&quot; title=&quot;IT项目的工程化， 流水化&quot;&gt;&lt;/a&gt;IT项目的工程化， 流水化&lt;/h2&gt;&lt;h3 id=&quot;IT的工程化&quot;&gt;&lt;a href=&quot;#IT的</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Version Control In Docker</title>
+    <link href="http://yoursite.com/2021/05/12/Version%20Control%20In%20Docker/"/>
+    <id>http://yoursite.com/2021/05/12/Version%20Control%20In%20Docker/</id>
+    <published>2021-05-12T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>By using docker , we can easy deploy the application. but how we control the deploy version and how can we rollback to last version if any error occur?</p><p>There is the solution we explore in development.</p><h2 id="How"><a href="#How" class="headerlink" title="How"></a>How</h2><p>To control which version docker image need to deploy to prod. we need to defined the  <strong>target ‘sign’ for our docker image, something like: “master”, “prod”.</strong></p><p>To rollback to the image we want. all image need to have a <strong>‘sign’ for rollback , something like: “2021-01-01 10:00:00 - asdffe”, “release date + commit id”.</strong></p><p>so we need to push two image to docker repo: <code>master</code> image and <code>release date + commit id</code> image.</p><p>master image will overwrite old image all the time. the <code>release date + commit id</code> image will be saved in repo for rollback</p><h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">TAG = date + commit id</span><br><span class="line"></span><br><span class="line">REGISTRY=your registry</span><br><span class="line"></span><br><span class="line">NAME=image name</span><br><span class="line"></span><br><span class="line">PROD_TAG = master</span><br><span class="line"></span><br><span class="line">UAT_TAG = uat</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## build prod</span><br><span class="line"></span><br><span class="line"># build image</span><br><span class="line"></span><br><span class="line">docker build -t $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; .</span><br><span class="line"></span><br><span class="line"># create image with PROD_TAG` `for`  `PROD RELEASE</span><br><span class="line"></span><br><span class="line">docker tag $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;PROD_TAG&#125;</span><br><span class="line"></span><br><span class="line">docker push $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; &amp;&amp; docker push $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;PROD_TAG&#125;</span><br><span class="line"></span><br><span class="line">## build UAT</span><br><span class="line"></span><br><span class="line">docker build -t $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; .</span><br><span class="line"></span><br><span class="line">docker tag $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;UAT_TAG&#125;</span><br><span class="line"></span><br><span class="line">docker push $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; &amp;&amp; docker push $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;UAT_TAG&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;What&quot;&gt;&lt;a href=&quot;#What&quot; class=&quot;headerlink&quot; title=&quot;What&quot;&gt;&lt;/a&gt;What&lt;/h2&gt;&lt;p&gt;By using docker , we can easy deploy the application. but how </summary>
+      
+    
+    
+    
+    
+    <category term="Docker" scheme="http://yoursite.com/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Teambuild 规划</title>
+    <link href="http://yoursite.com/2021/04/20/teambuild%E8%A7%84%E5%88%92/"/>
+    <id>http://yoursite.com/2021/04/20/teambuild%E8%A7%84%E5%88%92/</id>
+    <published>2021-04-20T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Problem-we-meet"><a href="#Problem-we-meet" class="headerlink" title="Problem we meet"></a>Problem we meet</h2><ul><li>teambuild效果不明显</li><li>teambuild活动目的不清晰，teambuild活动到底是想达到什么效果？</li><li>团队成员参与度不足， 被动参加，置身事外</li><li>teambuild形式单一，没有创新（一般都是吃饭）</li></ul><h2 id="For-What"><a href="#For-What" class="headerlink" title="For What"></a>For What</h2><p>为了解决上面的问题， 通过轮流举办teambuild的形式，加强团队凝聚力，提高团队成员参与度， 构建积极参与的团队文化氛围。</p><h2 id="Whom"><a href="#Whom" class="headerlink" title="Whom"></a>Whom</h2><p>团队所有成员，每次的团建活动按照姓名排序，轮流三个人进行teambuild活动组织安排。通过轮流的形式，提高团队成员对teambuild的参与度，引入更多思考变量。</p><p>举例：<br>Alex， Adam，Benjamin， Freddie，Remox，Sura</p><p>如上面的，第一季度由Alex， Adam，Benjamin进行teambuild活动组织安排。第二季度由Freddie，Remox，Sura组织安排</p><h2 id="When"><a href="#When" class="headerlink" title="When"></a>When</h2><p>每个季度最后一个月进行teambuild活动<br>1-3 3月<br>4-6 6月<br>7-9 9月<br>10-12 12月</p><p>需要在每季度的第二个月发出活动计划，进行计划的投票，人员的安排。<br>1-3 2月<br>4-6 5月<br>7-9 8月<br>10-12 11月</p><h2 id="How"><a href="#How" class="headerlink" title="How"></a>How</h2><h3 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h3><p>首先，不同的teambuild活动，要达到的目的可以是不一样的。<br>例如：</p><ul><li>前一阵子团队全部人员加班加点帮忙赶计划， 所以想让大家能够比较好的休息，放松一下。 所以安排了放松的teambuild： 温泉， 按摩 等</li><li><p>发现大家之间除了日常工作，没有其他交流， 所以安排了团队交流，协作相关的活动：对抗赛，CS，王者荣耀线上比赛。</p></li><li><p>疫情期间，大家运动不足，交流也比较少，所以安排了能让大家进行运动，又可以促进大家交流的活动： 每日步数比赛。</p></li></ul><p>所以针对不同时期，不同团队的teambuild，需要每个季度轮到的同学，首先考虑一下，这个teambuild要达到的目的。再根据目的进行计划。</p><h3 id="计划落实"><a href="#计划落实" class="headerlink" title="计划落实"></a>计划落实</h3><p>确定了大概的计划，需要去了解对应的信息，价格，人数限制，时间限制，天气。<br>建议是至少包含两个计划，<br>计划一是可以用公司teambuild基金覆盖的，基础的活动。 计划二是更上一层的，需要大家再加点钱的。 </p><p>和团队其他成员沟通，投票，确认要进行哪个teambuild活动。 确认人数。 确定teambuild时间</p><h3 id="活动进行时"><a href="#活动进行时" class="headerlink" title="活动进行时"></a>活动进行时</h3><ol><li>确保 提前和所有成员分享了活动注意事项： 时间，地点，安全事项 等等。</li><li>携带对应的安全保障设备,如：药箱</li><li>确保所有人员都平安归来</li><li>其他…</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Problem-we-meet&quot;&gt;&lt;a href=&quot;#Problem-we-meet&quot; class=&quot;headerlink&quot; title=&quot;Problem we meet&quot;&gt;&lt;/a&gt;Problem we meet&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;teambuild效果不</summary>
+      
+    
+    
+    
+    
+    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何进行绩效评估</title>
+    <link href="http://yoursite.com/2021/03/31/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0/"/>
+    <id>http://yoursite.com/2021/03/31/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0/</id>
+    <published>2021-03-31T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="绩效评估的作用"><a href="#绩效评估的作用" class="headerlink" title="绩效评估的作用"></a>绩效评估的作用</h2><p>绩效是衡量一个人或团队的工作效果的指标，通过绩效可以清晰比较到公司各个人员的情况，再根据绩效进行相应的处理，奖励或者鼓励或者惩罚。如果没有绩效，公司将失去活力，没有发展。</p><h2 id="评估绩效的几种方式"><a href="#评估绩效的几种方式" class="headerlink" title="评估绩效的几种方式"></a>评估绩效的几种方式</h2><h3 id="基于360度的综合考核"><a href="#基于360度的综合考核" class="headerlink" title="基于360度的综合考核"></a>基于360度的综合考核</h3><p><a href="https://baike.baidu.com/item/360%E5%BA%A6%E8%80%83%E8%AF%84/9590521">360度综合考核</a>，多视角考核，考核者被上级，下级，同级，合作者，外部考核者（供应商和客户等）等 匿名 进行考核。<br>考核一般使用调查问卷形式，市面上有提供360度绩效考核问卷的公司。<br>考核者的多角化，有助于 考核 被考核者在不同的合作关系中的表现。 显示出隐藏的问题。<br>也对鼓励考核者进行多元化，全方位发展有所帮助。</p><p>建议：中高层绩效管理</p><h4 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h4><p>耗费人力，时间较多。</p><p>侧重综合考核，定量考核较少，定性考核较多。<br>例如考核 您觉得和被考核者一起合作，满意度多少？1-10分。 这种比较定性的，不是定量的考核，存在一定的主观判断。</p><p>因部门的岗位数量，岗位性质不同，会产生一定不公平。<br>如技术部门和商务部门，同样考核第三方对他的一个沟通流畅程度。可能技术部门或有所欠缺。需要再根据部门进行对比。</p><h3 id="基于KPI，OKR的绩效考核"><a href="#基于KPI，OKR的绩效考核" class="headerlink" title="基于KPI，OKR的绩效考核"></a>基于KPI，OKR的绩效考核</h3><p>KPI：<a href="https://baike.baidu.com/item/%E5%85%B3%E9%94%AE%E7%BB%A9%E6%95%88%E6%8C%87%E6%A0%87/4707236?fromtitle=KPI&amp;fromid=3007508">关键绩效指标</a><br>OKR：<a href="https://baike.baidu.com/item/OKR">目标与关键成功法</a><br>通过KPI，OKR指标进行考核，考核内容明确，有利于被考核者与公司形成共识，容易被接受。</p><p>建议：低中高层绩效管理</p><h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><p>有可能导致机械化的考核。<br>如 完成KPI指标就完成了绩效。其他不管了。没有考虑其他的人为因素，弹性因素（如家人生病，导致无法完成）。</p><h3 id="基于BSC的绩效考核"><a href="#基于BSC的绩效考核" class="headerlink" title="基于BSC的绩效考核"></a>基于BSC的绩效考核</h3><p>BSC：Balanced Score Card， <a href="https://baike.baidu.com/item/%E5%B9%B3%E8%A1%A1%E8%AE%A1%E5%88%86%E5%8D%A1">平衡计分卡</a>，通过对 财务（Financial）、客户（Customer）、内部运营（Internal Business Processes）、学习与成长（Learning and Growth）四个方面进行考核评估，得出绩效。</p><p>建议：中高层绩效管理</p><h3 id="基于目标的绩效考核"><a href="#基于目标的绩效考核" class="headerlink" title="基于目标的绩效考核"></a>基于目标的绩效考核</h3><p>通过制定目标，通过目标是否达成来衡量绩效。</p><p>缺点：目标的制订存在异议，怎样的目标才是符合考核的？<br>与基于KPI的绩效考核类似，容易忽略其他因素</p><p>建议：低中高层绩效管理</p><h3 id="绩效积分奖励制"><a href="#绩效积分奖励制" class="headerlink" title="绩效积分奖励制"></a>绩效积分奖励制</h3><p><a href="https://baike.baidu.com/item/%E7%BB%A9%E6%95%88%E7%A7%AF%E5%88%86%E5%A5%96%E5%8A%B1%E5%88%B6/7942875">绩效积分奖励制</a>, 对员工绩效实行积分，绩效积分形成“福利购买力”，在购买力达到一定水平后，员工可以凭借获得的购买力获取企业提供的弹性福利。</p><p>建议： 低层绩效管理</p><p>适合企业的就是最好的，没有完美的方式，需要在企业管理制度的基础上，进行评估使用哪种绩效制度</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;绩效评估的作用&quot;&gt;&lt;a href=&quot;#绩效评估的作用&quot; class=&quot;headerlink&quot; title=&quot;绩效评估的作用&quot;&gt;&lt;/a&gt;绩效评估的作用&lt;/h2&gt;&lt;p&gt;绩效是衡量一个人或团队的工作效果的指标，通过绩效可以清晰比较到公司各个人员的情况，再根据绩效进行相应</summary>
+      
+    
+    
+    
+    
+    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>团队OKR</title>
+    <link href="http://yoursite.com/2021/02/10/%E5%9B%A2%E9%98%9FOKR/"/>
+    <id>http://yoursite.com/2021/02/10/%E5%9B%A2%E9%98%9FOKR/</id>
+    <published>2021-02-10T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="团队OKR"><a href="#团队OKR" class="headerlink" title="团队OKR"></a>团队OKR</h2><p><strong>Object：目标<br>Key Result： 关键结果</strong></p><p>OKR的目标是引导，驱动团队成员主动的去思考， 主动的想怎样能达到对应的目标（Object）。 OKR需要团队成员参与制定，并了解每一项内容（Key Result）。</p><p>每个团队都有自身的特点， okr需要根据不同的团队，不同特点进行设定。</p><p>Object 目标，<strong>定性</strong>，定义事件的性质，不要定义数量，抽象化：如“赚到1亿”， 而是使用 “公司盈利，上市”。 </p><p>Key Result 关键结果，<strong>定量</strong>，定义需要达到多少，如“赚一个亿”</p><p>ORK 必须是公开透明的，由上到下， 公司的OKR，团队的OKR， 个人的OKR</p><p>可以参考的<a href="https://safe.menlosecurity.com/http://www.360doc.com/content/17/0510/19/32626470_652783216.shtml">制定规则</a></p><h2 id="普遍的OKR示例"><a href="#普遍的OKR示例" class="headerlink" title="普遍的OKR示例"></a>普遍的OKR示例</h2><h3 id="提高发布频率"><a href="#提高发布频率" class="headerlink" title="提高发布频率"></a>提高发布频率</h3><h5 id="每周发布一次"><a href="#每周发布一次" class="headerlink" title="每周发布一次"></a>每周发布一次</h5><p>所有的发布都应该分割成较小的部分， 能够进行zero down time的部署， 不影响到生产环境使用（数据库修改除外）</p><h5 id="参与发布的人数达到全员"><a href="#参与发布的人数达到全员" class="headerlink" title="参与发布的人数达到全员"></a>参与发布的人数达到全员</h5><p>团队所有成员都熟悉整个发布流程与工具，没有知识断层</p><h5 id="提交代码到版本管理服务的人数达到全员"><a href="#提交代码到版本管理服务的人数达到全员" class="headerlink" title="提交代码到版本管理服务的人数达到全员"></a>提交代码到版本管理服务的人数达到全员</h5><p>所有开发人员都必须提交能够使用代码版本管理服务，提交代码到版本管理服务</p><h5 id="15分钟完成所有发布工作"><a href="#15分钟完成所有发布工作" class="headerlink" title="15分钟完成所有发布工作"></a>15分钟完成所有发布工作</h5><p>完善发布工具， 减少发布时间，单个服务发布时间不能多于15分钟</p><h5 id="其他能提高发布效率的举措"><a href="#其他能提高发布效率的举措" class="headerlink" title="其他能提高发布效率的举措"></a>其他能提高发布效率的举措</h5><hr><h3 id="减少生产问题"><a href="#减少生产问题" class="headerlink" title="减少生产问题"></a>减少生产问题</h3><h5 id="减少生产问题数量-由10减少到5"><a href="#减少生产问题数量-由10减少到5" class="headerlink" title="减少生产问题数量 由10减少到5"></a>减少生产问题数量 由10减少到5</h5><p>生产环境的问题应当逐渐减少， 直至没有</p><h5 id="生产问题影响"><a href="#生产问题影响" class="headerlink" title="生产问题影响"></a>生产问题影响</h5><p>生产问题的影响，应该能够衡量， 并且影响逐步减小</p><h5 id="生产问题处理人员数量-由1加到4"><a href="#生产问题处理人员数量-由1加到4" class="headerlink" title="生产问题处理人员数量 由1加到4"></a>生产问题处理人员数量 由1加到4</h5><p>生产问题人员处理数量应当在合适的数量， 逐渐减少，建立良好的问题处理模型</p><h5 id="减少-新的功能导致的生产问题，由10减少到5"><a href="#减少-新的功能导致的生产问题，由10减少到5" class="headerlink" title="减少 新的功能导致的生产问题，由10减少到5"></a>减少 新的功能导致的生产问题，由10减少到5</h5><p>新的功能导致的生产问题应当逐渐减少，如： 完善对应的测试， 自动化测试， 减少问题出现。</p><h5 id="其他能够避免生产问题发生的举措"><a href="#其他能够避免生产问题发生的举措" class="headerlink" title="其他能够避免生产问题发生的举措"></a>其他能够避免生产问题发生的举措</h5><hr><h3 id="团队建设"><a href="#团队建设" class="headerlink" title="团队建设"></a>团队建设</h3><h5 id="团队成员每月学习目标"><a href="#团队成员每月学习目标" class="headerlink" title="团队成员每月学习目标"></a>团队成员每月学习目标</h5><h5 id="团队分享每周有一次"><a href="#团队分享每周有一次" class="headerlink" title="团队分享每周有一次"></a>团队分享每周有一次</h5><h5 id="证书数量每人获取到一张新证书"><a href="#证书数量每人获取到一张新证书" class="headerlink" title="证书数量每人获取到一张新证书"></a>证书数量每人获取到一张新证书</h5><hr><h3 id="提高工作效能"><a href="#提高工作效能" class="headerlink" title="提高工作效能"></a>提高工作效能</h3><h5 id="每月举行一次团队反馈会议"><a href="#每月举行一次团队反馈会议" class="headerlink" title="每月举行一次团队反馈会议"></a>每月举行一次团队反馈会议</h5><p>团队进行会议，评估自身团队： 好的，能够提升的，保持的，需要改变的。 稳定会议数量， 固定每月进行会议。</p><h5 id="每次一篇团队知识文章"><a href="#每次一篇团队知识文章" class="headerlink" title="每次一篇团队知识文章"></a>每次一篇团队知识文章</h5><p>团队发布知识文章， 分享自己的知识给社区， 逐步提高数量</p><h3 id="减少安全问题"><a href="#减少安全问题" class="headerlink" title="减少安全问题"></a>减少安全问题</h3><h5 id="代码扫描工具"><a href="#代码扫描工具" class="headerlink" title="代码扫描工具"></a>代码扫描工具</h5><p>所有的服务都必须使用代码扫描工具（sonar， checkmark）</p><h5 id="减少-代码扫描问题，重大问题数量为0"><a href="#减少-代码扫描问题，重大问题数量为0" class="headerlink" title="减少 代码扫描问题，重大问题数量为0"></a>减少 代码扫描问题，重大问题数量为0</h5><p>扫描不能出现 紧急 的问题， 逐步减少代码扫描工具扫出来的问题</p><hr><h3 id="上市"><a href="#上市" class="headerlink" title="上市"></a>上市</h3><h5 id="总流水达到5000w"><a href="#总流水达到5000w" class="headerlink" title="总流水达到5000w"></a>总流水达到5000w</h5><h5 id="用户规模达到1000w"><a href="#用户规模达到1000w" class="headerlink" title="用户规模达到1000w"></a>用户规模达到1000w</h5><h5 id="用户日活达到100w"><a href="#用户日活达到100w" class="headerlink" title="用户日活达到100w"></a>用户日活达到100w</h5><hr><h2 id="OKR-统一评判标准"><a href="#OKR-统一评判标准" class="headerlink" title="OKR 统一评判标准"></a>OKR 统一评判标准</h2><p>可以看到上面的Oeject 目标都是定性的，KeyResult 关键结果都是定量的。为了更好的对比各个团队的OKR完成情况。还需要一个统一的评判标准。 </p><p>一个可以看到自动采集各个团队的数据情况， 并展示报表的内部系统。各个团队可以在系统看到其他团队完成情况，进行对比。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;团队OKR&quot;&gt;&lt;a href=&quot;#团队OKR&quot; class=&quot;headerlink&quot; title=&quot;团队OKR&quot;&gt;&lt;/a&gt;团队OKR&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Object：目标&lt;br&gt;Key Result： 关键结果&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OKR的</summary>
+      
+    
+    
+    
+    
+    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020 Self Assignment</title>
+    <link href="http://yoursite.com/2020/10/19/2020%20Self%20Assignment/"/>
+    <id>http://yoursite.com/2020/10/19/2020%20Self%20Assignment/</id>
+    <published>2020-10-19T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="技术架构师"><a href="#技术架构师" class="headerlink" title="技术架构师"></a>技术架构师</h2><ol><li>构建了新项目的 前后端，自动化测试 框架（后端使用spring boot，前端使用React, 自动化测试使用 Selenide+TestNg），目前项目已经上线正常运行。</li><li>制定了项目前后端的编程规范与开发流程.</li><li>制定了团队的git工作流.</li><li>对新技术进行研究并落地（PostgreSql，Cypress，React Hook）.</li><li>对团队成员进行培训（git工作流培训，单元测试培训，React前端培训，自动化测试培训 等等）.</li><li>指导团队进行代码架构设计，数据库设计。</li><li>参与并构建了项目的Devops基础设施，如 自动化部署，自动化测试，监控报警 系统</li></ol><h2 id="Leader"><a href="#Leader" class="headerlink" title="Leader"></a>Leader</h2><ol><li>以 敏捷开发 为指导， 对项目成员进行对应的思想指导。</li><li>进行 项目人员 面试，构建了一套完整的面试流程，并积极培训其他成员进行面试</li><li>日常与团队成员进行沟通， review， 建立了有效的沟通反馈渠道。</li></ol><p>2020年是硕果累累的一年， 取得了很多成绩，在新的一年需要更加努力，争取新的成就。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;技术架构师&quot;&gt;&lt;a href=&quot;#技术架构师&quot; class=&quot;headerlink&quot; title=&quot;技术架构师&quot;&gt;&lt;/a&gt;技术架构师&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;构建了新项目的 前后端，自动化测试 框架（后端使用spring boot，前端使用React, 自动化测</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>金融系统API设计</title>
+    <link href="http://yoursite.com/2020/10/02/%E9%87%91%E8%9E%8D%E7%B3%BB%E7%BB%9FAPI%E8%AE%BE%E8%AE%A1/"/>
+    <id>http://yoursite.com/2020/10/02/%E9%87%91%E8%9E%8D%E7%B3%BB%E7%BB%9FAPI%E8%AE%BE%E8%AE%A1/</id>
+    <published>2020-10-02T02:19:32.000Z</published>
+    <updated>2021-07-07T09:07:22.565Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="安全"><a href="#安全" class="headerlink" title="安全"></a>安全</h2><p>使用双重RSA密钥验证，平台双方都有对应的密钥对， 将私钥发给对方， 发送方 对请求体按照字母顺序排序成字符串，AES进行字符串加密， 使用私钥进行签名， 接收方 使用公钥进行签名校验。 校验通过后再进行对应处理。</p><h2 id="统一的请求，返回格式"><a href="#统一的请求，返回格式" class="headerlink" title="统一的请求，返回格式"></a>统一的请求，返回格式</h2><p>所有的API接口都必须 返回相同的数据格式，</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">code：``200``，` `// 非200代码 为 错误码</span><br><span class="line"></span><br><span class="line">data： &#123;</span><br><span class="line"></span><br><span class="line">users： [],</span><br><span class="line"></span><br><span class="line">user: &#123;&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">msg:&quot;&quot; // 当非200代码时， 提示错误信息</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="幂等（可重入）"><a href="#幂等（可重入）" class="headerlink" title="幂等（可重入）"></a>幂等（可重入）</h2><p>API接口相同的请求体， 不同时间请求多次， 返回的数据应该一致， 如: 入件接口，返回入件成功， 入件失败， 不会从失败变成成功。</p><h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><p>可读性， 历史可追溯， 推荐使用石墨文档markdown进行文档生成， markdown文件使用git进行版本管理。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;安全&quot;&gt;&lt;a href=&quot;#安全&quot; class=&quot;headerlink&quot; title=&quot;安全&quot;&gt;&lt;/a&gt;安全&lt;/h2&gt;&lt;p&gt;使用双重RSA密钥验证，平台双方都有对应的密钥对， 将私钥发给对方， 发送方 对请求体按照字母顺序排序成字符串，AES进行字符串加密， 使用</summary>
+      
+    
+    
+    
+    <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+    <category term="API" scheme="http://yoursite.com/tags/API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>岗位轮岗制度</title>
+    <link href="http://yoursite.com/2020/08/10/%E8%BD%AE%E5%B2%97%E5%88%B6%E5%BA%A6/"/>
+    <id>http://yoursite.com/2020/08/10/%E8%BD%AE%E5%B2%97%E5%88%B6%E5%BA%A6/</id>
+    <published>2020-08-10T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="现状"><a href="#现状" class="headerlink" title="现状"></a>现状</h2><p>各个工作人员，固定岗位，每天都重复相同的工作（自动化测试， 开发，运维处理），员工感到前路受限， 无法接触到新的东西，环境僵持，间接导致工作效率降低。 希望能进行流动轮岗。</p><h2 id="轮岗制度优点"><a href="#轮岗制度优点" class="headerlink" title="轮岗制度优点"></a>轮岗制度优点</h2><p>提高了组织的活力，避免造成单点。</p><p>员工有接触不同工作的机会，可以学习到更多的东西，间接提高工作效率。</p><h2 id="轮岗制度缺点"><a href="#轮岗制度缺点" class="headerlink" title="轮岗制度缺点"></a>轮岗制度缺点</h2><p>轮岗会造成一定效率的降低， 熟练工替换到非熟练工，导致工作效率降低。 </p><h2 id="轮岗人员"><a href="#轮岗人员" class="headerlink" title="轮岗人员"></a>轮岗人员</h2><p>所有在职开发人员</p><h2 id="轮岗时间"><a href="#轮岗时间" class="headerlink" title="轮岗时间"></a>轮岗时间</h2><p>一年进行轮岗一次， 提前一个月对新岗位工作进行熟悉，旧岗位工作进行交接。</p><h2 id="轮岗工作"><a href="#轮岗工作" class="headerlink" title="轮岗工作"></a>轮岗工作</h2><p>需明确各个岗位工作内容， 方便进行转岗安排。</p><p>提前一个月，对旧岗位进行工作交接， 对接替的同事进行培训， 确保工作效率不会明显下降。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;现状&quot;&gt;&lt;a href=&quot;#现状&quot; class=&quot;headerlink&quot; title=&quot;现状&quot;&gt;&lt;/a&gt;现状&lt;/h2&gt;&lt;p&gt;各个工作人员，固定岗位，每天都重复相同的工作（自动化测试， 开发，运维处理），员工感到前路受限， 无法接触到新的东西，环境僵持，间接导致工作</summary>
+      
+    
+    
+    
+    
+    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>团队建设-每周一问</title>
+    <link href="http://yoursite.com/2020/08/02/%E6%AF%8F%E5%91%A8%E4%B8%80%E9%97%AE/"/>
+    <id>http://yoursite.com/2020/08/02/%E6%AF%8F%E5%91%A8%E4%B8%80%E9%97%AE/</id>
+    <published>2020-08-02T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="For-What"><a href="#For-What" class="headerlink" title="For What"></a>For What</h2><p>通过对 每周一个技术问题 进行分享讨论的形式， 营造 分享，共同学习 的技术氛围， 提高团队凝聚力，提高团队成员的知识水平。</p><h2 id="Whom"><a href="#Whom" class="headerlink" title="Whom"></a>Whom</h2><p>团队所有成员</p><h2 id="When"><a href="#When" class="headerlink" title="When"></a>When</h2><p>每周星期四 下午四点到四点半（16：00 - 16：30 Tue）</p><h2 id="How"><a href="#How" class="headerlink" title="How"></a>How</h2><p>主持人 按照团队成员 姓名排序轮流 进行会议主持。 下周会议主持人 要在星期五（会议后下一天）准备好下周的<strong>问题</strong>。</p><p>主题必须以问题的形式提出。尽量问实际的问题，不要太空泛。</p><p>问题范围： Java（spring，多线程，Jvm）， Linux， 数据库， Vue，React， 算法。</p><p><strong>尽量从简单的问题开始， 大家提问题不要问需要 深入了解后才能回答 的问题。</strong></p><p>问题范例：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Spring中事务什么情况会失效， 为什么会失效？</span><br><span class="line">数据库索引什么情况会失效，为什么会失效？</span><br><span class="line">Spring中为什么要有IOC，它解决了什么问题？</span><br><span class="line">为什么阿里不建议使用Executors创建线程池？</span><br></pre></td></tr></table></figure><h2 id="为什么要以问题的形式发起sharing？"><a href="#为什么要以问题的形式发起sharing？" class="headerlink" title="为什么要以问题的形式发起sharing？"></a>为什么要以问题的形式发起sharing？</h2><p>想通过发出问题 提前带动大家的思考， 因为提出是问题， 所以会自然而然去思考，“为什么的？为什么要这样的”。</p><p>如果只是陈述，”Springboot中事务的使用”， 可能就，“哦， 会讲这个。” 大家就被动的接受， 而没有进行自己的思考。</p><p>这个也是敏捷的一part，“如何让团队主动思考”。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;For-What&quot;&gt;&lt;a href=&quot;#For-What&quot; class=&quot;headerlink&quot; title=&quot;For What&quot;&gt;&lt;/a&gt;For What&lt;/h2&gt;&lt;p&gt;通过对 每周一个技术问题 进行分享讨论的形式， 营造 分享，共同学习 的技术氛围， 提高团队</summary>
+      
+    
+    
+    
+    
+    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Interview Process</title>
+    <link href="http://yoursite.com/2020/06/12/Interview%20Process/"/>
+    <id>http://yoursite.com/2020/06/12/Interview%20Process/</id>
+    <published>2020-06-12T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="英文自我介绍"><a href="#英文自我介绍" class="headerlink" title="英文自我介绍"></a>英文自我介绍</h2><p>面试者简单的自我介绍，可以根据面试者介绍再问些问题。</p><p>（Could you tell me more detail about your last job？ Do you have confidence to handle the hangwriting and listening of English？一篇全英文文档，不借助翻译 能读懂多少？ ）</p><h2 id="技术相关"><a href="#技术相关" class="headerlink" title="技术相关"></a>技术相关</h2><p>重点 springboot， 数据库相关。 尽量考察到实际要怎么做， 而不是问理论上的， 很多培训出来的， 理论背得很好</p><p>。 具体一些的实操相关的问题。</p><p>(springboot 事务如何使用。如何 写一个过滤器 统计Service层方法执行时间， springboot 如何统一返回数据格式。 springboot 如何写一个拦截器， 如何统一处理异常)</p><h2 id="项目流程相关"><a href="#项目流程相关" class="headerlink" title="项目流程相关"></a>项目流程相关</h2><p>git，git工作流， 项目管理软件（jira，禅道）， 敏捷开发，单元测试， 项目监控报警。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>所有的问题事实上背后都对应了考察的点：</p><p>英语能力，创业心， 自我学习能力， 技术(java基础，springboot框架， 数据库)，开发流程熟悉度(git工作流，项目管理软件，敏捷开发)</p><p>每一个点对应要问什么问题才能考察到，需要面试官自行总结。</p><p>面试官需要通过面试问题掌握面试者能力，不要出现面试后还在疑惑.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">他有一些答得比较模糊， 不知道他是不是真的行!</span><br></pre></td></tr></table></figure><p><strong>如果觉得没办法通过这个问题掌握他的水平， 就再多问一下! 不要等到会议结束后，都无法确认候选人是否合适*</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;英文自我介绍&quot;&gt;&lt;a href=&quot;#英文自我介绍&quot; class=&quot;headerlink&quot; title=&quot;英文自我介绍&quot;&gt;&lt;/a&gt;英文自我介绍&lt;/h2&gt;&lt;p&gt;面试者简单的自我介绍，可以根据面试者介绍再问些问题。&lt;/p&gt;
+&lt;p&gt;（Could you tell me m</summary>
+      
+    
+    
+    
+    
+    <category term="Interview" scheme="http://yoursite.com/tags/Interview/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Self Skill Assignment</title>
+    <link href="http://yoursite.com/2020/01/29/Self%20Skill%20Assignment/"/>
+    <id>http://yoursite.com/2020/01/29/Self%20Skill%20Assignment/</id>
+    <published>2020-01-29T12:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<p>0-3 : just know about the skill, but never used (了解这项技术，但从未使用， 按了解程度评分)</p><p>4-7: has been used the skill , but just know how to use, but don’t know the Infrastructure （使用过这项技术，但不了解底层原理， 按使用熟练度评分）</p><p>8-10: can be good use the entire skill and know about the Infrastructure （能很好的使用这项技术， 熟悉底层原理，按底层原理熟悉度评分）</p><table><thead><tr><th>Skill\Name</th><th>Alex</th><th></th></tr></thead><tbody><tr><td>English</td><td>6</td><td></td></tr><tr><td>Java Base</td><td></td></tr><tr><td>Spring Boot</td></tr><tr><td>Spring Cloud</td></tr><tr><td>React</td></tr><tr><td>Vue</td></tr><tr><td>Python</td></tr><tr><td>Node JS</td></tr><tr><td>C#</td></tr><tr><td>Golang</td></tr></tbody></table><p>…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;0-3 : just know about the skill, but never used (了解这项技术，但从未使用， 按了解程度评分)&lt;/p&gt;
+&lt;p&gt;4-7: has been used the skill , but just know how to use, b</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Base Concept in React</title>
+    <link href="http://yoursite.com/2020/01/16/Base%20Concept%20in%20React/"/>
+    <id>http://yoursite.com/2020/01/16/Base%20Concept%20in%20React/</id>
+    <published>2020-01-16T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="React-Router"><a href="#React-Router" class="headerlink" title="React-Router"></a>React-Router</h1><p>Guide line in Chinese:</p><p><a href="http://react-guide.github.io/react-router-cn/docs/guides/advanced/ConfirmingNavigation.html">http://react-guide.github.io/react-router-cn/docs/guides/advanced/ConfirmingNavigation.html</a></p><p><a href="https://cn.redux.js.org/docs/advanced/UsageWithReactRouter.html">https://cn.redux.js.org/docs/advanced/UsageWithReactRouter.html</a> (use Redux with ReactRouter)</p><p>Guide line in English</p><p><a href="https://reacttraining.com/react-router/web/guides/quick-start">https://reacttraining.com/react-router/web/guides/quick-start</a></p><p><a href="https://redux.js.org/advanced/usage-with-react-router/">https://redux.js.org/advanced/usage-with-react-router/</a> (use Redux with ReactRouter)</p><h1 id="Redux"><a href="#Redux" class="headerlink" title="Redux"></a>Redux</h1><h2 id="Action-Reducer-Store"><a href="#Action-Reducer-Store" class="headerlink" title="Action, Reducer,Store"></a>Action, Reducer,Store</h2><p><a href="https://cn.redux.js.org/docs/introduction/">https://cn.redux.js.org/docs/introduction/</a> （Chinese）  </p><p><a href="https://redux.js.org/basics/basic-tutorial">https://redux.js.org/basics/basic-tutorial</a> （English）</p><p>Action: do some async job, like: ajax request, all the backend api. and then trigger a event to reducer</p><p>Reducer: listen to the event, and change the data in Store</p><p>Store: data store in it, and the components use <code>connect + mapStageToProps</code> to watch/compute the data change.</p><span id="more"></span><h2 id="different-between-Action-and-Reducer"><a href="#different-between-Action-and-Reducer" class="headerlink" title="different between Action and Reducer"></a>different between Action and Reducer</h2><p><a href="https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/65">https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/65</a> （Chinese）</p><p>Connect + mapStagetoProps</p><p><a href="https://cn.redux.js.org/docs/basics/UsageWithReact.html">https://cn.redux.js.org/docs/basics/UsageWithReact.html</a>（Chinese）</p><p><a href="https://redux.js.org/basics/usage-with-react">https://redux.js.org/basics/usage-with-react</a>（English）</p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;React-Router&quot;&gt;&lt;a href=&quot;#React-Router&quot; class=&quot;headerlink&quot; title=&quot;React-Router&quot;&gt;&lt;/a&gt;React-Router&lt;/h1&gt;&lt;p&gt;Guide line in Chinese:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://react-guide.github.io/react-router-cn/docs/guides/advanced/ConfirmingNavigation.html&quot;&gt;http://react-guide.github.io/react-router-cn/docs/guides/advanced/ConfirmingNavigation.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cn.redux.js.org/docs/advanced/UsageWithReactRouter.html&quot;&gt;https://cn.redux.js.org/docs/advanced/UsageWithReactRouter.html&lt;/a&gt; (use Redux with ReactRouter)&lt;/p&gt;
+&lt;p&gt;Guide line in English&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://reacttraining.com/react-router/web/guides/quick-start&quot;&gt;https://reacttraining.com/react-router/web/guides/quick-start&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://redux.js.org/advanced/usage-with-react-router/&quot;&gt;https://redux.js.org/advanced/usage-with-react-router/&lt;/a&gt; (use Redux with ReactRouter)&lt;/p&gt;
+&lt;h1 id=&quot;Redux&quot;&gt;&lt;a href=&quot;#Redux&quot; class=&quot;headerlink&quot; title=&quot;Redux&quot;&gt;&lt;/a&gt;Redux&lt;/h1&gt;&lt;h2 id=&quot;Action-Reducer-Store&quot;&gt;&lt;a href=&quot;#Action-Reducer-Store&quot; class=&quot;headerlink&quot; title=&quot;Action, Reducer,Store&quot;&gt;&lt;/a&gt;Action, Reducer,Store&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://cn.redux.js.org/docs/introduction/&quot;&gt;https://cn.redux.js.org/docs/introduction/&lt;/a&gt; （Chinese）  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://redux.js.org/basics/basic-tutorial&quot;&gt;https://redux.js.org/basics/basic-tutorial&lt;/a&gt; （English）&lt;/p&gt;
+&lt;p&gt;Action: do some async job, like: ajax request, all the backend api. and then trigger a event to reducer&lt;/p&gt;
+&lt;p&gt;Reducer: listen to the event, and change the data in Store&lt;/p&gt;
+&lt;p&gt;Store: data store in it, and the components use &lt;code&gt;connect + mapStageToProps&lt;/code&gt; to watch/compute the data change.&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="React" scheme="http://yoursite.com/tags/React/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot Unit Test</title>
+    <link href="http://yoursite.com/2020/01/15/SpringBoot%20Unit%20Test/"/>
+    <id>http://yoursite.com/2020/01/15/SpringBoot%20Unit%20Test/</id>
+    <published>2020-01-15T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="For-What"><a href="#For-What" class="headerlink" title="For What"></a>For What</h2><p>When we developing a project and serving for the user with a lot of function. And some of this function is called in multiple place. when a new requirement is come which need to modify the code of the old function. How can you ensure the ensure old function won’t be broken by the change you make. human test? too native. Human always make mistake. So we need the machine to check for us.</p><h2 id="Layer-Test-Mockito"><a href="#Layer-Test-Mockito" class="headerlink" title="Layer Test : Mockito"></a>Layer Test : Mockito</h2><p>we use mockito to mock all the  dependencies injected (the database, the third party api) to the layer, in the <strong>Controller</strong> layer , we mock the  <strong>Service</strong>  function, in the  <strong>Service</strong>  layer, we mock the  <strong>Dao</strong>  function;</p><span id="more"></span><hr><p>Controller:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">`<span class="meta">@Test</span>`</span><br><span class="line"></span><br><span class="line">`<span class="keyword">public</span>` `<span class="keyword">void</span>` `testAddEmployee()`</span><br><span class="line"></span><br><span class="line">`&#123;`</span><br><span class="line"></span><br><span class="line">`MockHttpServletRequest request =` `<span class="keyword">new</span>` `MockHttpServletRequest();`</span><br><span class="line"></span><br><span class="line">`RequestContextHolder.setRequestAttributes(``<span class="keyword">new</span>` `ServletRequestAttributes(request));`</span><br><span class="line"></span><br><span class="line">`when(employeeDAO.addEmployee(any(Employee.``<span class="class"><span class="keyword">class</span>``))).<span class="title">thenReturn</span>(``<span class="title">true</span>``)</span>;`</span><br><span class="line"></span><br><span class="line">`Employee employee =` `<span class="keyword">new</span>` `Employee(``<span class="number">1</span>``,` `<span class="string">&quot;Lokesh&quot;</span>``,` `<span class="string">&quot;Gupta&quot;</span>``,` `<span class="string">&quot;howtodoinjava@gmail.com&quot;</span>``);`</span><br><span class="line"></span><br><span class="line">`ResponseEntity&lt;Object&gt; responseEntity = employeeController.addEmployee(employee);`</span><br><span class="line"></span><br><span class="line">`assertThat(responseEntity.getStatusCodeValue()).isEqualTo(``<span class="number">201</span>``);`</span><br><span class="line"></span><br><span class="line">`assertThat(responseEntity.getHeaders().getLocation().getPath()).isEqualTo(``<span class="string">&quot;/1&quot;</span>``);`</span><br><span class="line"></span><br><span class="line">`&#125;`</span><br></pre></td></tr></table></figure><hr><p>Service:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">`<span class="meta">@Test</span>`</span><br><span class="line"></span><br><span class="line">`<span class="keyword">public</span>` `<span class="keyword">void</span>` `getEmployeeByIdTest()`</span><br><span class="line"></span><br><span class="line">`&#123;`</span><br><span class="line"></span><br><span class="line">`when(dao.getEmployeeById(``<span class="number">1</span>``)).thenReturn(``<span class="keyword">new</span>` `EmployeeVO(``<span class="number">1</span>``,``<span class="string">&quot;Lokesh&quot;</span>``,``<span class="string">&quot;Gupta&quot;</span>``,``<span class="string">&quot;user@email.com&quot;</span>``));`</span><br><span class="line"></span><br><span class="line">`EmployeeVO emp = manager.getEmployeeById(``<span class="number">1</span>``);`</span><br><span class="line"></span><br><span class="line">`assertEquals(``<span class="string">&quot;Lokesh&quot;</span>``, emp.getFirstName());`</span><br><span class="line"></span><br><span class="line">`assertEquals(``<span class="string">&quot;Gupta&quot;</span>``, emp.getLastName());`</span><br><span class="line"></span><br><span class="line">`assertEquals(``<span class="string">&quot;user@email.com&quot;</span>``, emp.getEmail());`</span><br><span class="line"></span><br><span class="line">`&#125;`</span><br></pre></td></tr></table></figure><hr><h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p><strong>Good: only test the necessary part.</strong></p><p><strong>Bad: it take a lot of effort for all the layer for same functionality.</strong></p><h3 id="Example"><a href="#Example" class="headerlink" title="Example:"></a>Example:</h3><p><a href="https://howtodoinjava.com/spring-boot2/testing/rest-controller-unit-test-example/">https://howtodoinjava.com/spring-boot2/testing/rest-controller-unit-test-example/</a></p><p><a href="https://howtodoinjava.com/spring-boot2/testing/spring-boot-mockito-junit-example/">https://howtodoinjava.com/spring-boot2/testing/spring-boot-mockito-junit-example/</a></p><h2 id="integration-test-embedded-db-in-memory-db-sql-initialization"><a href="#integration-test-embedded-db-in-memory-db-sql-initialization" class="headerlink" title="integration test : embedded db(in-memory db) + sql initialization"></a>integration test : embedded db(in-memory db) + sql initialization</h2><p>Because the Layer Test is cause a lot of effort， so it is easy to give up. and then the Integration test came out</p><p><strong>Integration test can test different modules are bounded correctly and if they work as expected in only one test case, no need to write for different layer , save a lot of effort.</strong></p><p><strong><em>**</em></strong>Integration test can more similar as the prod by using the embedded db(H2).<strong><em>**</em></strong></p><p><strong><strong>Integration test can test for certain behaviors by using the <code>@sql</code> to initial to test data to db.</strong></strong></p><hr><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">`<span class="meta">@Sql</span>``(&#123;` `<span class="string">&quot;schema.sql&quot;</span>``,` `<span class="string">&quot;data.sql&quot;</span>` `&#125;)`</span><br><span class="line"></span><br><span class="line">`<span class="meta">@Test</span>`</span><br><span class="line"></span><br><span class="line">`<span class="keyword">public</span>` `<span class="keyword">void</span>` `testAllEmployees()`</span><br><span class="line"></span><br><span class="line">`&#123;`</span><br><span class="line"></span><br><span class="line">`assertTrue(`</span><br><span class="line"></span><br><span class="line">`<span class="keyword">this</span>``.restTemplate`</span><br><span class="line"></span><br><span class="line">`.getForObject(``<span class="string">&quot;[http://localhost:](http://localhost/)&quot;</span>` `+ port +` `<span class="string">&quot;/employees&quot;</span>``, Employees.``<span class="class"><span class="keyword">class</span>``)`</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">`.<span class="title">getEmployeeList</span>().<span class="title">size</span>() </span>==` `<span class="number">3</span>``);`</span><br><span class="line"></span><br><span class="line">`&#125;`</span><br></pre></td></tr></table></figure><hr><h3 id="Conclusion-1"><a href="#Conclusion-1" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>integration test is a better choice</p><h3 id="Example-1"><a href="#Example-1" class="headerlink" title="Example:"></a>Example:</h3><p><a href="https://howtodoinjava.com/spring-boot2/testing/spring-integration-testing/">https://howtodoinjava.com/spring-boot2/testing/spring-integration-testing/</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;For-What&quot;&gt;&lt;a href=&quot;#For-What&quot; class=&quot;headerlink&quot; title=&quot;For What&quot;&gt;&lt;/a&gt;For What&lt;/h2&gt;&lt;p&gt;When we developing a project and serving for the user with a lot of function. And some of this function is called in multiple place. when a new requirement is come which need to modify the code of the old function. How can you ensure the ensure old function won’t be broken by the change you make. human test? too native. Human always make mistake. So we need the machine to check for us.&lt;/p&gt;
+&lt;h2 id=&quot;Layer-Test-Mockito&quot;&gt;&lt;a href=&quot;#Layer-Test-Mockito&quot; class=&quot;headerlink&quot; title=&quot;Layer Test : Mockito&quot;&gt;&lt;/a&gt;Layer Test : Mockito&lt;/h2&gt;&lt;p&gt;we use mockito to mock all the  dependencies injected (the database, the third party api) to the layer, in the &lt;strong&gt;Controller&lt;/strong&gt; layer , we mock the  &lt;strong&gt;Service&lt;/strong&gt;  function, in the  &lt;strong&gt;Service&lt;/strong&gt;  layer, we mock the  &lt;strong&gt;Dao&lt;/strong&gt;  function;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="SpringBoot" scheme="http://yoursite.com/tags/SpringBoot/"/>
+    
+    <category term="UnitTest" scheme="http://yoursite.com/tags/UnitTest/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Automatic test using Selenide</title>
+    <link href="http://yoursite.com/2019/06/12/Automatic%20test%20using%20Selenide/"/>
+    <id>http://yoursite.com/2019/06/12/Automatic%20test%20using%20Selenide/</id>
+    <published>2019-06-12T02:19:32.000Z</published>
+    <updated>2021-07-07T09:41:14.045Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="What-Selenide-is"><a href="#What-Selenide-is" class="headerlink" title="What Selenide is?"></a>What Selenide is?</h2><p>Selenide is a framework for test automation powered by <strong>Selenium WebDriver</strong> that brings the following advantages:</p><p>Concise fluent API for tests. Powerful selectors. Simple configuration.</p><p>You don’t need to think how to shutdown browser, handle timeouts and StaleElement Exceptions or search for relevant log lines, debugging your tests.</p><p>Just focus on your business logic and let Selenide do the rest!</p><h2 id="Seleium-code"><a href="#Seleium-code" class="headerlink" title="Seleium code"></a>Seleium code</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span>  <span class="class"><span class="keyword">class</span>  <span class="title">GoogleTest</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line">chromeDriver webdriver;</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line"><span class="meta">@Before</span></span><br><span class="line"><span class="function"><span class="keyword">public</span>  <span class="keyword">void</span>  <span class="title">setUp</span><span class="params">()</span> </span>&#123;</span><br><span class="line">System.setProperty(<span class="string">&quot;webdriver.chrome.driver&quot;</span>,<span class="string">&quot;drivers/chromedriver.exe&quot;</span>);</span><br><span class="line"></span><br><span class="line">WebDriverManager.chromedriver().setup();</span><br><span class="line"></span><br><span class="line">webdriver = <span class="keyword">new</span>  ChromeDriver();</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@Test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span>  <span class="keyword">void</span>  <span class="title">searchGoogle</span><span class="params">()</span> </span>&#123;</span><br><span class="line">webdriver.get(<span class="string">&quot;[https://www.google.com/ncr](https://www.google.com/ncr)&quot;</span>);</span><br><span class="line">WebElement  q = webdriver.findElementByName(<span class="string">&quot;q&quot;</span>);</span><br><span class="line">q.sendKeys(<span class="string">&quot;test&quot;</span>);</span><br><span class="line">q.submit();</span><br><span class="line">wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(<span class="string">&quot;resultStats&quot;</span>)));</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line"><span class="meta">@After</span></span><br><span class="line"><span class="function"><span class="keyword">public</span>  <span class="keyword">void</span>  <span class="title">tearDown</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="keyword">if</span> (webdriver != <span class="keyword">null</span>) &#123;</span><br><span class="line">webdriver.quit();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br></pre></td></tr></table></figure><p>Selenide Code</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">  </span><br><span class="line"><span class="meta">@Listeners(BrowserPerClass.class)</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GoogleTest</span> </span>&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@Before</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setUp</span><span class="params">()</span> </span>&#123;</span><br><span class="line">System.setProperty(<span class="string">&quot;webdriver.chrome.driver&quot;</span>, <span class="string">&quot;drivers/chromedriver.exe&quot;</span>);</span><br><span class="line">Configuration.browser = WebDriverRunner.CHROME;</span><br><span class="line">Configuration.baseUrl = <span class="string">&quot;[http://google.com](http://google.com/)&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line"><span class="meta">@Test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">searchGoogle</span><span class="params">()</span> </span>&#123;</span><br><span class="line">open(<span class="string">&quot;/&quot;</span>);</span><br><span class="line">$(By.name(<span class="string">&quot;q&quot;</span>)).sendKeys(<span class="string">&quot;test&quot;</span>);</span><br><span class="line">$(By.name(<span class="string">&quot;q&quot;</span>)).submit();</span><br><span class="line">$(By.id(<span class="string">&quot;resultStats&quot;</span>)).waitUntil(exist, <span class="number">10000</span>);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="get-element-using-Xpath-cssSelector"><a href="#get-element-using-Xpath-cssSelector" class="headerlink" title="get element using Xpath, cssSelector"></a>get element using Xpath, cssSelector</h2><p>some element have no id or name, is not easy to locate it . there is two ways to locate it: <strong>Xpath</strong>, <strong>cssSelector</strong>. but how to know what the element’s xpath/cssSelector is? Chrome!!</p><p>open the page in Chrome and press F12 to open the <strong>Developer Tool</strong> Panel. Select the element and right click to copy the xpath/cssSelector. something like:</p><p><strong>//*[@id=”tsf”]/div[2]/div/div[3]/center/input[1]</strong> </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;What-Selenide-is&quot;&gt;&lt;a href=&quot;#What-Selenide-is&quot; class=&quot;headerlink&quot; title=&quot;What Selenide is?&quot;&gt;&lt;/a&gt;What Selenide is?&lt;/h2&gt;&lt;p&gt;Selenide is </summary>
+      
+    
+    
+    
+    
+    <category term="Selenide" scheme="http://yoursite.com/tags/Selenide/"/>
+    
+    <category term="automatic test" scheme="http://yoursite.com/tags/automatic-test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How to Manager log in Docker</title>
+    <link href="http://yoursite.com/2019/04/15/How%20to%20Manager%20log%20in%20Docker/"/>
+    <id>http://yoursite.com/2019/04/15/How%20to%20Manager%20log%20in%20Docker/</id>
+    <published>2019-04-15T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="soft-link-to-STDOUT-STDERR-to-collect-log"><a href="#soft-link-to-STDOUT-STDERR-to-collect-log" class="headerlink" title="soft link to STDOUT, STDERR to collect log"></a>soft link to STDOUT, STDERR to collect log</h2><p><code>RUN ln -sf /dev/stdout /var/log/nginx/access.log</code></p><h2 id="mount-bind-space-to-collect-log"><a href="#mount-bind-space-to-collect-log" class="headerlink" title="mount bind space to collect log"></a>mount bind space to collect log</h2><p><code>--mount type=bind,src=/opt/logs, dst=/usr/local/tomcat/logs/</code></p><h2 id="mount-volume-to-collect-log"><a href="#mount-volume-to-collect-log" class="headerlink" title="mount volume to collect log"></a>mount volume to collect log</h2><p><code>--mount type=volume src=volume_name dst=/use/local/tomcat/logs/</code></p><h2 id="use-redis-mq-to-collect-log"><a href="#use-redis-mq-to-collect-log" class="headerlink" title="use redis/mq to collect log"></a>use redis/mq to collect log</h2><p><code>docker→ redis/mq→ logstash → elasticsearch</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;soft-link-to-STDOUT-STDERR-to-collect-log&quot;&gt;&lt;a href=&quot;#soft-link-to-STDOUT-STDERR-to-collect-log&quot; class=&quot;headerlink&quot; title=&quot;soft link </summary>
+      
+    
+    
+    
+    
+    <category term="Docker" scheme="http://yoursite.com/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git Operation Specification</title>
+    <link href="http://yoursite.com/2019/02/22/Git%20Operation%20Specification/"/>
+    <id>http://yoursite.com/2019/02/22/Git%20Operation%20Specification/</id>
+    <published>2019-02-22T09:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Now"><a href="#Now" class="headerlink" title="Now"></a>Now</h2><p>all the bugfix are commit direct to ‘bugfix’ branch, all members commit in the same branch. it make the commit history unreadable and everyone have to pull&amp;merge others’s code which is not the current work in their hand frequently and make git hard to handle.</p><h2 id="How-to-change"><a href="#How-to-change" class="headerlink" title="How to change"></a>How to change</h2><h3 id="Use-Github-Flow"><a href="#Use-Github-Flow" class="headerlink" title="Use Github Flow"></a>Use Github Flow</h3><p><a href="https://gitversion.readthedocs.io/en/latest/git-branching-strategies/githubflow/">git flow guide </a></p><ol><li>Update master to latest  upstream code</li><li>Create a feature branch from master branch  <code>git checkout -b feature/myFeatureBranch</code></li><li>Do the feature/work</li><li>Push feature branch to origin</li><li>Create pull request from origin/  -&gt; upstream/master</li><li>Review, fix raised comments, merge your PR or even better, get someone else to.</li></ol><p>The main rule of GitHub Flow is that master should  <em>always</em>  be deployable.</p><h3 id="Automatic-Deploy-For-Test"><a href="#Automatic-Deploy-For-Test" class="headerlink" title="Automatic Deploy For Test"></a>Automatic Deploy For Test</h3><ol><li>set github project hook</li><li>commit pr to develop branch, tigger github project hook</li><li>the hook send request to an url to the deploy server: jenkin or program you build.</li><li>the deploy server pull the newest code and restart server</li><li>test!</li></ol><span id="more"></span><h3 id="deploy-to-production"><a href="#deploy-to-production" class="headerlink" title="deploy to production"></a>deploy to production</h3><ol><li>commit pr to master</li><li>others review the pr</li><li>merge pr</li><li>deploy to production</li></ol><h3 id="Name-Rule"><a href="#Name-Rule" class="headerlink" title="Name Rule:"></a>Name Rule:</h3><p>Bugfix: bugfix/fix_xxxx</p><p>Feature: feature/add_xxx</p><p>if your project contains frontend and backend.</p><p>Frontend: add frontend/ , such as: front/bugfix/fix_xxxx</p><p>Backend: add backend/ , such as: backend/bugfix/fix_xxxx</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Now&quot;&gt;&lt;a href=&quot;#Now&quot; class=&quot;headerlink&quot; title=&quot;Now&quot;&gt;&lt;/a&gt;Now&lt;/h2&gt;&lt;p&gt;all the bugfix are commit direct to ‘bugfix’ branch, all members commit in the same branch. it make the commit history unreadable and everyone have to pull&amp;amp;merge others’s code which is not the current work in their hand frequently and make git hard to handle.&lt;/p&gt;
+&lt;h2 id=&quot;How-to-change&quot;&gt;&lt;a href=&quot;#How-to-change&quot; class=&quot;headerlink&quot; title=&quot;How to change&quot;&gt;&lt;/a&gt;How to change&lt;/h2&gt;&lt;h3 id=&quot;Use-Github-Flow&quot;&gt;&lt;a href=&quot;#Use-Github-Flow&quot; class=&quot;headerlink&quot; title=&quot;Use Github Flow&quot;&gt;&lt;/a&gt;Use Github Flow&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://gitversion.readthedocs.io/en/latest/git-branching-strategies/githubflow/&quot;&gt;git flow guide &lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Update master to latest  upstream code&lt;/li&gt;
+&lt;li&gt;Create a feature branch from master branch  &lt;code&gt;git checkout -b feature/myFeatureBranch&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Do the feature/work&lt;/li&gt;
+&lt;li&gt;Push feature branch to origin&lt;/li&gt;
+&lt;li&gt;Create pull request from origin/  -&amp;gt; upstream/master&lt;/li&gt;
+&lt;li&gt;Review, fix raised comments, merge your PR or even better, get someone else to.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The main rule of GitHub Flow is that master should  &lt;em&gt;always&lt;/em&gt;  be deployable.&lt;/p&gt;
+&lt;h3 id=&quot;Automatic-Deploy-For-Test&quot;&gt;&lt;a href=&quot;#Automatic-Deploy-For-Test&quot; class=&quot;headerlink&quot; title=&quot;Automatic Deploy For Test&quot;&gt;&lt;/a&gt;Automatic Deploy For Test&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;set github project hook&lt;/li&gt;
+&lt;li&gt;commit pr to develop branch, tigger github project hook&lt;/li&gt;
+&lt;li&gt;the hook send request to an url to the deploy server: jenkin or program you build.&lt;/li&gt;
+&lt;li&gt;the deploy server pull the newest code and restart server&lt;/li&gt;
+&lt;li&gt;test!&lt;/li&gt;
+&lt;/ol&gt;</summary>
+    
+    
+    
+    
+    <category term="git" scheme="http://yoursite.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How to deal with MongoDb without transaction</title>
+    <link href="http://yoursite.com/2019/02/15/How%20to%20deal%20with%20MongoDb%20without%20transaction/"/>
+    <id>http://yoursite.com/2019/02/15/How%20to%20deal%20with%20MongoDb%20without%20transaction/</id>
+    <published>2019-02-15T02:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么是事务"><a href="#什么是事务" class="headerlink" title="什么是事务"></a>什么是事务</h2><p>请先了解事务相关的概念。<a href="https://baike.baidu.com/item/%E4%BA%8B%E5%8A%A1/5945882">事务</a></p><p>Please learn about transaction first.<a href="https://en.wikipedia.org/wiki/Database_transaction">Database_transaction</a></p><h2 id="Mongodb的事务"><a href="#Mongodb的事务" class="headerlink" title="Mongodb的事务"></a>Mongodb的事务</h2><p>MongoDb 4.0版本之前，没有事务。 如何在没有事务的情况下，使用mongoDb？</p><p>There is no transaction in MongoDb before version 4.0. How to deal with it?</p><p>MongoDb中，一个写操作在一个document上是原子的。即使是操作这个document的嵌套的子document。</p><p>因为没有事务，当你更新多个文档（documents）的时候，一些错误发生了，mongoDb不会进行rollback处理。 或者是多个操作时，个个操作会有交错，导致数据更新错误（如：多个操作更新用户资产）。</p><p>In MongoDb, a write operation is atomic on the level of a single document, even if the operation modifies multiple embedded documents <em>within</em> a single document.</p><p>Because there is no transaction， when you need to update  multiple documents. if there is something error, it won’t rollback by itself。</p><h2 id="如何处理这些情况呢？"><a href="#如何处理这些情况呢？" class="headerlink" title="如何处理这些情况呢？"></a>如何处理这些情况呢？</h2><span id="more"></span><h3 id="更新mongoDb到4-版本"><a href="#更新mongoDb到4-版本" class="headerlink" title="更新mongoDb到4.*版本"></a>更新mongoDb到4.*版本</h3><h3 id="模拟关系型数据库-transaction–-二阶段提交"><a href="#模拟关系型数据库-transaction–-二阶段提交" class="headerlink" title="模拟关系型数据库 transaction– 二阶段提交"></a>模拟关系型数据库 transaction– 二阶段提交</h3><p>参考： <a href="https://docs.mongodb.com/v3.4/tutorial/perform-two-phase-commits/">https://docs.mongodb.com/v3.4/tutorial/perform-two-phase-commits</a></p><p>在每次操作时，模拟数据库记录transaction记录（status: ‘Pedding’），每一次数据库操作产生一条记录transaction，父操作包含多个子操作。失败时，在对应操作的编写回滚逻辑.</p><p>缺点：不是数据库自带事务，在数据库层发生错误（当机，网络连接问题）。程序回滚逻辑会被中断。 数据错乱， 需要配置一系列的定时任务保证数据正确性。</p><h3 id="优化数据结构"><a href="#优化数据结构" class="headerlink" title="优化数据结构"></a>优化数据结构</h3><p>将多余的数据更新去除，保留在一个document中</p><p>例如：</p><p>用户资产，我们使用一个 assets 表保存了用户所有的资产操作，每一次资产操作记录一条记录。 当用户查询资产时， 遍历用户所有资产操作记录，得到用户现有资产。</p><hr><p>问题：当用户资产操作过多，导致查询速度过慢，无法满足性能要求。</p><p>优化：<br>在用户User表中，添加了一个用户资产列，使用分布式锁，每次只能有一个进行用户资产操作，每次用户资产操作后，更新到User表中， 直接查询User表， 满足了性能要求。</p><hr><p>问题：当数据库发生故障（当机），因为没有事务，User表中的资产列更新错误，或者没有更新到。导致用户查询错误。重大问题。</p><p>临时优化： 每天定时遍历所有用户资产，保证用户资产正确。</p><p>优化：将User表中的资产列， 迁移至assets表， 每一次添加用户操作时，记录当前最新的用户资产到该列， 没有多个document操作。确保操作原子性。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;什么是事务&quot;&gt;&lt;a href=&quot;#什么是事务&quot; class=&quot;headerlink&quot; title=&quot;什么是事务&quot;&gt;&lt;/a&gt;什么是事务&lt;/h2&gt;&lt;p&gt;请先了解事务相关的概念。&lt;a href=&quot;https://baike.baidu.com/item/%E4%BA%8B%E5%8A%A1/5945882&quot;&gt;事务&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please learn about transaction first.&lt;a href=&quot;https://en.wikipedia.org/wiki/Database_transaction&quot;&gt;Database_transaction&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Mongodb的事务&quot;&gt;&lt;a href=&quot;#Mongodb的事务&quot; class=&quot;headerlink&quot; title=&quot;Mongodb的事务&quot;&gt;&lt;/a&gt;Mongodb的事务&lt;/h2&gt;&lt;p&gt;MongoDb 4.0版本之前，没有事务。 如何在没有事务的情况下，使用mongoDb？&lt;/p&gt;
+&lt;p&gt;There is no transaction in MongoDb before version 4.0. How to deal with it?&lt;/p&gt;
+&lt;p&gt;MongoDb中，一个写操作在一个document上是原子的。即使是操作这个document的嵌套的子document。&lt;/p&gt;
+&lt;p&gt;因为没有事务，当你更新多个文档（documents）的时候，一些错误发生了，mongoDb不会进行rollback处理。 或者是多个操作时，个个操作会有交错，导致数据更新错误（如：多个操作更新用户资产）。&lt;/p&gt;
+&lt;p&gt;In MongoDb, a write operation is atomic on the level of a single document, even if the operation modifies multiple embedded documents &lt;em&gt;within&lt;/em&gt; a single document.&lt;/p&gt;
+&lt;p&gt;Because there is no transaction， when you need to update  multiple documents. if there is something error, it won’t rollback by itself。&lt;/p&gt;
+&lt;h2 id=&quot;如何处理这些情况呢？&quot;&gt;&lt;a href=&quot;#如何处理这些情况呢？&quot; class=&quot;headerlink&quot; title=&quot;如何处理这些情况呢？&quot;&gt;&lt;/a&gt;如何处理这些情况呢？&lt;/h2&gt;</summary>
+    
+    
+    
+    
+    <category term="MongoDb" scheme="http://yoursite.com/tags/MongoDb/"/>
+    
+    <category term="transaction" scheme="http://yoursite.com/tags/transaction/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>What is MongoDb?</title>
+    <link href="http://yoursite.com/2019/01/30/What%20is%20MongoDb/"/>
+    <id>http://yoursite.com/2019/01/30/What%20is%20MongoDb/</id>
+    <published>2019-01-30T12:19:32.000Z</published>
+    <updated>2021-07-07T09:41:53.098Z</updated>
+    
+    <content type="html"><![CDATA[<p>MongoDb 非关系数据库 NoSql 数据库一员， 将数据使用灵活，类JSON形式进行存储。更多：<a href="https://www.mongodb.com/what-is-mongodb">what-is-mongodb</a></p><p>MongoDb is a member of the NoSql， it stores data in flexible, JSON-like documents.</p><h2 id="概念-Concepts-between-SQL-and-MongoDb"><a href="#概念-Concepts-between-SQL-and-MongoDb" class="headerlink" title="概念 Concepts between SQL and MongoDb"></a>概念 Concepts between SQL and MongoDb</h2><table><thead><tr><th>SQL</th><th>MongoDb</th></tr></thead><tbody><tr><td>Table</td><td>Collection</td></tr><tr><td>Row</td><td>Document</td></tr><tr><td>Column</td><td>Field</td></tr><tr><td>JOINs</td><td>Embedded documents, $lookup &amp; $graphLookup</td></tr><tr><td>GROUP_BY</td><td>Aggregation -〉group by</td></tr></tbody></table><h2 id="操作-Operation-between-SQL-and-MongoDb"><a href="#操作-Operation-between-SQL-and-MongoDb" class="headerlink" title="操作 Operation between SQL and MongoDb"></a>操作 Operation between SQL and MongoDb</h2><table><thead><tr><th>SQL</th><th>MongoDb</th></tr></thead><tbody><tr><td>INSERT INTO users (user_id, age, status) VALUES ‘bcd001’, 45, ‘A’)</td><td>db.users.insert({  user_id: ‘bcd001’,  age: 45,  status: ‘A’})</td></tr><tr><td>SELECT * FROM users</td><td>db.users.find()</td></tr><tr><td>UPDATE users SET status = ‘C’ WHERE age &gt; 25</td><td>db.users.update(  { age: { $gt: 25 } },  { $set: { tatus: ‘C’ } },  { multi: true })</td></tr><tr><td>db.start_transaction() cursor.execute(orderInsert, orderData) cursor.execute(stockUpdate, stockData)</td></tr></tbody></table><p>db.commit()|s.start_transaction() orders.insert_one(order, session=s) stock.update_one(item, stockUpdate, session=s)s.commit_transaction()  （new feature in 4.0 version）|</p><h3 id="最大区别-Biggest-different-between-SQL-and-MongoDb"><a href="#最大区别-Biggest-different-between-SQL-and-MongoDb" class="headerlink" title="最大区别 Biggest different between SQL and MongoDb"></a>最大区别 Biggest different between SQL and MongoDb</h3><table><thead><tr><th>SQL</th><th>MongoDb</th></tr></thead><tbody><tr><td>使用关系型数据库， 需要在数据库中定义对应的表和字段关联。当你需要修改到对应的字段， 必须对数据库进行停机修改，会影响现有的所有数据， 降低应用可用性。In SQL, you pre-define your database schema based on your requirements and set up rules to govern the relationships between fields in your tables.Any changes in schema necessitates a migration procedure that can take the database offline or significantly reduce application performance.</td><td>使用MongoDb， 字段 无需在数据库中进行定义，使用代码定义对应的关系。如果需要添加一个新的字段，无需影响其他的document，无需停机进行更新。In MongoDb， Fields is no need to declare the structure of documents to the system – documents are self-describing in Code。If a new field needs to be added to a document,then the field can be created without affecting all other documents in the collection,without updating a central system catalog, and without taking the system offline.</td></tr><tr><td>更多的控制在数据库（DBA）， 索引，字段 都需要在数据库进行定义处理More control in Db, Indexes. Filed all controlled in Db side.</td><td>更多的控制在代码（开发）， 开发可以在代码中定义对应的索引，字段结构。Less control in Db, more control in Code. Indexes, Fields can controlled in Code side.</td></tr></tbody></table><p>参考：<a href="https://www.mongodb.com/compare/mongodb-mysql">mongodb-mysql</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;MongoDb 非关系数据库 NoSql 数据库一员， 将数据使用灵活，类JSON形式进行存储。更多：&lt;a href=&quot;https://www.mongodb.com/what-is-mongodb&quot;&gt;what-is-mongodb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MongoDb i</summary>
+      
+    
+    
+    
+    
+    <category term="mongoDb" scheme="http://yoursite.com/tags/mongoDb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MongoDb Base Rule</title>
+    <link href="http://yoursite.com/2019/01/29/mongoDb%20Base%20Rule/"/>
+    <id>http://yoursite.com/2019/01/29/mongoDb%20Base%20Rule/</id>
+    <published>2019-01-29T12:19:32.000Z</published>
+    <updated>2021-06-11T01:41:23.433Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Select-只获取必要的字段"><a href="#Select-只获取必要的字段" class="headerlink" title="Select 只获取必要的字段"></a>Select 只获取必要的字段</h3><p>why:</p><p><em>select *会增加cpu/io/内存/带宽的消耗</em></p><p><em>指定字段能有效利用索引覆盖：find（{id： “test”}）.select({id: 1}) 命中索引id， 因只select了id， 所以mongo直接返回了id， 不会再索引到具体的document，效率大大提高。</em></p><h3 id="避免过度使用嵌入文档，最多只能一层，-不使用数组嵌套"><a href="#避免过度使用嵌入文档，最多只能一层，-不使用数组嵌套" class="headerlink" title="避免过度使用嵌入文档，最多只能一层， 不使用数组嵌套"></a>避免过度使用嵌入文档，最多只能一层， 不使用数组嵌套</h3><p>why:</p><p><em>document有16MB限制。</em></p><h3 id="尽量避免使用负向查询以及-开头的模糊查询"><a href="#尽量避免使用负向查询以及-开头的模糊查询" class="headerlink" title="尽量避免使用负向查询以及%开头的模糊查询"></a>尽量避免使用负向查询以及%开头的模糊查询</h3><p>why:</p><p><em>ne、nin %开头 无法有效使用索引</em></p><h3 id="禁止使用look-up"><a href="#禁止使用look-up" class="headerlink" title="禁止使用look up"></a>禁止使用look up</h3><p>why:</p><p><em>分片后，look up操作失效</em></p><h3 id="不在数据库中进行数据计算"><a href="#不在数据库中进行数据计算" class="headerlink" title="不在数据库中进行数据计算"></a>不在数据库中进行数据计算</h3><p>why:</p><p><em>js精度问题 （0.1 + 0.2 = 0.30000000000000004__）</em></p><p><em>cpu计算导致数据库卡顿，解放数据库CPU，把复杂逻辑计算放到服务层。</em></p><h3 id="平衡范式与冗余"><a href="#平衡范式与冗余" class="headerlink" title="平衡范式与冗余"></a>平衡范式与冗余</h3><p>为提高效率，可以冗余数据</p><h3 id="拒绝大sql，大批量-操作"><a href="#拒绝大sql，大批量-操作" class="headerlink" title="拒绝大sql，大批量 操作"></a>拒绝大sql，大批量 操作</h3><h3 id="禁止在更新十分频繁、区分度不高的属性上建立索引"><a href="#禁止在更新十分频繁、区分度不高的属性上建立索引" class="headerlink" title="禁止在更新十分频繁、区分度不高的属性上建立索引"></a>禁止在更新十分频繁、区分度不高的属性上建立索引</h3><p>why：</p><p><em>更新会变更B+树，更新频繁的字段建立索引会大大降低数据库性能</em></p><p><em>“性别”这种区分度不大的属性，建立索引是没有什么意义的，不能有效过滤数据，性能与全表扫描类似</em></p><p><em>索引内存也是有限的</em></p><h3 id="使用explain-优化查询"><a href="#使用explain-优化查询" class="headerlink" title="使用explain 优化查询"></a>使用explain 优化查询</h3><p><em>查看explain结果,</em></p><p><em>可以简单查看inputStages.stage判断查询效率。</em></p><p><em>COLLECTION：全表查询</em></p><p><em>IXSCAN：命中索引查询</em></p><h3 id="禁止使用自带全文索引"><a href="#禁止使用自带全文索引" class="headerlink" title="禁止使用自带全文索引"></a>禁止使用自带全文索引</h3><p>why:</p><p><em>效率低</em></p><p><a href="https://github.com/stableShip/Spring_MongoDb">MongoDb_Demo</a></p><p>参考： <a href="http://blog.51cto.com/lee90/2096461">mysql 50条军规</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;Select-只获取必要的字段&quot;&gt;&lt;a href=&quot;#Select-只获取必要的字段&quot; class=&quot;headerlink&quot; title=&quot;Select 只获取必要的字段&quot;&gt;&lt;/a&gt;Select 只获取必要的字段&lt;/h3&gt;&lt;p&gt;why:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;se</summary>
+      
+    
+    
+    
+    <category term="mongoDb" scheme="http://yoursite.com/categories/mongoDb/"/>
+    
+    
+    <category term="mongoDb" scheme="http://yoursite.com/tags/mongoDb/"/>
+    
+  </entry>
+  
+</feed>

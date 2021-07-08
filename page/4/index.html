@@ -1,0 +1,134 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="JIE's Blos"><meta name="keywords"><meta name="author" content="JIE,undefined"><meta name="copyright" content="JIE"><title>time machine【JIE's Blos】</title><link rel="stylesheet" href="/css/fan.css"><link rel="stylesheet" href="/css/thirdparty/jquery.mCustomScrollbar.min.css"><link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"><link rel="icon" href="/"><!-- script(src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")--><script src="/js/mathjax/mathjax.js"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+});
+</script><script>var isPassword = '' || false;
+if (isPassword) {
+    if (prompt('请输入文章密码') !== '') {
+        alert('密码错误！');
+        history.back();
+    }
+}</script><script>window.GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  gitment: ,
+  valine: ,
+}</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="JIE's Blos" type="application/atom+xml">
+</head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="/images/avatar.png"></div><div class="author-info-name">JIE</div><div class="author-info-description">JIE's Blos</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/fan-lv" target="_blank">GitHub<i class="icon-dot bg-color7"></i></a><a class="links-button button-hover" href="mailto:15757856604@163.com" target="_blank">E-Mail<i class="icon-dot bg-color7"></i></a><a class="links-button button-hover" href="tencent://message/?uin=1019593584&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color7"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">32</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">39</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">12</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a></nav><div class="right-info"><a class="title-name" href="/">JIE's Blos</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2015/06/08/pomelo%E5%90%AF%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9rpc%E5%BA%93---pomelo-rpc-ws/">pomelo启用第三方rpc库---pomelo-rpc-ws</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-07-07</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/node/">node</a><i class="fa fa-angle-right" style="margin: 0 8px;"></i><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/node/pomelo/">pomelo</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/node/">node</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/pomelo/">pomelo</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/rpc/">rpc</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/pomelo-rpc-ws/">pomelo-rpc-ws</a></div></div><div class="post-content"><div class="main-content content"><blockquote>
+<p>使用pomelo本身自带的rpc库,进行rpc通讯,发现连续多个rpc请求之后,会有一个延时相当严重得请求出现,没有找到相关的解决办法,最后使用<code>pomelo-rpc-ws</code>第三方rpc库解决了这个问题</p>
+</blockquote>
+<h1 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h1><ul>
+<li><a target="_blank" rel="noopener" href="http://nodejs.org/">nodejs</a></li>
+<li>Linux 或 MacOS 操作系统</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/skyblue/pomelo-rpc-ext">pomelo-rpc-ws</a></li>
+</ul>
+<p>##安装</p>
+<p><code>npm install pomelo-rpc-ws</code></p>
+<h2 id="修改服务器配置"><a href="#修改服务器配置" class="headerlink" title="修改服务器配置"></a>修改服务器配置</h2><h3 id="配置-game-server-app-js-在全局配置中加入下面的代码"><a href="#配置-game-server-app-js-在全局配置中加入下面的代码" class="headerlink" title="配置/game-server/app.js,在全局配置中加入下面的代码"></a>配置/game-server/app.js,在全局配置中加入下面的代码</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">// global configure for all servers</span><br><span class="line">app.configure(&#x27;production|development&#x27;, function() &#123;</span><br><span class="line">	//启用pomelo-rpc-ws</span><br><span class="line">    app.set(&#x27;proxyConfig&#x27;, &#123;</span><br><span class="line">        rpcClient: wsrpc.client</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    app.set(&#x27;remoteConfig&#x27;, &#123;</span><br><span class="line">        rpcServer: wsrpc.server</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<h2 id="运行查看效果"><a href="#运行查看效果" class="headerlink" title="运行查看效果"></a>运行查看效果</h2></div></div><a class="button-hover more" href="/2015/06/08/pomelo%E5%90%AF%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9rpc%E5%BA%93---pomelo-rpc-ws/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2015/04/23/pomelo%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3/">pomelo服务器部署文档</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/node/">node</a><i class="fa fa-angle-right" style="margin: 0 8px;"></i><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/node/pomelo/">pomelo</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/pomelo/">pomelo</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</a></div></div><div class="post-content"><div class="main-content content"><h1 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h1><ul>
+<li><a target="_blank" rel="noopener" href="http://nodejs.org/">nodejs</a></li>
+<li>Windows、Linux 或 MacOS 操作系统</li>
+<li>MySql 数据库</li>
+</ul>
+<h1 id="部署服务端"><a href="#部署服务端" class="headerlink" title="部署服务端"></a>部署服务端</h1><h2 id="安装依赖包"><a href="#安装依赖包" class="headerlink" title="安装依赖包"></a>安装依赖包</h2><p>进入目录：<br><code>cd xxx_server</code></p>
+<p>安装依赖包：<br><code>sh npm-install.sh</code>(Windows: <code>npm-install.bat</code>)</p>
+<h1 id="创建MySql数据库"><a href="#创建MySql数据库" class="headerlink" title="创建MySql数据库"></a>创建MySql数据库</h1><h2 id="创建数据库"><a href="#创建数据库" class="headerlink" title="创建数据库"></a>创建数据库</h2><p>sql文件路径：./game-server/scripts/mysql.sql</p>
+<ul>
+<li>安装MySql数据库(略)</li>
+<li>登录MySql:<br><code>mysql –u用户名 –p密码</code><br>(登录成功提示符：mysql&gt;)</li>
+<li>创建数据库:<br><code>mysql&gt; create database dev;</code></li>
+<li>选择数据库:<br><code>mysql&gt; use dev;</code></li>
+<li>导入sql文件:<br><code>mysql&gt; source ./game-server/scripts/mysql.sql</code></li>
+</ul></div></div><a class="button-hover more" href="/2015/04/23/pomelo%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2021/04/20/teambuild%E8%A7%84%E5%88%92/">Teambuild 规划</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/teamwork/">teamwork</a></div></div><div class="post-content"><div class="main-content content"><h2 id="Problem-we-meet"><a href="#Problem-we-meet" class="headerlink" title="Problem we meet"></a>Problem we meet</h2><ul>
+<li>teambuild效果不明显</li>
+<li>teambuild活动目的不清晰，teambuild活动到底是想达到什么效果？</li>
+<li>团队成员参与度不足， 被动参加，置身事外</li>
+<li>teambuild形式单一，没有创新（一般都是吃饭）</li>
+</ul>
+<h2 id="For-What"><a href="#For-What" class="headerlink" title="For What"></a>For What</h2><p>为了解决上面的问题， 通过轮流举办teambuild的形式，加强团队凝聚力，提高团队成员参与度， 构建积极参与的团队文化氛围。</p>
+<h2 id="Whom"><a href="#Whom" class="headerlink" title="Whom"></a>Whom</h2><p>团队所有成员，每次的团建活动按照姓名排序，轮流三个人进行teambuild活动组织安排。通过轮流的形式，提高团队成员对teambuild的参与度，引入更多思考变量。</p>
+<p>举例：<br>Alex， Adam，Benjamin， Freddie，Remox，Sura</p>
+<p>如上面的，第一季度由Alex， Adam，Benjamin进行teambuild活动组织安排。第二季度由Freddie，Remox，Sura组织安排</p>
+<h2 id="When"><a href="#When" class="headerlink" title="When"></a>When</h2><p>每个季度最后一个月进行teambuild活动<br>1-3 3月<br>4-6 6月<br>7-9 9月<br>10-12 12月</p>
+<p>需要在每季度的第二个月发出活动计划，进行计划的投票，人员的安排。<br>1-3 2月<br>4-6 5月<br>7-9 8月<br>10-12 11月</p>
+<h2 id="How"><a href="#How" class="headerlink" title="How"></a>How</h2><h3 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h3><p>首先，不同的teambuild活动，要达到的目的可以是不一样的。<br>例如：</p>
+<ul>
+<li>前一阵子团队全部人员加班加点帮忙赶计划， 所以想让大家能够比较好的休息，放松一下。 所以安排了放松的teambuild： 温泉， 按摩 等</li>
+<li><p>发现大家之间除了日常工作，没有其他交流， 所以安排了团队交流，协作相关的活动：对抗赛，CS，王者荣耀线上比赛。</p>
+</li>
+<li><p>疫情期间，大家运动不足，交流也比较少，所以安排了能让大家进行运动，又可以促进大家交流的活动： 每日步数比赛。</p>
+</li>
+</ul>
+<p>所以针对不同时期，不同团队的teambuild，需要每个季度轮到的同学，首先考虑一下，这个teambuild要达到的目的。再根据目的进行计划。</p>
+<h3 id="计划落实"><a href="#计划落实" class="headerlink" title="计划落实"></a>计划落实</h3><p>确定了大概的计划，需要去了解对应的信息，价格，人数限制，时间限制，天气。<br>建议是至少包含两个计划，<br>计划一是可以用公司teambuild基金覆盖的，基础的活动。 计划二是更上一层的，需要大家再加点钱的。 </p>
+<p>和团队其他成员沟通，投票，确认要进行哪个teambuild活动。 确认人数。 确定teambuild时间</p>
+<h3 id="活动进行时"><a href="#活动进行时" class="headerlink" title="活动进行时"></a>活动进行时</h3><ol>
+<li>确保 提前和所有成员分享了活动注意事项： 时间，地点，安全事项 等等。</li>
+<li>携带对应的安全保障设备,如：药箱</li>
+<li>确保所有人员都平安归来</li>
+<li>其他…</li>
+</ol>
+</div></div><a class="button-hover more" href="/2021/04/20/teambuild%E8%A7%84%E5%88%92/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2015/07/03/tornado%E7%9A%84mysql%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C/">在tornado中使用异步mysql操作</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/python/">python</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/tornado/">tornado</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/mysql/">mysql</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/%E5%BC%82%E6%AD%A5/">异步</a></div></div><div class="post-content"><div class="main-content content"><blockquote>
+<p>在使用tornado框架进行开发的过程中,发现tornado的mysql数据库操作并不是一步的,造成了所有用户行为的堵塞.tornado本身是一个异步的框架,要求所有的操作都应该是异步的,但是数据库这一层就把整个服务器都拖住了.</p>
+</blockquote>
+<p>##查找到的解决办法:</p>
+<ol>
+<li><p>使用异步的mysql操作库.  查找了一下,有两个比较完善的异步操作库<br>一个是<a target="_blank" rel="noopener" href="https://github.com/mayflaver/AsyncTorndb">AsyncTorndb</a>,国人自己写的异步操作,看了一下,好像不错的样子,但是没有响应的测试用例,不敢用.</p>
+<p> 一个是<a target="_blank" rel="noopener" href="https://github.com/PyMySQL/Tornado-MySQL">Tornado-MySQL</a>是对PyMySQL的异步化的一个库,测试用例,文档,都比较齐全,可以尝试使用.</p>
+</li>
+</ol>
+<p>2.仿照(torngas)[<a target="_blank" rel="noopener" href="https://github.com/mqingyn/torngas]的异步线程池,使用tornado的concurrent.run_on_executor装饰器对数据库操作进行异步化">https://github.com/mqingyn/torngas]的异步线程池,使用tornado的concurrent.run_on_executor装饰器对数据库操作进行异步化</a></p>
+<p>3.使用任务队列,太过麻烦,对之前的代码修改过大,不使用该方案</p>
+<ul>
+<li>在使用Tornado-MySQL过程中,发现对现有代码更改太过严重,放弃,使用了异步线程池的方式.做到最小的代码更改以及异步数据库操作的实现</li>
+</ul>
+<p>##如何使用异步线程池<a target="_blank" rel="noopener" href="http://www.tornadoweb.org/en/stable/concurrent.html?highlight=run_on_executor#tornado.concurrent.run_on_executor">concurrent.run_on_executor</a></p>
+<ol>
+<li><p>在原先的同步的数据库执行的方法添加@concurrent.run_on_executor装饰器,如以下例子:</p>
+ <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@concurrent.run_on_executor</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">runSql</span>(<span class="params">self</span>):</span></span><br><span class="line">        t = time.time()</span><br><span class="line">        db = client.conn()</span><br><span class="line">        db.execute(<span class="string">&#x27;&#x27;&#x27;select * from TABLE_CONSTRAINTS join (CHARACTER_SETS,STATISTICS)&#x27;&#x27;&#x27;</span>)</span><br><span class="line">        db.close()</span><br><span class="line">        <span class="keyword">return</span> time.time() - t</span><br><span class="line">        </span><br></pre></td></tr></table></figure></div></div><a class="button-hover more" href="/2015/07/03/tornado%E7%9A%84mysql%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2015/10/07/%E5%9C%A8%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8nodejs%E6%A8%A1%E5%9D%97/">在谷歌插件中使用nodejs模块</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-07-07</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/node/">node</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/node/">node</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/chrome-extension/">chrome_extension</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/browserify/">browserify</a></div></div><div class="post-content"><div class="main-content content"><p>-</p>
+<h2 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h2><p>这次要介绍如何在谷歌插件中使用nodejs模块,演示的项目是 <strong>一个后台定时提醒的插件</strong></p>
+<h2 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h2><ul>
+<li><a target="_blank" rel="noopener" href="http://nodejs.org/">nodejs</a></li>
+<li>Windows、Linux 或 MacOS 操作系统</li>
+<li>chrome浏览器</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/substack/node-browserify">browserify</a></li>
+</ul>
+<p>##基础框架搭建</p>
+<p>###创建一个基础的chrome插件框架<br>可以从<a target="_blank" rel="noopener" href="https://github.com/GoogleChrome/chrome-app-samples">谷歌插件的github</a>克隆相应的例子进行修改</p>
+<p>基本架构只需要包含:</p>
+<ul>
+<li>manifest.json (谷歌插件配置文件)</li>
+<li>background.js (后台逻辑js文件)</li>
+</ul>
+<p>##将nodejs库使用转化为浏览器可使用的库<br></div></div><a class="button-hover more" href="/2015/10/07/%E5%9C%A8%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8nodejs%E6%A8%A1%E5%9D%97/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2021/02/10/%E5%9B%A2%E9%98%9FOKR/">团队OKR</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/teamwork/">teamwork</a></div></div><div class="post-content"><div class="main-content content"><h2 id="团队OKR"><a href="#团队OKR" class="headerlink" title="团队OKR"></a>团队OKR</h2><p><strong>Object：目标<br>Key Result： 关键结果</strong></p>
+<p>OKR的目标是引导，驱动团队成员主动的去思考， 主动的想怎样能达到对应的目标（Object）。 OKR需要团队成员参与制定，并了解每一项内容（Key Result）。</p>
+<p>每个团队都有自身的特点， okr需要根据不同的团队，不同特点进行设定。</p>
+<p>Object 目标，<strong>定性</strong>，定义事件的性质，不要定义数量，抽象化：如“赚到1亿”， 而是使用 “公司盈利，上市”。 </p>
+<p>Key Result 关键结果，<strong>定量</strong>，定义需要达到多少，如“赚一个亿”</p>
+<p>ORK 必须是公开透明的，由上到下， 公司的OKR，团队的OKR， 个人的OKR</p>
+<p>可以参考的<a target="_blank" rel="noopener" href="https://safe.menlosecurity.com/http://www.360doc.com/content/17/0510/19/32626470_652783216.shtml">制定规则</a></p>
+<h2 id="普遍的OKR示例"><a href="#普遍的OKR示例" class="headerlink" title="普遍的OKR示例"></a>普遍的OKR示例</h2><h3 id="提高发布频率"><a href="#提高发布频率" class="headerlink" title="提高发布频率"></a>提高发布频率</h3><h5 id="每周发布一次"><a href="#每周发布一次" class="headerlink" title="每周发布一次"></a>每周发布一次</h5><p>所有的发布都应该分割成较小的部分， 能够进行zero down time的部署， 不影响到生产环境使用（数据库修改除外）</p>
+<h5 id="参与发布的人数达到全员"><a href="#参与发布的人数达到全员" class="headerlink" title="参与发布的人数达到全员"></a>参与发布的人数达到全员</h5><p>团队所有成员都熟悉整个发布流程与工具，没有知识断层</p>
+<h5 id="提交代码到版本管理服务的人数达到全员"><a href="#提交代码到版本管理服务的人数达到全员" class="headerlink" title="提交代码到版本管理服务的人数达到全员"></a>提交代码到版本管理服务的人数达到全员</h5><p>所有开发人员都必须提交能够使用代码版本管理服务，提交代码到版本管理服务</p>
+<h5 id="15分钟完成所有发布工作"><a href="#15分钟完成所有发布工作" class="headerlink" title="15分钟完成所有发布工作"></a>15分钟完成所有发布工作</h5><p>完善发布工具， 减少发布时间，单个服务发布时间不能多于15分钟</p>
+<h5 id="其他能提高发布效率的举措"><a href="#其他能提高发布效率的举措" class="headerlink" title="其他能提高发布效率的举措"></a>其他能提高发布效率的举措</h5><hr>
+<h3 id="减少生产问题"><a href="#减少生产问题" class="headerlink" title="减少生产问题"></a>减少生产问题</h3><h5 id="减少生产问题数量-由10减少到5"><a href="#减少生产问题数量-由10减少到5" class="headerlink" title="减少生产问题数量 由10减少到5"></a>减少生产问题数量 由10减少到5</h5><p>生产环境的问题应当逐渐减少， 直至没有</p>
+<h5 id="生产问题影响"><a href="#生产问题影响" class="headerlink" title="生产问题影响"></a>生产问题影响</h5><p>生产问题的影响，应该能够衡量， 并且影响逐步减小</p>
+<h5 id="生产问题处理人员数量-由1加到4"><a href="#生产问题处理人员数量-由1加到4" class="headerlink" title="生产问题处理人员数量 由1加到4"></a>生产问题处理人员数量 由1加到4</h5><p>生产问题人员处理数量应当在合适的数量， 逐渐减少，建立良好的问题处理模型</p>
+<h5 id="减少-新的功能导致的生产问题，由10减少到5"><a href="#减少-新的功能导致的生产问题，由10减少到5" class="headerlink" title="减少 新的功能导致的生产问题，由10减少到5"></a>减少 新的功能导致的生产问题，由10减少到5</h5><p>新的功能导致的生产问题应当逐渐减少，如： 完善对应的测试， 自动化测试， 减少问题出现。</p>
+<h5 id="其他能够避免生产问题发生的举措"><a href="#其他能够避免生产问题发生的举措" class="headerlink" title="其他能够避免生产问题发生的举措"></a>其他能够避免生产问题发生的举措</h5><hr>
+<h3 id="团队建设"><a href="#团队建设" class="headerlink" title="团队建设"></a>团队建设</h3><h5 id="团队成员每月学习目标"><a href="#团队成员每月学习目标" class="headerlink" title="团队成员每月学习目标"></a>团队成员每月学习目标</h5><h5 id="团队分享每周有一次"><a href="#团队分享每周有一次" class="headerlink" title="团队分享每周有一次"></a>团队分享每周有一次</h5><h5 id="证书数量每人获取到一张新证书"><a href="#证书数量每人获取到一张新证书" class="headerlink" title="证书数量每人获取到一张新证书"></a>证书数量每人获取到一张新证书</h5><hr>
+<h3 id="提高工作效能"><a href="#提高工作效能" class="headerlink" title="提高工作效能"></a>提高工作效能</h3><h5 id="每月举行一次团队反馈会议"><a href="#每月举行一次团队反馈会议" class="headerlink" title="每月举行一次团队反馈会议"></a>每月举行一次团队反馈会议</h5><p>团队进行会议，评估自身团队： 好的，能够提升的，保持的，需要改变的。 稳定会议数量， 固定每月进行会议。</p>
+<h5 id="每次一篇团队知识文章"><a href="#每次一篇团队知识文章" class="headerlink" title="每次一篇团队知识文章"></a>每次一篇团队知识文章</h5><p>团队发布知识文章， 分享自己的知识给社区， 逐步提高数量</p>
+<h3 id="减少安全问题"><a href="#减少安全问题" class="headerlink" title="减少安全问题"></a>减少安全问题</h3><h5 id="代码扫描工具"><a href="#代码扫描工具" class="headerlink" title="代码扫描工具"></a>代码扫描工具</h5><p>所有的服务都必须使用代码扫描工具（sonar， checkmark）</p>
+<h5 id="减少-代码扫描问题，重大问题数量为0"><a href="#减少-代码扫描问题，重大问题数量为0" class="headerlink" title="减少 代码扫描问题，重大问题数量为0"></a>减少 代码扫描问题，重大问题数量为0</h5><p>扫描不能出现 紧急 的问题， 逐步减少代码扫描工具扫出来的问题</p>
+<hr>
+<h3 id="上市"><a href="#上市" class="headerlink" title="上市"></a>上市</h3><h5 id="总流水达到5000w"><a href="#总流水达到5000w" class="headerlink" title="总流水达到5000w"></a>总流水达到5000w</h5><h5 id="用户规模达到1000w"><a href="#用户规模达到1000w" class="headerlink" title="用户规模达到1000w"></a>用户规模达到1000w</h5><h5 id="用户日活达到100w"><a href="#用户日活达到100w" class="headerlink" title="用户日活达到100w"></a>用户日活达到100w</h5><hr>
+<h2 id="OKR-统一评判标准"><a href="#OKR-统一评判标准" class="headerlink" title="OKR 统一评判标准"></a>OKR 统一评判标准</h2><p>可以看到上面的Oeject 目标都是定性的，KeyResult 关键结果都是定量的。为了更好的对比各个团队的OKR完成情况。还需要一个统一的评判标准。 </p>
+<p>一个可以看到自动采集各个团队的数据情况， 并展示报表的内部系统。各个团队可以在系统看到其他团队完成情况，进行对比。</p>
+</div></div><a class="button-hover more" href="/2021/02/10/%E5%9B%A2%E9%98%9FOKR/#more">阅读全文</a></div></div><div id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/3/">Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/">Next</a></div></div></div></div><div class="button-hover" id="return-top"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><footer><div id="footer"><div class="button-hover" id="side-button"><i class="fas fa-arrow-right"></i></div><div class="right-content"><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_uv"><i class="fas fa-user"></i></span><span id="busuanzi_value_site_uv"></span><span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv"><i class="fas fa-eye"></i></span><span id="busuanzi_value_site_pv"></span><span></span></div><div class="copyright">&copy;2017 ～ 2021 By JIE</div></div></div></footer></div><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery-3.3.1.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/velocity.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery.mCustomScrollbar.concat.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/fan.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/canvas_bg.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/utils.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/scroll.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/sidebar.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/copy.js"></script><!--script(src=url)--></body></html>

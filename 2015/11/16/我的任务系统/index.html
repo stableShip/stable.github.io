@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="我的任务系统"><meta name="keywords" content="game,游戏开发"><meta name="author" content="JIE,undefined"><meta name="copyright" content="JIE"><title>我的任务系统【JIE's Blos】</title><link rel="stylesheet" href="/css/fan.css"><link rel="stylesheet" href="/css/thirdparty/jquery.mCustomScrollbar.min.css"><link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"><link rel="icon" href="/"><!-- script(src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")--><script src="/js/mathjax/mathjax.js"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+});
+</script><script>var isPassword = '' || false;
+if (isPassword) {
+    if (prompt('请输入文章密码') !== '') {
+        alert('密码错误！');
+        history.back();
+    }
+}</script><script>window.GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  gitment: ,
+  valine: ,
+}</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="JIE's Blos" type="application/atom+xml">
+</head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="toggle-sidebar-info button-hover"><span data-toggle="文章目录">站点概览</span></div><div class="sidebar-toc"><div class="sidebar-toc-title">目录</div><div class="sidebar-toc-progress"><span class="progress-notice">您已阅读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc-progress-bar"></div></div><div class="sidebar-toc-content" id="sidebar-toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%BB%E5%8A%A1-%E6%88%90%E5%B0%B1%E7%B3%BB%E7%BB%9F"><span class="toc-number">1.</span> <span class="toc-text">任务&#x2F;成就系统</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%BB%E5%8A%A1%E7%B3%BB%E7%BB%9F%E5%9F%BA%E6%9C%AC%E9%9C%80%E6%B1%82"><span class="toc-number">1.1.</span> <span class="toc-text">任务系统基本需求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8D%E8%AF%8D%E8%A7%A3%E6%9E%90"><span class="toc-number">1.2.</span> <span class="toc-text">名词解析:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%BB%E5%8A%A1%E8%BF%9B%E5%BA%A6%E7%9B%91%E5%90%AC-%E9%87%87%E7%94%A8%E7%9A%84%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.3.</span> <span class="toc-text">任务进度监听 采用的模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%BB%E5%8A%A1%E7%B1%BB%E5%9E%8B-%E4%BB%BB%E5%8A%A1%E9%93%BE"><span class="toc-number">1.4.</span> <span class="toc-text">任务类型(任务链):</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E7%B1%BB"><span class="toc-number">1.4.1.</span> <span class="toc-text">任务管理类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%BB%E5%8A%A1%E5%A5%96%E5%8A%B1"><span class="toc-number">1.4.2.</span> <span class="toc-text">任务奖励</span></a></li></ol></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info-avatar"><img class="author-info-avatar-img" src="/images/avatar.png"></div><div class="author-info-name">JIE</div><div class="author-info-description">JIE's Blos</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/fan-lv" target="_blank">GitHub<i class="icon-dot bg-color1"></i></a><a class="links-button button-hover" href="mailto:15757856604@163.com" target="_blank">E-Mail<i class="icon-dot bg-color3"></i></a><a class="links-button button-hover" href="tencent://message/?uin=1019593584&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color5"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">32</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">39</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">12</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a></nav><div class="right-info"><a class="title-name" href="/">JIE's Blos</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><article id="post"><div class="post-header"><div class="title">我的任务系统</div><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 发表于 2015-11-16 | 更新于 2021-07-07</time><!--time.button-hover.post-date #[i.fas.fa-calendar-alt.article-icon(aria-hidden="true")] #[=__('post.modified')] #[=date(page['updated'], config.date_format)]--><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/game/">game</a><i class="fa fa-angle-right" style="margin: 0 8px;"></i><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/game/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/">游戏开发</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/game/">game</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/">游戏开发</a></div></div></div><div class="main-content"><h1 id="任务-成就系统"><a href="#任务-成就系统" class="headerlink" title="任务/成就系统"></a>任务/成就系统</h1><p>游戏中任务/成就系统是必不可少的,如何实现一个成就系统?</p>
+<h2 id="任务系统基本需求"><a href="#任务系统基本需求" class="headerlink" title="任务系统基本需求"></a>任务系统基本需求</h2><ol>
+<li>检测玩家完成该任务</li>
+<li>奖励</li>
+<li>领取奖励有触发下一阶段任务</li>
+</ol>
+<hr>
+<h2 id="名词解析"><a href="#名词解析" class="headerlink" title="名词解析:"></a>名词解析:</h2><p>任务链:</p>
+<pre><code>同一类型的任务为一个链
+</code></pre><p>如:<br>玩家连续登陆任务,连续登陆1天,连续登陆2天,连续登陆3天,…为一种类型的任务链<br>获得多少金币,<br>通过多少次副本,<br>加多少好友<br>…</p>
+<span id="more"></span>
+<h2 id="任务进度监听-采用的模式"><a href="#任务进度监听-采用的模式" class="headerlink" title="任务进度监听 采用的模式"></a>任务进度监听 采用的模式</h2><p>基于事件系统的任务监听模式:</p>
+<pre><code>pub/sub,     nodejs的event模式(`event.on(&quot;update&quot;,function()&#123;对相应任务进行更新&#125;)`)
+
+主动调用(在需要更新任务的地方,主动调用更新方法)
+</code></pre><h2 id="任务类型-任务链"><a href="#任务类型-任务链" class="headerlink" title="任务类型(任务链):"></a>任务类型(任务链):</h2><pre><code>次数类型任务--加多少好友
+
+收集类型任务--收集多少个宠物,卡片...
+
+游戏进程任务--(通过某个关卡,或者打败某个boss之类的)
+</code></pre><p>##任务基础结构<br>静态信息:(可保存在配置文件中,使用id映射具体的任务)</p>
+<pre><code>id:任务id
+title:标题
+type:任务类型
+descs:任务描述
+reward:奖励
+param:任务需求参数(重要)
+pic:任务图标
+nextId:下一个任务id(重要)
+begin:是否起点任务(重要)
+everyday:是否每日任务(重要)
+...
+</code></pre><p>动态信息:</p>
+<pre><code>progress:任务完成进度
+status: 任务状态
+</code></pre><p>##代码结构</p>
+<p>###任务基础类</p>
+<ol>
+<li>定义一个任务基础类– 包含任务动态信息,用于记录任务基础信息,以数组形式保存在玩家数据中</li>
+</ol>
+<p><strong>包含属性:</strong></p>
+<pre><code>任务id
+任务进度
+任务状态
+</code></pre><p>直接添加一个任务管理类,处理玩家任务初始化工作,任务监控工作–当任务完成时,对任务状态进行修改,触发玩家任务完成事件–推送任务完成信息给玩家.</p>
+<h3 id="任务管理类"><a href="#任务管理类" class="headerlink" title="任务管理类"></a>任务管理类</h3><p>1.定义一个任务管理者–用于检测更新玩家任务数据</p>
+<p>事件机制:</p>
+<pre><code>事件主体:任务管理者
+
+诱发外因:玩家操作
+
+导致结果:任务改变--进度改变,状态改变
+</code></pre><p>2.为任务管理者绑定事件</p>
+<p>应有事件:</p>
+<pre><code>任务进度触发事件,根据传入不同的任务类型,对不同的任务进行操作.
+</code></pre><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">def update_task(cls, types, player):</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        根据任务类型，更新相应的任务</span><br><span class="line">        :param types: 要检测的任务类型</span><br><span class="line">        :param player: 玩家数据</span><br><span class="line">        :return:</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        tasks= player.tasks</span><br><span class="line">        for _type in types:</span><br><span class="line">            for task in tasks:</span><br><span class="line">                if task and task.status == Task_Status.Uncomplete:	                                  </span><br><span class="line">                    # 根据类型，调用相应的检查函数，并在检测函数中更新相应的进度</span><br><span class="line">                        check_fun = getattr(cls, &quot;check&quot; + str(_type))</span><br><span class="line">                        complete = check_fun(player, task , sta_task)</span><br><span class="line">                        if complete:</span><br><span class="line">                            task.status = Task_Status.Complete</span><br><span class="line"></span><br><span class="line">def check4(cls, player, task, sta_task):</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        玩家某个数值超过多少</span><br><span class="line">        :param task: 动态任务数据</span><br><span class="line">        :param sta_task: 静态任务数据</span><br><span class="line">        :return:</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        return player.attack &gt;= sta_task.get(&#x27;condition&#x27;)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="任务奖励"><a href="#任务奖励" class="headerlink" title="任务奖励"></a>任务奖励</h3><p>根据传入任务,获取任务奖励,为玩家添加任务链下一个任务<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">reward = sta_task.get(&quot;reward&quot;)</span><br><span class="line"># 为玩家添加reward</span><br><span class="line"># 添加任务链下一个任务</span><br><span class="line">      if sta_task.get(&quot;nextID&quot;):</span><br><span class="line">          task= Task()</span><br><span class="line">          task.task_id= sta_task.get(&quot;nextID&quot;)</span><br><span class="line">          task.progress = 0</span><br><span class="line">          task.status = Task_Status.Uncomplete</span><br><span class="line">          self.player.add_task(task)</span><br><span class="line">          </span><br></pre></td></tr></table></figure></p>
+</div><div class="post-copyright"><div class="post-copyright-author"><span class="post-copyright-meta">本文作者: </span><span class="post-copyright-info"><a href="mailto:undefined">JIE</a></span></div><div class="post-copyright-type"><span class="post-copyright-meta">本文链接: </span><span class="post-copyright-info"><a href="http://yoursite.com/2015/11/16/%E6%88%91%E7%9A%84%E4%BB%BB%E5%8A%A1%E7%B3%BB%E7%BB%9F/">http://yoursite.com/2015/11/16/%E6%88%91%E7%9A%84%E4%BB%BB%E5%8A%A1%E7%B3%BB%E7%BB%9F/</a></span></div><div class="post-copyright-notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://yoursite.com">JIE's Blos</a>！</span></div></div></article><div id="pagination"><div class="prev-post pull-left"><span class="line line-top"></span><span class="line line-right"></span><span class="line line-bottom"></span><span class="line line-left"></span><a href="/2015/12/31/%E5%A6%82%E4%BD%95%E5%9C%A8Windows%E4%B8%8B%E5%BC%80%E5%8F%91,Linux%E4%B8%8B%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F/"><i class="fas fa-angle-left">&nbsp;</i><span>如何在Windows下开发,Linux下运行程序</span></a></div><div class="next-post pull-right"><span class="line line-top"></span><span class="line line-right"></span><span class="line line-bottom"></span><span class="line line-left"></span><a href="/2015/10/07/%E5%9C%A8%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8nodejs%E6%A8%A1%E5%9D%97/"><span>在谷歌插件中使用nodejs模块</span><span>&nbsp;</span><i class="fas fa-angle-right"></i></a></div></div><!--div!= paginator()--></div></div><div class="button-hover" id="return-top"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><footer><div id="footer"><div class="button-hover" id="side-button"><i class="fas fa-arrow-right"></i></div><div class="right-content"><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fas fa-file-o"></i></span><span id="busuanzi_value_page_pv"></span><span></span></div><div class="copyright">&copy;2017 ～ 2021 By JIE</div></div></div></footer></div><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery-3.3.1.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/velocity.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery.mCustomScrollbar.concat.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/fan.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/canvas_bg.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/utils.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/scroll.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/sidebar.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/copy.js"></script><!--script(src=url)--></body></html>

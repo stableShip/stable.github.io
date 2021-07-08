@@ -1,0 +1,102 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="JIE's Blos"><meta name="keywords"><meta name="author" content="JIE,undefined"><meta name="copyright" content="JIE"><title>time machine【JIE's Blos】</title><link rel="stylesheet" href="/css/fan.css"><link rel="stylesheet" href="/css/thirdparty/jquery.mCustomScrollbar.min.css"><link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"><link rel="icon" href="/"><!-- script(src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")--><script src="/js/mathjax/mathjax.js"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+});
+</script><script>var isPassword = '' || false;
+if (isPassword) {
+    if (prompt('请输入文章密码') !== '') {
+        alert('密码错误！');
+        history.back();
+    }
+}</script><script>window.GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  gitment: ,
+  valine: ,
+}</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="JIE's Blos" type="application/atom+xml">
+</head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="/images/avatar.png"></div><div class="author-info-name">JIE</div><div class="author-info-description">JIE's Blos</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/fan-lv" target="_blank">GitHub<i class="icon-dot bg-color5"></i></a><a class="links-button button-hover" href="mailto:15757856604@163.com" target="_blank">E-Mail<i class="icon-dot bg-color7"></i></a><a class="links-button button-hover" href="tencent://message/?uin=1019593584&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color8"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">32</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">39</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">12</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a></nav><div class="right-info"><a class="title-name" href="/">JIE's Blos</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2019/04/15/How%20to%20Manager%20log%20in%20Docker/">How to Manager log in Docker</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/Docker/">Docker</a></div></div><div class="post-content"><div class="main-content content"><h2 id="soft-link-to-STDOUT-STDERR-to-collect-log"><a href="#soft-link-to-STDOUT-STDERR-to-collect-log" class="headerlink" title="soft link to STDOUT, STDERR to collect log"></a>soft link to STDOUT, STDERR to collect log</h2><p><code>RUN ln -sf /dev/stdout /var/log/nginx/access.log</code></p>
+<h2 id="mount-bind-space-to-collect-log"><a href="#mount-bind-space-to-collect-log" class="headerlink" title="mount bind space to collect log"></a>mount bind space to collect log</h2><p><code>--mount type=bind,src=/opt/logs, dst=/usr/local/tomcat/logs/</code></p>
+<h2 id="mount-volume-to-collect-log"><a href="#mount-volume-to-collect-log" class="headerlink" title="mount volume to collect log"></a>mount volume to collect log</h2><p><code>--mount type=volume src=volume_name dst=/use/local/tomcat/logs/</code></p>
+<h2 id="use-redis-mq-to-collect-log"><a href="#use-redis-mq-to-collect-log" class="headerlink" title="use redis/mq to collect log"></a>use redis/mq to collect log</h2><p><code>docker→ redis/mq→ logstash → elasticsearch</code></p>
+</div></div><a class="button-hover more" href="/2019/04/15/How%20to%20Manager%20log%20in%20Docker/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2019/02/15/How%20to%20deal%20with%20MongoDb%20without%20transaction/">How to deal with MongoDb without transaction</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/MongoDb/">MongoDb</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/transaction/">transaction</a></div></div><div class="post-content"><div class="main-content content"><h2 id="什么是事务"><a href="#什么是事务" class="headerlink" title="什么是事务"></a>什么是事务</h2><p>请先了解事务相关的概念。<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E4%BA%8B%E5%8A%A1/5945882">事务</a></p>
+<p>Please learn about transaction first.<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Database_transaction">Database_transaction</a></p>
+<h2 id="Mongodb的事务"><a href="#Mongodb的事务" class="headerlink" title="Mongodb的事务"></a>Mongodb的事务</h2><p>MongoDb 4.0版本之前，没有事务。 如何在没有事务的情况下，使用mongoDb？</p>
+<p>There is no transaction in MongoDb before version 4.0. How to deal with it?</p>
+<p>MongoDb中，一个写操作在一个document上是原子的。即使是操作这个document的嵌套的子document。</p>
+<p>因为没有事务，当你更新多个文档（documents）的时候，一些错误发生了，mongoDb不会进行rollback处理。 或者是多个操作时，个个操作会有交错，导致数据更新错误（如：多个操作更新用户资产）。</p>
+<p>In MongoDb, a write operation is atomic on the level of a single document, even if the operation modifies multiple embedded documents <em>within</em> a single document.</p>
+<p>Because there is no transaction， when you need to update  multiple documents. if there is something error, it won’t rollback by itself。</p>
+<h2 id="如何处理这些情况呢？"><a href="#如何处理这些情况呢？" class="headerlink" title="如何处理这些情况呢？"></a>如何处理这些情况呢？</h2></div></div><a class="button-hover more" href="/2019/02/15/How%20to%20deal%20with%20MongoDb%20without%20transaction/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2020/06/12/Interview%20Process/">Interview Process</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/Interview/">Interview</a></div></div><div class="post-content"><div class="main-content content"><h2 id="英文自我介绍"><a href="#英文自我介绍" class="headerlink" title="英文自我介绍"></a>英文自我介绍</h2><p>面试者简单的自我介绍，可以根据面试者介绍再问些问题。</p>
+<p>（Could you tell me more detail about your last job？ Do you have confidence to handle the hangwriting and listening of English？一篇全英文文档，不借助翻译 能读懂多少？ ）</p>
+<h2 id="技术相关"><a href="#技术相关" class="headerlink" title="技术相关"></a>技术相关</h2><p>重点 springboot， 数据库相关。 尽量考察到实际要怎么做， 而不是问理论上的， 很多培训出来的， 理论背得很好</p>
+<p>。 具体一些的实操相关的问题。</p>
+<p>(springboot 事务如何使用。如何 写一个过滤器 统计Service层方法执行时间， springboot 如何统一返回数据格式。 springboot 如何写一个拦截器， 如何统一处理异常)</p>
+<h2 id="项目流程相关"><a href="#项目流程相关" class="headerlink" title="项目流程相关"></a>项目流程相关</h2><p>git，git工作流， 项目管理软件（jira，禅道）， 敏捷开发，单元测试， 项目监控报警。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>所有的问题事实上背后都对应了考察的点：</p>
+<p>英语能力，创业心， 自我学习能力， 技术(java基础，springboot框架， 数据库)，开发流程熟悉度(git工作流，项目管理软件，敏捷开发)</p>
+<p>每一个点对应要问什么问题才能考察到，需要面试官自行总结。</p>
+<p>面试官需要通过面试问题掌握面试者能力，不要出现面试后还在疑惑.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">他有一些答得比较模糊， 不知道他是不是真的行!</span><br></pre></td></tr></table></figure>
+<p><strong>如果觉得没办法通过这个问题掌握他的水平， 就再多问一下! 不要等到会议结束后，都无法确认候选人是否合适*</strong></p>
+</div></div><a class="button-hover more" href="/2020/06/12/Interview%20Process/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2020/01/29/Self%20Skill%20Assignment/">Self Skill Assignment</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time></div><div class="post-content"><div class="main-content content"><p>0-3 : just know about the skill, but never used (了解这项技术，但从未使用， 按了解程度评分)</p>
+<p>4-7: has been used the skill , but just know how to use, but don’t know the Infrastructure （使用过这项技术，但不了解底层原理， 按使用熟练度评分）</p>
+<p>8-10: can be good use the entire skill and know about the Infrastructure （能很好的使用这项技术， 熟悉底层原理，按底层原理熟悉度评分）</p>
+<table>
+<thead>
+<tr>
+<th>Skill\Name</th>
+<th>Alex</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>English</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr>
+<td>Java Base</td>
+<td></td>
+</tr>
+<tr>
+<td>Spring Boot</td>
+</tr>
+<tr>
+<td>Spring Cloud</td>
+</tr>
+<tr>
+<td>React</td>
+</tr>
+<tr>
+<td>Vue</td>
+</tr>
+<tr>
+<td>Python</td>
+</tr>
+<tr>
+<td>Node JS</td>
+</tr>
+<tr>
+<td>C#</td>
+</tr>
+<tr>
+<td>Golang</td>
+</tr>
+</tbody>
+</table>
+<p>…</p>
+</div></div><a class="button-hover more" href="/2020/01/29/Self%20Skill%20Assignment/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2020/01/15/SpringBoot%20Unit%20Test/">SpringBoot Unit Test</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/SpringBoot/">SpringBoot</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/UnitTest/">UnitTest</a></div></div><div class="post-content"><div class="main-content content"><h2 id="For-What"><a href="#For-What" class="headerlink" title="For What"></a>For What</h2><p>When we developing a project and serving for the user with a lot of function. And some of this function is called in multiple place. when a new requirement is come which need to modify the code of the old function. How can you ensure the ensure old function won’t be broken by the change you make. human test? too native. Human always make mistake. So we need the machine to check for us.</p>
+<h2 id="Layer-Test-Mockito"><a href="#Layer-Test-Mockito" class="headerlink" title="Layer Test : Mockito"></a>Layer Test : Mockito</h2><p>we use mockito to mock all the  dependencies injected (the database, the third party api) to the layer, in the <strong>Controller</strong> layer , we mock the  <strong>Service</strong>  function, in the  <strong>Service</strong>  layer, we mock the  <strong>Dao</strong>  function;</p></div></div><a class="button-hover more" href="/2020/01/15/SpringBoot%20Unit%20Test/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2021/05/12/Version%20Control%20In%20Docker/">Version Control In Docker</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/Docker/">Docker</a></div></div><div class="post-content"><div class="main-content content"><h2 id="What"><a href="#What" class="headerlink" title="What"></a>What</h2><p>By using docker , we can easy deploy the application. but how we control the deploy version and how can we rollback to last version if any error occur?</p>
+<p>There is the solution we explore in development.</p>
+<h2 id="How"><a href="#How" class="headerlink" title="How"></a>How</h2><p>To control which version docker image need to deploy to prod. we need to defined the  <strong>target ‘sign’ for our docker image, something like: “master”, “prod”.</strong></p>
+<p>To rollback to the image we want. all image need to have a <strong>‘sign’ for rollback , something like: “2021-01-01 10:00:00 - asdffe”, “release date + commit id”.</strong></p>
+<p>so we need to push two image to docker repo: <code>master</code> image and <code>release date + commit id</code> image.</p>
+<p>master image will overwrite old image all the time. the <code>release date + commit id</code> image will be saved in repo for rollback</p>
+<h2 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">TAG = date + commit id</span><br><span class="line"></span><br><span class="line">REGISTRY=your registry</span><br><span class="line"></span><br><span class="line">NAME=image name</span><br><span class="line"></span><br><span class="line">PROD_TAG = master</span><br><span class="line"></span><br><span class="line">UAT_TAG = uat</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## build prod</span><br><span class="line"></span><br><span class="line"># build image</span><br><span class="line"></span><br><span class="line">docker build -t $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; .</span><br><span class="line"></span><br><span class="line"># create image with PROD_TAG` `for`  `PROD RELEASE</span><br><span class="line"></span><br><span class="line">docker tag $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;PROD_TAG&#125;</span><br><span class="line"></span><br><span class="line">docker push $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; &amp;&amp; docker push $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;PROD_TAG&#125;</span><br><span class="line"></span><br><span class="line">## build UAT</span><br><span class="line"></span><br><span class="line">docker build -t $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; .</span><br><span class="line"></span><br><span class="line">docker tag $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;UAT_TAG&#125;</span><br><span class="line"></span><br><span class="line">docker push $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;TAG&#125; &amp;&amp; docker push $&#123;REGISTRY&#125;/$&#123;NAME&#125;:$&#123;UAT_TAG&#125;</span><br></pre></td></tr></table></figure>
+</div></div><a class="button-hover more" href="/2021/05/12/Version%20Control%20In%20Docker/#more">阅读全文</a></div></div><div id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/">Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/3/">Next</a></div></div></div></div><div class="button-hover" id="return-top"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><footer><div id="footer"><div class="button-hover" id="side-button"><i class="fas fa-arrow-right"></i></div><div class="right-content"><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_uv"><i class="fas fa-user"></i></span><span id="busuanzi_value_site_uv"></span><span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv"><i class="fas fa-eye"></i></span><span id="busuanzi_value_site_pv"></span><span></span></div><div class="copyright">&copy;2017 ～ 2021 By JIE</div></div></div></footer></div><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery-3.3.1.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/velocity.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery.mCustomScrollbar.concat.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/fan.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/canvas_bg.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/utils.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/scroll.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/sidebar.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/copy.js"></script><!--script(src=url)--></body></html>
