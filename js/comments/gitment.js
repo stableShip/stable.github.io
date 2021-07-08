@@ -1,6 +1,6 @@
 (function () {
     var newGitment = 'https://www.wenjunjiang.win/js/gitment.js';
-    var oldGitment = 'imsun.github.io/gitment/dist/gitment.browser.js';
+    var oldGitment = 'https://www.wenjunjiang.win/js/gitment.js';
 
     var replaceScript = function (script, src) {
         //
