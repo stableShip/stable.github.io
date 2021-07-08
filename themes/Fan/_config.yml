@@ -107,7 +107,8 @@ post_copyright:
 
 # 评论
 comments:
-  enable: false
+  enable: true
   # 使用哪种评论插件["gitment", "valine"]
-  type: "valine"
+  type: "gitment"
+ 
 

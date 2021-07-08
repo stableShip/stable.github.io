@@ -81,3 +81,11 @@ category_generator:
   per_page: 10
   order_by: -date
   enable_index_page: true
+
+comments:
+ gitment:
+    enable: true
+    owner: 'stableShip'
+    repo: 'stableShip.github.io'
+    client_id: 'c46c9f3ef71008d78507'
+    client_secret: 'eb2076e0bdf1a61542aa07546a19c6094a3a8a10'
