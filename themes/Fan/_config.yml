@@ -112,3 +112,5 @@ comments:
   type: "gitment"
  
 
+recommended_posts:
+  enable: true
