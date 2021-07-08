@@ -3,11 +3,11 @@
   <title>JIE&#39;s Blos</title>
   
   <subtitle>time machine</subtitle>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="https://stableship.github.io/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://stableship.github.io/"/>
   <updated>2021-07-08T03:43:54.995Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://stableship.github.io/</id>
   
   <author>
     <name>JIE</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>敏捷之自驱力</title>
-    <link href="http://yoursite.com/2021/07/03/%E6%95%8F%E6%8D%B7%E4%B9%8B%E8%87%AA%E9%A9%B1%E5%8A%9B/"/>
-    <id>http://yoursite.com/2021/07/03/%E6%95%8F%E6%8D%B7%E4%B9%8B%E8%87%AA%E9%A9%B1%E5%8A%9B/</id>
+    <link href="https://stableship.github.io/2021/07/03/%E6%95%8F%E6%8D%B7%E4%B9%8B%E8%87%AA%E9%A9%B1%E5%8A%9B/"/>
+    <id>https://stableship.github.io/2021/07/03/%E6%95%8F%E6%8D%B7%E4%B9%8B%E8%87%AA%E9%A9%B1%E5%8A%9B/</id>
     <published>2021-07-03T02:19:32.000Z</published>
     <updated>2021-07-08T03:43:54.995Z</updated>
     
@@ -34,16 +34,16 @@
     
     
     
-    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    <category term="teamwork" scheme="https://stableship.github.io/tags/teamwork/"/>
     
-    <category term="Agile" scheme="http://yoursite.com/tags/Agile/"/>
+    <category term="Agile" scheme="https://stableship.github.io/tags/Agile/"/>
     
   </entry>
   
   <entry>
     <title>IT项目的工程化， 流水化</title>
-    <link href="http://yoursite.com/2021/06/23/%E5%B7%A5%E7%A8%8B%E6%B5%81%E6%B0%B4%E5%8C%96%E5%BC%80%E5%8F%91/"/>
-    <id>http://yoursite.com/2021/06/23/%E5%B7%A5%E7%A8%8B%E6%B5%81%E6%B0%B4%E5%8C%96%E5%BC%80%E5%8F%91/</id>
+    <link href="https://stableship.github.io/2021/06/23/%E5%B7%A5%E7%A8%8B%E6%B5%81%E6%B0%B4%E5%8C%96%E5%BC%80%E5%8F%91/"/>
+    <id>https://stableship.github.io/2021/06/23/%E5%B7%A5%E7%A8%8B%E6%B5%81%E6%B0%B4%E5%8C%96%E5%BC%80%E5%8F%91/</id>
     <published>2021-06-23T07:19:32.000Z</published>
     <updated>2021-06-23T07:55:08.249Z</updated>
     
@@ -62,8 +62,8 @@
   
   <entry>
     <title>Version Control In Docker</title>
-    <link href="http://yoursite.com/2021/05/12/Version%20Control%20In%20Docker/"/>
-    <id>http://yoursite.com/2021/05/12/Version%20Control%20In%20Docker/</id>
+    <link href="https://stableship.github.io/2021/05/12/Version%20Control%20In%20Docker/"/>
+    <id>https://stableship.github.io/2021/05/12/Version%20Control%20In%20Docker/</id>
     <published>2021-05-12T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -78,14 +78,14 @@
     
     
     
-    <category term="Docker" scheme="http://yoursite.com/tags/Docker/"/>
+    <category term="Docker" scheme="https://stableship.github.io/tags/Docker/"/>
     
   </entry>
   
   <entry>
     <title>Teambuild 规划</title>
-    <link href="http://yoursite.com/2021/04/20/teambuild%E8%A7%84%E5%88%92/"/>
-    <id>http://yoursite.com/2021/04/20/teambuild%E8%A7%84%E5%88%92/</id>
+    <link href="https://stableship.github.io/2021/04/20/teambuild%E8%A7%84%E5%88%92/"/>
+    <id>https://stableship.github.io/2021/04/20/teambuild%E8%A7%84%E5%88%92/</id>
     <published>2021-04-20T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -101,14 +101,14 @@
     
     
     
-    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    <category term="teamwork" scheme="https://stableship.github.io/tags/teamwork/"/>
     
   </entry>
   
   <entry>
     <title>如何进行绩效评估</title>
-    <link href="http://yoursite.com/2021/03/31/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0/"/>
-    <id>http://yoursite.com/2021/03/31/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0/</id>
+    <link href="https://stableship.github.io/2021/03/31/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0/"/>
+    <id>https://stableship.github.io/2021/03/31/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0/</id>
     <published>2021-03-31T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -123,14 +123,14 @@
     
     
     
-    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    <category term="teamwork" scheme="https://stableship.github.io/tags/teamwork/"/>
     
   </entry>
   
   <entry>
     <title>团队OKR</title>
-    <link href="http://yoursite.com/2021/02/10/%E5%9B%A2%E9%98%9FOKR/"/>
-    <id>http://yoursite.com/2021/02/10/%E5%9B%A2%E9%98%9FOKR/</id>
+    <link href="https://stableship.github.io/2021/02/10/%E5%9B%A2%E9%98%9FOKR/"/>
+    <id>https://stableship.github.io/2021/02/10/%E5%9B%A2%E9%98%9FOKR/</id>
     <published>2021-02-10T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -146,14 +146,14 @@
     
     
     
-    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    <category term="teamwork" scheme="https://stableship.github.io/tags/teamwork/"/>
     
   </entry>
   
   <entry>
     <title>2020 Self Assignment</title>
-    <link href="http://yoursite.com/2020/10/19/2020%20Self%20Assignment/"/>
-    <id>http://yoursite.com/2020/10/19/2020%20Self%20Assignment/</id>
+    <link href="https://stableship.github.io/2020/10/19/2020%20Self%20Assignment/"/>
+    <id>https://stableship.github.io/2020/10/19/2020%20Self%20Assignment/</id>
     <published>2020-10-19T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -173,8 +173,8 @@
   
   <entry>
     <title>金融系统API设计</title>
-    <link href="http://yoursite.com/2020/10/02/%E9%87%91%E8%9E%8D%E7%B3%BB%E7%BB%9FAPI%E8%AE%BE%E8%AE%A1/"/>
-    <id>http://yoursite.com/2020/10/02/%E9%87%91%E8%9E%8D%E7%B3%BB%E7%BB%9FAPI%E8%AE%BE%E8%AE%A1/</id>
+    <link href="https://stableship.github.io/2020/10/02/%E9%87%91%E8%9E%8D%E7%B3%BB%E7%BB%9FAPI%E8%AE%BE%E8%AE%A1/"/>
+    <id>https://stableship.github.io/2020/10/02/%E9%87%91%E8%9E%8D%E7%B3%BB%E7%BB%9FAPI%E8%AE%BE%E8%AE%A1/</id>
     <published>2020-10-02T02:19:32.000Z</published>
     <updated>2021-07-07T09:07:22.565Z</updated>
     
@@ -188,17 +188,17 @@
     
     
     
-    <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    <category term="IT" scheme="https://stableship.github.io/categories/IT/"/>
     
     
-    <category term="API" scheme="http://yoursite.com/tags/API/"/>
+    <category term="API" scheme="https://stableship.github.io/tags/API/"/>
     
   </entry>
   
   <entry>
     <title>岗位轮岗制度</title>
-    <link href="http://yoursite.com/2020/08/10/%E8%BD%AE%E5%B2%97%E5%88%B6%E5%BA%A6/"/>
-    <id>http://yoursite.com/2020/08/10/%E8%BD%AE%E5%B2%97%E5%88%B6%E5%BA%A6/</id>
+    <link href="https://stableship.github.io/2020/08/10/%E8%BD%AE%E5%B2%97%E5%88%B6%E5%BA%A6/"/>
+    <id>https://stableship.github.io/2020/08/10/%E8%BD%AE%E5%B2%97%E5%88%B6%E5%BA%A6/</id>
     <published>2020-08-10T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -213,14 +213,14 @@
     
     
     
-    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    <category term="teamwork" scheme="https://stableship.github.io/tags/teamwork/"/>
     
   </entry>
   
   <entry>
     <title>团队建设-每周一问</title>
-    <link href="http://yoursite.com/2020/08/02/%E6%AF%8F%E5%91%A8%E4%B8%80%E9%97%AE/"/>
-    <id>http://yoursite.com/2020/08/02/%E6%AF%8F%E5%91%A8%E4%B8%80%E9%97%AE/</id>
+    <link href="https://stableship.github.io/2020/08/02/%E6%AF%8F%E5%91%A8%E4%B8%80%E9%97%AE/"/>
+    <id>https://stableship.github.io/2020/08/02/%E6%AF%8F%E5%91%A8%E4%B8%80%E9%97%AE/</id>
     <published>2020-08-02T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -235,14 +235,14 @@
     
     
     
-    <category term="teamwork" scheme="http://yoursite.com/tags/teamwork/"/>
+    <category term="teamwork" scheme="https://stableship.github.io/tags/teamwork/"/>
     
   </entry>
   
   <entry>
     <title>Interview Process</title>
-    <link href="http://yoursite.com/2020/06/12/Interview%20Process/"/>
-    <id>http://yoursite.com/2020/06/12/Interview%20Process/</id>
+    <link href="https://stableship.github.io/2020/06/12/Interview%20Process/"/>
+    <id>https://stableship.github.io/2020/06/12/Interview%20Process/</id>
     <published>2020-06-12T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -258,14 +258,14 @@
     
     
     
-    <category term="Interview" scheme="http://yoursite.com/tags/Interview/"/>
+    <category term="Interview" scheme="https://stableship.github.io/tags/Interview/"/>
     
   </entry>
   
   <entry>
     <title>Self Skill Assignment</title>
-    <link href="http://yoursite.com/2020/01/29/Self%20Skill%20Assignment/"/>
-    <id>http://yoursite.com/2020/01/29/Self%20Skill%20Assignment/</id>
+    <link href="https://stableship.github.io/2020/01/29/Self%20Skill%20Assignment/"/>
+    <id>https://stableship.github.io/2020/01/29/Self%20Skill%20Assignment/</id>
     <published>2020-01-29T12:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -285,8 +285,8 @@
   
   <entry>
     <title>Base Concept in React</title>
-    <link href="http://yoursite.com/2020/01/16/Base%20Concept%20in%20React/"/>
-    <id>http://yoursite.com/2020/01/16/Base%20Concept%20in%20React/</id>
+    <link href="https://stableship.github.io/2020/01/16/Base%20Concept%20in%20React/"/>
+    <id>https://stableship.github.io/2020/01/16/Base%20Concept%20in%20React/</id>
     <published>2020-01-16T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -308,14 +308,14 @@
     
     
     
-    <category term="React" scheme="http://yoursite.com/tags/React/"/>
+    <category term="React" scheme="https://stableship.github.io/tags/React/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot Unit Test</title>
-    <link href="http://yoursite.com/2020/01/15/SpringBoot%20Unit%20Test/"/>
-    <id>http://yoursite.com/2020/01/15/SpringBoot%20Unit%20Test/</id>
+    <link href="https://stableship.github.io/2020/01/15/SpringBoot%20Unit%20Test/"/>
+    <id>https://stableship.github.io/2020/01/15/SpringBoot%20Unit%20Test/</id>
     <published>2020-01-15T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -328,16 +328,16 @@
     
     
     
-    <category term="SpringBoot" scheme="http://yoursite.com/tags/SpringBoot/"/>
+    <category term="SpringBoot" scheme="https://stableship.github.io/tags/SpringBoot/"/>
     
-    <category term="UnitTest" scheme="http://yoursite.com/tags/UnitTest/"/>
+    <category term="UnitTest" scheme="https://stableship.github.io/tags/UnitTest/"/>
     
   </entry>
   
   <entry>
     <title>Automatic test using Selenide</title>
-    <link href="http://yoursite.com/2019/06/12/Automatic%20test%20using%20Selenide/"/>
-    <id>http://yoursite.com/2019/06/12/Automatic%20test%20using%20Selenide/</id>
+    <link href="https://stableship.github.io/2019/06/12/Automatic%20test%20using%20Selenide/"/>
+    <id>https://stableship.github.io/2019/06/12/Automatic%20test%20using%20Selenide/</id>
     <published>2019-06-12T02:19:32.000Z</published>
     <updated>2021-07-07T09:41:14.045Z</updated>
     
@@ -352,16 +352,16 @@
     
     
     
-    <category term="Selenide" scheme="http://yoursite.com/tags/Selenide/"/>
+    <category term="Selenide" scheme="https://stableship.github.io/tags/Selenide/"/>
     
-    <category term="automatic test" scheme="http://yoursite.com/tags/automatic-test/"/>
+    <category term="automatic test" scheme="https://stableship.github.io/tags/automatic-test/"/>
     
   </entry>
   
   <entry>
     <title>How to Manager log in Docker</title>
-    <link href="http://yoursite.com/2019/04/15/How%20to%20Manager%20log%20in%20Docker/"/>
-    <id>http://yoursite.com/2019/04/15/How%20to%20Manager%20log%20in%20Docker/</id>
+    <link href="https://stableship.github.io/2019/04/15/How%20to%20Manager%20log%20in%20Docker/"/>
+    <id>https://stableship.github.io/2019/04/15/How%20to%20Manager%20log%20in%20Docker/</id>
     <published>2019-04-15T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -376,14 +376,14 @@
     
     
     
-    <category term="Docker" scheme="http://yoursite.com/tags/Docker/"/>
+    <category term="Docker" scheme="https://stableship.github.io/tags/Docker/"/>
     
   </entry>
   
   <entry>
     <title>Git Operation Specification</title>
-    <link href="http://yoursite.com/2019/02/22/Git%20Operation%20Specification/"/>
-    <id>http://yoursite.com/2019/02/22/Git%20Operation%20Specification/</id>
+    <link href="https://stableship.github.io/2019/02/22/Git%20Operation%20Specification/"/>
+    <id>https://stableship.github.io/2019/02/22/Git%20Operation%20Specification/</id>
     <published>2019-02-22T09:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -412,14 +412,14 @@
     
     
     
-    <category term="git" scheme="http://yoursite.com/tags/git/"/>
+    <category term="git" scheme="https://stableship.github.io/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>How to deal with MongoDb without transaction</title>
-    <link href="http://yoursite.com/2019/02/15/How%20to%20deal%20with%20MongoDb%20without%20transaction/"/>
-    <id>http://yoursite.com/2019/02/15/How%20to%20deal%20with%20MongoDb%20without%20transaction/</id>
+    <link href="https://stableship.github.io/2019/02/15/How%20to%20deal%20with%20MongoDb%20without%20transaction/"/>
+    <id>https://stableship.github.io/2019/02/15/How%20to%20deal%20with%20MongoDb%20without%20transaction/</id>
     <published>2019-02-15T02:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -439,16 +439,16 @@
     
     
     
-    <category term="MongoDb" scheme="http://yoursite.com/tags/MongoDb/"/>
+    <category term="MongoDb" scheme="https://stableship.github.io/tags/MongoDb/"/>
     
-    <category term="transaction" scheme="http://yoursite.com/tags/transaction/"/>
+    <category term="transaction" scheme="https://stableship.github.io/tags/transaction/"/>
     
   </entry>
   
   <entry>
     <title>What is MongoDb?</title>
-    <link href="http://yoursite.com/2019/01/30/What%20is%20MongoDb/"/>
-    <id>http://yoursite.com/2019/01/30/What%20is%20MongoDb/</id>
+    <link href="https://stableship.github.io/2019/01/30/What%20is%20MongoDb/"/>
+    <id>https://stableship.github.io/2019/01/30/What%20is%20MongoDb/</id>
     <published>2019-01-30T12:19:32.000Z</published>
     <updated>2021-07-07T09:41:53.098Z</updated>
     
@@ -464,14 +464,14 @@
     
     
     
-    <category term="mongoDb" scheme="http://yoursite.com/tags/mongoDb/"/>
+    <category term="mongoDb" scheme="https://stableship.github.io/tags/mongoDb/"/>
     
   </entry>
   
   <entry>
     <title>MongoDb Base Rule</title>
-    <link href="http://yoursite.com/2019/01/29/mongoDb%20Base%20Rule/"/>
-    <id>http://yoursite.com/2019/01/29/mongoDb%20Base%20Rule/</id>
+    <link href="https://stableship.github.io/2019/01/29/mongoDb%20Base%20Rule/"/>
+    <id>https://stableship.github.io/2019/01/29/mongoDb%20Base%20Rule/</id>
     <published>2019-01-29T12:19:32.000Z</published>
     <updated>2021-06-11T01:41:23.433Z</updated>
     
@@ -486,10 +486,10 @@
     
     
     
-    <category term="mongoDb" scheme="http://yoursite.com/categories/mongoDb/"/>
+    <category term="mongoDb" scheme="https://stableship.github.io/categories/mongoDb/"/>
     
     
-    <category term="mongoDb" scheme="http://yoursite.com/tags/mongoDb/"/>
+    <category term="mongoDb" scheme="https://stableship.github.io/tags/mongoDb/"/>
     
   </entry>
   
