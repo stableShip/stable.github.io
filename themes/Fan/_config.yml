@@ -79,7 +79,7 @@ scripts:
 
 # post 配置
 post_meta:
-  date_type: updated # created or updated
+  date_type: created # created or updated
   categories: true
   tags: true
 
@@ -111,6 +111,3 @@ comments:
   # 使用哪种评论插件["gitment", "valine"]
   type: "valine"
 
-
-index_generator:
-  order_by: "test"

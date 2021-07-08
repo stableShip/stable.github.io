@@ -5,10 +5,10 @@ block content
         .post-header
             .title= page.title
             .container
-                time.button-hover.post-date #[i.fas.fa-calendar-alt.article-icon(aria-hidden="true")] #[=__('post.posted')] #[=date(page['date'], config.date_format)] | #[=__('post.modified')] #[=date(page['updated'], config.date_format)]
+                time.button-hover.post-date #[i.fas.fa-calendar-alt.article-icon(aria-hidden="true")] #[=__('post.posted')] #[=date(page['date'], config.date_format)]
                 //time.button-hover.post-date #[i.fas.fa-calendar-alt.article-icon(aria-hidden="true")] #[=__('post.modified')] #[=date(page['updated'], config.date_format)]
                 .button-hover.categories
-                    each categories,index in page.categories.data
+                    each categories,index in page.categories.data || []
                         i.fa.fa-inbox.article-icon(aria-hidden="true")
                         a.link-a(href=url_for(categories.path)) #[=categories.name]
                         if(index < page.categories.data.length - 1)
@@ -18,6 +18,7 @@ block content
                         - var tags = tag.name.indexOf(",") !== -1 && tag.name.split(",") || tag.name.split("，")
                         each val in tags
                             i.fa.fa-tag.article-icon(aria-hidden="true")
+                            - val=val[0].toUpperCase()+val.slice(1, val.length)
                             a.link-a(href=url_for(tag.path)) #[=val]
                             if(index < page.tags.data.length - 1)
                                 span &nbsp;|&nbsp;

@@ -1,5 +1,5 @@
 -
-    var orderBy = config.index_generator.order_by && config.index_generator.order_by.replace('-','')
+    var orderBy = 'date'
     //- var posts = page.posts.data || []
     var posts = site.posts.data || []
     var posts_sort = posts.sort(function(a, b) {
@@ -32,8 +32,8 @@ if page.posts.length > 0
                 a.post-title(href=url_for(link))= post.title
                 div.container
                     if (theme.post_meta.date_type)
-                        - var date_type = theme.post_meta.date_type === 'updated' ? 'updated' : 'date'
-                        - var date_text = theme.post_meta.date_type === 'updated' ? __('post.modified') :__('post.posted')
+                        - var date_type = 'date'
+                        - var date_text = __('post.posted')
                         time.button-hover.post-date #[i.fas.fa-calendar-alt.article-icon(aria-hidden="true")] #[=date_text] #[=date(post[date_type], config.date_format)]
                     if (theme.post_meta.categories && post.categories.data.length > 0)
                         .button-hover.categories
@@ -44,11 +44,14 @@ if page.posts.length > 0
                                     i.fa.fa-angle-right(style="margin: 0 8px;")
                     if (theme.post_meta.tags && post.tags.data.length > 0)
                         .button-hover.tags
-                            each tags,index in post.tags.data
-                                i.fa.fa-tag.article-icon(aria-hidden="true")
-                                a.link-a(href=url_for(tags.path)) #[=tags.name]
-                                if(index < post.tags.data.length - 1)
-                                    span &nbsp;|&nbsp;
+                            each tag,index in post.tags.data
+                              - var tags = tag.name.indexOf(",") !== -1 && tag.name.split(",") || tag.name.split("，")
+                                each val in tags
+                                    i.fa.fa-tag.article-icon(aria-hidden="true")
+                                    - val=val[0].toUpperCase()+val.slice(1, val.length)
+                                    a.link-a(href=url_for(tags.path)) #[=val]
+                                    if(index < post.tags.data.length - 1)
+                                        span &nbsp;|&nbsp;
                 .post-content
                     if(post.excerpt)
                         .main-content.content!= post.excerpt
