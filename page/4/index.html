@@ -19,116 +19,126 @@ if (isPassword) {
   gitment: ,
   valine: ,
 }</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="JIE's Blos" type="application/atom+xml">
-</head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="/images/avatar.png"></div><div class="author-info-name">JIE</div><div class="author-info-description">JIE's Blos</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/stableship" target="_blank">GitHub<i class="icon-dot bg-color2"></i></a><a class="links-button button-hover" href="mailto:jiezdok@gmail.com" target="_blank">E-Mail<i class="icon-dot bg-color7"></i></a><a class="links-button button-hover" href="tencent://message/?uin=296888680&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color1"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">32</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">39</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">12</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a></nav><div class="right-info"><a class="title-name" href="/">JIE's Blos</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2015/06/08/pomelo%E5%90%AF%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9rpc%E5%BA%93---pomelo-rpc-ws/">pomelo启用第三方rpc库---pomelo-rpc-ws</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-07-07</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/node/">node</a><i class="fa fa-angle-right" style="margin: 0 8px;"></i><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/node/pomelo/">pomelo</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/node/">node</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/pomelo/">pomelo</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/rpc/">rpc</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/pomelo-rpc-ws/">pomelo-rpc-ws</a></div></div><div class="post-content"><div class="main-content content"><blockquote>
-<p>使用pomelo本身自带的rpc库,进行rpc通讯,发现连续多个rpc请求之后,会有一个延时相当严重得请求出现,没有找到相关的解决办法,最后使用<code>pomelo-rpc-ws</code>第三方rpc库解决了这个问题</p>
-</blockquote>
-<h1 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h1><ul>
-<li><a target="_blank" rel="noopener" href="http://nodejs.org/">nodejs</a></li>
-<li>Linux 或 MacOS 操作系统</li>
-<li><a target="_blank" rel="noopener" href="https://github.com/skyblue/pomelo-rpc-ext">pomelo-rpc-ws</a></li>
+</head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="/images/avatar.png"></div><div class="author-info-name">JIE</div><div class="author-info-description">JIE's Blos</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/stableship" target="_blank">GitHub<i class="icon-dot bg-color4"></i></a><a class="links-button button-hover" href="mailto:jiezdok@gmail.com" target="_blank">E-Mail<i class="icon-dot bg-color7"></i></a><a class="links-button button-hover" href="tencent://message/?uin=296888680&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color2"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">32</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">39</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">12</span></a></div><div class="friend-link"><a class="friend-link-text" href="http://www.chalet581.xyz" target="_blank">tommyZZM</a><a class="friend-link-text" href="http://sineyuan.github.io" target="_blank">sineyuan</a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a></nav><div class="right-info"><a class="title-name" href="/">JIE's Blos</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2019/01/30/What%20is%20MongoDb/">What is MongoDb?</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 发表于 2019-01-30</time><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/">MongoDb</a></div></div><div class="post-content"><div class="main-content content"><p>MongoDb 非关系数据库 NoSql 数据库一员， 将数据使用灵活，类JSON形式进行存储。更多：<a target="_blank" rel="noopener" href="https://www.mongodb.com/what-is-mongodb">what-is-mongodb</a></p>
+<p>MongoDb is a member of the NoSql， it stores data in flexible, JSON-like documents.</p>
+<h2 id="概念-Concepts-between-SQL-and-MongoDb"><a href="#概念-Concepts-between-SQL-and-MongoDb" class="headerlink" title="概念 Concepts between SQL and MongoDb"></a>概念 Concepts between SQL and MongoDb</h2><table>
+<thead>
+<tr>
+<th>SQL</th>
+<th>MongoDb</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Table</td>
+<td>Collection</td>
+</tr>
+<tr>
+<td>Row</td>
+<td>Document</td>
+</tr>
+<tr>
+<td>Column</td>
+<td>Field</td>
+</tr>
+<tr>
+<td>JOINs</td>
+<td>Embedded documents, $lookup &amp; $graphLookup</td>
+</tr>
+<tr>
+<td>GROUP_BY</td>
+<td>Aggregation -〉group by</td>
+</tr>
+</tbody>
+</table>
+<h2 id="操作-Operation-between-SQL-and-MongoDb"><a href="#操作-Operation-between-SQL-and-MongoDb" class="headerlink" title="操作 Operation between SQL and MongoDb"></a>操作 Operation between SQL and MongoDb</h2><table>
+<thead>
+<tr>
+<th>SQL</th>
+<th>MongoDb</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>INSERT INTO users (user_id, age, status) VALUES ‘bcd001’, 45, ‘A’)</td>
+<td>db.users.insert({  user_id: ‘bcd001’,  age: 45,  status: ‘A’})</td>
+</tr>
+<tr>
+<td>SELECT * FROM users</td>
+<td>db.users.find()</td>
+</tr>
+<tr>
+<td>UPDATE users SET status = ‘C’ WHERE age &gt; 25</td>
+<td>db.users.update(  { age: { $gt: 25 } },  { $set: { tatus: ‘C’ } },  { multi: true })</td>
+</tr>
+<tr>
+<td>db.start_transaction() cursor.execute(orderInsert, orderData) cursor.execute(stockUpdate, stockData)</td>
+</tr>
+</tbody>
+</table>
+<p>db.commit()|s.start_transaction() orders.insert_one(order, session=s) stock.update_one(item, stockUpdate, session=s)s.commit_transaction()  （new feature in 4.0 version）|</p>
+<h3 id="最大区别-Biggest-different-between-SQL-and-MongoDb"><a href="#最大区别-Biggest-different-between-SQL-and-MongoDb" class="headerlink" title="最大区别 Biggest different between SQL and MongoDb"></a>最大区别 Biggest different between SQL and MongoDb</h3><table>
+<thead>
+<tr>
+<th>SQL</th>
+<th>MongoDb</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>使用关系型数据库， 需要在数据库中定义对应的表和字段关联。当你需要修改到对应的字段， 必须对数据库进行停机修改，会影响现有的所有数据， 降低应用可用性。In SQL, you pre-define your database schema based on your requirements and set up rules to govern the relationships between fields in your tables.Any changes in schema necessitates a migration procedure that can take the database offline or significantly reduce application performance.</td>
+<td>使用MongoDb， 字段 无需在数据库中进行定义，使用代码定义对应的关系。如果需要添加一个新的字段，无需影响其他的document，无需停机进行更新。In MongoDb， Fields is no need to declare the structure of documents to the system – documents are self-describing in Code。If a new field needs to be added to a document,then the field can be created without affecting all other documents in the collection,without updating a central system catalog, and without taking the system offline.</td>
+</tr>
+<tr>
+<td>更多的控制在数据库（DBA）， 索引，字段 都需要在数据库进行定义处理More control in Db, Indexes. Filed all controlled in Db side.</td>
+<td>更多的控制在代码（开发）， 开发可以在代码中定义对应的索引，字段结构。Less control in Db, more control in Code. Indexes, Fields can controlled in Code side.</td>
+</tr>
+</tbody>
+</table>
+<p>参考：<a target="_blank" rel="noopener" href="https://www.mongodb.com/compare/mongodb-mysql">mongodb-mysql</a></p>
+</div></div><a class="button-hover more" href="/2019/01/30/What%20is%20MongoDb/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2019/01/29/mongoDb%20Base%20Rule/">MongoDb Base Rule</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 发表于 2019-01-29</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/mongoDb/">mongoDb</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/">MongoDb</a></div></div><div class="post-content"><div class="main-content content"><h3 id="Select-只获取必要的字段"><a href="#Select-只获取必要的字段" class="headerlink" title="Select 只获取必要的字段"></a>Select 只获取必要的字段</h3><p>why:</p>
+<p><em>select *会增加cpu/io/内存/带宽的消耗</em></p>
+<p><em>指定字段能有效利用索引覆盖：find（{id： “test”}）.select({id: 1}) 命中索引id， 因只select了id， 所以mongo直接返回了id， 不会再索引到具体的document，效率大大提高。</em></p>
+<h3 id="避免过度使用嵌入文档，最多只能一层，-不使用数组嵌套"><a href="#避免过度使用嵌入文档，最多只能一层，-不使用数组嵌套" class="headerlink" title="避免过度使用嵌入文档，最多只能一层， 不使用数组嵌套"></a>避免过度使用嵌入文档，最多只能一层， 不使用数组嵌套</h3><p>why:</p>
+<p><em>document有16MB限制。</em></p>
+<h3 id="尽量避免使用负向查询以及-开头的模糊查询"><a href="#尽量避免使用负向查询以及-开头的模糊查询" class="headerlink" title="尽量避免使用负向查询以及%开头的模糊查询"></a>尽量避免使用负向查询以及%开头的模糊查询</h3><p>why:</p>
+<p><em>ne、nin %开头 无法有效使用索引</em></p>
+<h3 id="禁止使用look-up"><a href="#禁止使用look-up" class="headerlink" title="禁止使用look up"></a>禁止使用look up</h3><p>why:</p>
+<p><em>分片后，look up操作失效</em></p>
+<h3 id="不在数据库中进行数据计算"><a href="#不在数据库中进行数据计算" class="headerlink" title="不在数据库中进行数据计算"></a>不在数据库中进行数据计算</h3><p>why:</p>
+<p><em>js精度问题 （0.1 + 0.2 = 0.30000000000000004__）</em></p>
+<p><em>cpu计算导致数据库卡顿，解放数据库CPU，把复杂逻辑计算放到服务层。</em></p>
+<h3 id="平衡范式与冗余"><a href="#平衡范式与冗余" class="headerlink" title="平衡范式与冗余"></a>平衡范式与冗余</h3><p>为提高效率，可以冗余数据</p>
+<h3 id="拒绝大sql，大批量-操作"><a href="#拒绝大sql，大批量-操作" class="headerlink" title="拒绝大sql，大批量 操作"></a>拒绝大sql，大批量 操作</h3><h3 id="禁止在更新十分频繁、区分度不高的属性上建立索引"><a href="#禁止在更新十分频繁、区分度不高的属性上建立索引" class="headerlink" title="禁止在更新十分频繁、区分度不高的属性上建立索引"></a>禁止在更新十分频繁、区分度不高的属性上建立索引</h3><p>why：</p>
+<p><em>更新会变更B+树，更新频繁的字段建立索引会大大降低数据库性能</em></p>
+<p><em>“性别”这种区分度不大的属性，建立索引是没有什么意义的，不能有效过滤数据，性能与全表扫描类似</em></p>
+<p><em>索引内存也是有限的</em></p>
+<h3 id="使用explain-优化查询"><a href="#使用explain-优化查询" class="headerlink" title="使用explain 优化查询"></a>使用explain 优化查询</h3><p><em>查看explain结果,</em></p>
+<p><em>可以简单查看inputStages.stage判断查询效率。</em></p>
+<p><em>COLLECTION：全表查询</em></p>
+<p><em>IXSCAN：命中索引查询</em></p>
+<h3 id="禁止使用自带全文索引"><a href="#禁止使用自带全文索引" class="headerlink" title="禁止使用自带全文索引"></a>禁止使用自带全文索引</h3><p>why:</p>
+<p><em>效率低</em></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/stableShip/Spring_MongoDb">MongoDb_Demo</a></p>
+<p>参考： <a target="_blank" rel="noopener" href="http://blog.51cto.com/lee90/2096461">mysql 50条军规</a></p>
+</div></div><a class="button-hover more" href="/2019/01/29/mongoDb%20Base%20Rule/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2016/04/10/CO%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/">co流程控制</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 发表于 2016-04-10</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/co/">co</a><i class="fa fa-angle-right" style="margin: 0 8px;"></i><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/co/nodejs/">nodejs</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/">Co</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/">Nodejs</a></div></div><div class="post-content"><div class="main-content content"><h1 id="co流程控制"><a href="#co流程控制" class="headerlink" title="co流程控制"></a>co流程控制</h1><h2 id="nodejs常见异步流程"><a href="#nodejs常见异步流程" class="headerlink" title="nodejs常见异步流程"></a>nodejs常见异步流程</h2><h4 id="使用回调"><a href="#使用回调" class="headerlink" title="使用回调"></a>使用回调</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">fs.readFile(<span class="string">&quot;./file.js&quot;</span>,<span class="function"><span class="keyword">function</span>(<span class="params">err,data</span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(data.toString());</span><br><span class="line">&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h4 id="使用promise"><a href="#使用promise" class="headerlink" title="使用promise"></a>使用promise</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> <span class="built_in">Promise</span> = <span class="built_in">require</span>(<span class="string">&quot;bluebird&quot;</span>)</span><br><span class="line"><span class="keyword">var</span> fs = <span class="built_in">require</span>(<span class="string">&quot;fs&quot;</span>);</span><br><span class="line">fs = <span class="built_in">Promise</span>.promisifyAll(fs);</span><br><span class="line">fs.readFileAsync(<span class="string">&quot;./test.js&quot;</span>).then(<span class="function"><span class="keyword">function</span>(<span class="params">data</span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(data.toString());</span><br><span class="line">&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h4 id="使用co-promise"><a href="#使用co-promise" class="headerlink" title="使用co+promise"></a>使用co+promise</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> fs = <span class="built_in">require</span>(<span class="string">&quot;fs&quot;</span>);</span><br><span class="line"><span class="keyword">var</span> <span class="built_in">Promise</span> = <span class="built_in">require</span>(<span class="string">&quot;bluebird&quot;</span>)</span><br><span class="line">fs = <span class="built_in">Promise</span>.promisifyAll(fs);</span><br><span class="line">co(<span class="function"><span class="keyword">function</span>* (<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> data = <span class="keyword">yield</span> fs.readFileAsync(<span class="string">&#x27;./test.js&#x27;</span>);</span><br><span class="line">    <span class="built_in">console</span>.log(data.toString());</span><br><span class="line">&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>结论：使用co模块编写代码，形式与同步代码一致，没有回调和then，逻辑更加清晰。</p></div></div><a class="button-hover more" href="/2016/04/10/CO%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2016/03/27/mongodb%20%20%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81/">mongodb3.* 设置用户认证</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 发表于 2016-03-27</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/mongoDb/">mongoDb</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/">MongoDb</a></div></div><div class="post-content"><div class="main-content content"><p>#mongodb3.* 设置用户认证</p>
+<p>1、mongodb是没有默认管理员账号，所以要先添加管理员账号，在开启权限认证。<br>2、切换到admin数据库，添加的账号才是管理员账号。<br>3、用户只能在用户所在数据库登录，包括管理员账号。<br>4、管理员可以管理所有数据库，但是不能直接管理其他数据库，要先在admin数据库认证后才可以。这一点比较怪</p>
+<p>添加管理员账号：<br>默认情况下系统中没有用户,正常启动mongo:<code>mongod</code><br></div></div><a class="button-hover more" href="/2016/03/27/mongodb%20%20%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2015/12/31/%E5%A6%82%E4%BD%95%E5%9C%A8Windows%E4%B8%8B%E5%BC%80%E5%8F%91,Linux%E4%B8%8B%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F/">如何在Windows下开发,Linux下运行程序</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 发表于 2015-12-31</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/Windows/">Windows</a><i class="fa fa-angle-right" style="margin: 0 8px;"></i><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/Windows/Linux/">Linux</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/">Windows</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/">Linux</a></div></div><div class="post-content"><div class="main-content content"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">As we know, 服务端程序一般都是运行在Linux系统中,而Linux下的一些日常软件,却没办法做到像Windows下那样的精美,so,问题来了:有没有办法做到在Windows上进行代码的编写,而运行是在linux下呢???</span><br></pre></td></tr></table></figure>
+<h2 id="环境需求"><a href="#环境需求" class="headerlink" title="环境需求:"></a>环境需求:</h2><ul>
+<li>虚拟机(vmware,vbox…)</li>
+<li>Windows 操作系统</li>
 </ul>
-<p>##安装</p>
-<p><code>npm install pomelo-rpc-ws</code></p>
-<h2 id="修改服务器配置"><a href="#修改服务器配置" class="headerlink" title="修改服务器配置"></a>修改服务器配置</h2><h3 id="配置-game-server-app-js-在全局配置中加入下面的代码"><a href="#配置-game-server-app-js-在全局配置中加入下面的代码" class="headerlink" title="配置/game-server/app.js,在全局配置中加入下面的代码"></a>配置/game-server/app.js,在全局配置中加入下面的代码</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">// global configure for all servers</span><br><span class="line">app.configure(&#x27;production|development&#x27;, function() &#123;</span><br><span class="line">	//启用pomelo-rpc-ws</span><br><span class="line">    app.set(&#x27;proxyConfig&#x27;, &#123;</span><br><span class="line">        rpcClient: wsrpc.client</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    app.set(&#x27;remoteConfig&#x27;, &#123;</span><br><span class="line">        rpcServer: wsrpc.server</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-<h2 id="运行查看效果"><a href="#运行查看效果" class="headerlink" title="运行查看效果"></a>运行查看效果</h2></div></div><a class="button-hover more" href="/2015/06/08/pomelo%E5%90%AF%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9rpc%E5%BA%93---pomelo-rpc-ws/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2015/04/23/pomelo%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3/">pomelo服务器部署文档</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/node/">node</a><i class="fa fa-angle-right" style="margin: 0 8px;"></i><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/node/pomelo/">pomelo</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/pomelo/">pomelo</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</a></div></div><div class="post-content"><div class="main-content content"><h1 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h1><ul>
-<li><a target="_blank" rel="noopener" href="http://nodejs.org/">nodejs</a></li>
-<li>Windows、Linux 或 MacOS 操作系统</li>
-<li>MySql 数据库</li>
-</ul>
-<h1 id="部署服务端"><a href="#部署服务端" class="headerlink" title="部署服务端"></a>部署服务端</h1><h2 id="安装依赖包"><a href="#安装依赖包" class="headerlink" title="安装依赖包"></a>安装依赖包</h2><p>进入目录：<br><code>cd xxx_server</code></p>
-<p>安装依赖包：<br><code>sh npm-install.sh</code>(Windows: <code>npm-install.bat</code>)</p>
-<h1 id="创建MySql数据库"><a href="#创建MySql数据库" class="headerlink" title="创建MySql数据库"></a>创建MySql数据库</h1><h2 id="创建数据库"><a href="#创建数据库" class="headerlink" title="创建数据库"></a>创建数据库</h2><p>sql文件路径：./game-server/scripts/mysql.sql</p>
-<ul>
-<li>安装MySql数据库(略)</li>
-<li>登录MySql:<br><code>mysql –u用户名 –p密码</code><br>(登录成功提示符：mysql&gt;)</li>
-<li>创建数据库:<br><code>mysql&gt; create database dev;</code></li>
-<li>选择数据库:<br><code>mysql&gt; use dev;</code></li>
-<li>导入sql文件:<br><code>mysql&gt; source ./game-server/scripts/mysql.sql</code></li>
-</ul></div></div><a class="button-hover more" href="/2015/04/23/pomelo%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2021/04/20/teambuild%E8%A7%84%E5%88%92/">Teambuild 规划</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/teamwork/">teamwork</a></div></div><div class="post-content"><div class="main-content content"><h2 id="Problem-we-meet"><a href="#Problem-we-meet" class="headerlink" title="Problem we meet"></a>Problem we meet</h2><ul>
-<li>teambuild效果不明显</li>
-<li>teambuild活动目的不清晰，teambuild活动到底是想达到什么效果？</li>
-<li>团队成员参与度不足， 被动参加，置身事外</li>
-<li>teambuild形式单一，没有创新（一般都是吃饭）</li>
-</ul>
-<h2 id="For-What"><a href="#For-What" class="headerlink" title="For What"></a>For What</h2><p>为了解决上面的问题， 通过轮流举办teambuild的形式，加强团队凝聚力，提高团队成员参与度， 构建积极参与的团队文化氛围。</p>
-<h2 id="Whom"><a href="#Whom" class="headerlink" title="Whom"></a>Whom</h2><p>团队所有成员，每次的团建活动按照姓名排序，轮流三个人进行teambuild活动组织安排。通过轮流的形式，提高团队成员对teambuild的参与度，引入更多思考变量。</p>
-<p>举例：<br>Alex， Adam，Benjamin， Freddie，Remox，Sura</p>
-<p>如上面的，第一季度由Alex， Adam，Benjamin进行teambuild活动组织安排。第二季度由Freddie，Remox，Sura组织安排</p>
-<h2 id="When"><a href="#When" class="headerlink" title="When"></a>When</h2><p>每个季度最后一个月进行teambuild活动<br>1-3 3月<br>4-6 6月<br>7-9 9月<br>10-12 12月</p>
-<p>需要在每季度的第二个月发出活动计划，进行计划的投票，人员的安排。<br>1-3 2月<br>4-6 5月<br>7-9 8月<br>10-12 11月</p>
-<h2 id="How"><a href="#How" class="headerlink" title="How"></a>How</h2><h3 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h3><p>首先，不同的teambuild活动，要达到的目的可以是不一样的。<br>例如：</p>
-<ul>
-<li>前一阵子团队全部人员加班加点帮忙赶计划， 所以想让大家能够比较好的休息，放松一下。 所以安排了放松的teambuild： 温泉， 按摩 等</li>
-<li><p>发现大家之间除了日常工作，没有其他交流， 所以安排了团队交流，协作相关的活动：对抗赛，CS，王者荣耀线上比赛。</p>
-</li>
-<li><p>疫情期间，大家运动不足，交流也比较少，所以安排了能让大家进行运动，又可以促进大家交流的活动： 每日步数比赛。</p>
-</li>
-</ul>
-<p>所以针对不同时期，不同团队的teambuild，需要每个季度轮到的同学，首先考虑一下，这个teambuild要达到的目的。再根据目的进行计划。</p>
-<h3 id="计划落实"><a href="#计划落实" class="headerlink" title="计划落实"></a>计划落实</h3><p>确定了大概的计划，需要去了解对应的信息，价格，人数限制，时间限制，天气。<br>建议是至少包含两个计划，<br>计划一是可以用公司teambuild基金覆盖的，基础的活动。 计划二是更上一层的，需要大家再加点钱的。 </p>
-<p>和团队其他成员沟通，投票，确认要进行哪个teambuild活动。 确认人数。 确定teambuild时间</p>
-<h3 id="活动进行时"><a href="#活动进行时" class="headerlink" title="活动进行时"></a>活动进行时</h3><ol>
-<li>确保 提前和所有成员分享了活动注意事项： 时间，地点，安全事项 等等。</li>
-<li>携带对应的安全保障设备,如：药箱</li>
-<li>确保所有人员都平安归来</li>
-<li>其他…</li>
+<h2 id="虚拟机安装linux"><a href="#虚拟机安装linux" class="headerlink" title="虚拟机安装linux"></a>虚拟机安装linux</h2><p> 在Windows下想要同时使用到linux系统,果断是必须安装虚拟机的,如何安装虚拟机在这里就略过了,<br>一般服务器都是采用Centos系统作为服务器运行的Linux系统,所以我们选择一个centos的镜像网站<br>下载centos镜像<a target="_blank" rel="noopener" href="http://mirrors.zju.edu.cn/centos/">浙江大学镜像</a>,一般选择6.*版本的,这个是centos6.7版本的镜像路径:<a target="_blank" rel="noopener" href="http://mirrors.zju.edu.cn/centos/6.7/isos/x86_64/">http://mirrors.zju.edu.cn/centos/6.7/isos/x86_64/</a>  ,选择minimal版本iso镜像下载,不需要带桌面的,可以减少虚拟机的资源占用.<br>减下来就是安装了,略过.</p>
+<h2 id="设置虚拟机网络"><a href="#设置虚拟机网络" class="headerlink" title="设置虚拟机网络."></a>设置虚拟机网络.</h2><p>安装的Linux虚拟机我们会通过ssh进行连接,所以虚拟机和本机之间必须通过桥接模式进行连接.设置虚拟机网络桥接不同虚拟机有不同的设置方法,略过.</p></div></div><a class="button-hover more" href="/2015/12/31/%E5%A6%82%E4%BD%95%E5%9C%A8Windows%E4%B8%8B%E5%BC%80%E5%8F%91,Linux%E4%B8%8B%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2015/11/16/%E6%88%91%E7%9A%84%E4%BB%BB%E5%8A%A1%E7%B3%BB%E7%BB%9F/">我的任务系统</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 发表于 2015-11-16</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/game/">game</a><i class="fa fa-angle-right" style="margin: 0 8px;"></i><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/game/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/">游戏开发</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/">Game</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/">游戏开发</a></div></div><div class="post-content"><div class="main-content content"><h1 id="任务-成就系统"><a href="#任务-成就系统" class="headerlink" title="任务/成就系统"></a>任务/成就系统</h1><p>游戏中任务/成就系统是必不可少的,如何实现一个成就系统?</p>
+<h2 id="任务系统基本需求"><a href="#任务系统基本需求" class="headerlink" title="任务系统基本需求"></a>任务系统基本需求</h2><ol>
+<li>检测玩家完成该任务</li>
+<li>奖励</li>
+<li>领取奖励有触发下一阶段任务</li>
 </ol>
-</div></div><a class="button-hover more" href="/2021/04/20/teambuild%E8%A7%84%E5%88%92/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2015/07/03/tornado%E7%9A%84mysql%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C/">在tornado中使用异步mysql操作</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/python/">python</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/tornado/">tornado</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/mysql/">mysql</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/%E5%BC%82%E6%AD%A5/">异步</a></div></div><div class="post-content"><div class="main-content content"><blockquote>
-<p>在使用tornado框架进行开发的过程中,发现tornado的mysql数据库操作并不是一步的,造成了所有用户行为的堵塞.tornado本身是一个异步的框架,要求所有的操作都应该是异步的,但是数据库这一层就把整个服务器都拖住了.</p>
-</blockquote>
-<p>##查找到的解决办法:</p>
-<ol>
-<li><p>使用异步的mysql操作库.  查找了一下,有两个比较完善的异步操作库<br>一个是<a target="_blank" rel="noopener" href="https://github.com/mayflaver/AsyncTorndb">AsyncTorndb</a>,国人自己写的异步操作,看了一下,好像不错的样子,但是没有响应的测试用例,不敢用.</p>
-<p> 一个是<a target="_blank" rel="noopener" href="https://github.com/PyMySQL/Tornado-MySQL">Tornado-MySQL</a>是对PyMySQL的异步化的一个库,测试用例,文档,都比较齐全,可以尝试使用.</p>
-</li>
-</ol>
-<p>2.仿照(torngas)[<a target="_blank" rel="noopener" href="https://github.com/mqingyn/torngas]的异步线程池,使用tornado的concurrent.run_on_executor装饰器对数据库操作进行异步化">https://github.com/mqingyn/torngas]的异步线程池,使用tornado的concurrent.run_on_executor装饰器对数据库操作进行异步化</a></p>
-<p>3.使用任务队列,太过麻烦,对之前的代码修改过大,不使用该方案</p>
-<ul>
-<li>在使用Tornado-MySQL过程中,发现对现有代码更改太过严重,放弃,使用了异步线程池的方式.做到最小的代码更改以及异步数据库操作的实现</li>
-</ul>
-<p>##如何使用异步线程池<a target="_blank" rel="noopener" href="http://www.tornadoweb.org/en/stable/concurrent.html?highlight=run_on_executor#tornado.concurrent.run_on_executor">concurrent.run_on_executor</a></p>
-<ol>
-<li><p>在原先的同步的数据库执行的方法添加@concurrent.run_on_executor装饰器,如以下例子:</p>
- <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@concurrent.run_on_executor</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">runSql</span>(<span class="params">self</span>):</span></span><br><span class="line">        t = time.time()</span><br><span class="line">        db = client.conn()</span><br><span class="line">        db.execute(<span class="string">&#x27;&#x27;&#x27;select * from TABLE_CONSTRAINTS join (CHARACTER_SETS,STATISTICS)&#x27;&#x27;&#x27;</span>)</span><br><span class="line">        db.close()</span><br><span class="line">        <span class="keyword">return</span> time.time() - t</span><br><span class="line">        </span><br></pre></td></tr></table></figure></div></div><a class="button-hover more" href="/2015/07/03/tornado%E7%9A%84mysql%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2015/10/07/%E5%9C%A8%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8nodejs%E6%A8%A1%E5%9D%97/">在谷歌插件中使用nodejs模块</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-07-07</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/node/">node</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/node/">node</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/chrome-extension/">chrome_extension</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/browserify/">browserify</a></div></div><div class="post-content"><div class="main-content content"><p>-</p>
-<h2 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h2><p>这次要介绍如何在谷歌插件中使用nodejs模块,演示的项目是 <strong>一个后台定时提醒的插件</strong></p>
-<h2 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h2><ul>
-<li><a target="_blank" rel="noopener" href="http://nodejs.org/">nodejs</a></li>
-<li>Windows、Linux 或 MacOS 操作系统</li>
-<li>chrome浏览器</li>
-<li><a target="_blank" rel="noopener" href="https://github.com/substack/node-browserify">browserify</a></li>
-</ul>
-<p>##基础框架搭建</p>
-<p>###创建一个基础的chrome插件框架<br>可以从<a target="_blank" rel="noopener" href="https://github.com/GoogleChrome/chrome-app-samples">谷歌插件的github</a>克隆相应的例子进行修改</p>
-<p>基本架构只需要包含:</p>
-<ul>
-<li>manifest.json (谷歌插件配置文件)</li>
-<li>background.js (后台逻辑js文件)</li>
-</ul>
-<p>##将nodejs库使用转化为浏览器可使用的库<br></div></div><a class="button-hover more" href="/2015/10/07/%E5%9C%A8%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8nodejs%E6%A8%A1%E5%9D%97/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2021/02/10/%E5%9B%A2%E9%98%9FOKR/">团队OKR</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2021-06-11</time><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/teamwork/">teamwork</a></div></div><div class="post-content"><div class="main-content content"><h2 id="团队OKR"><a href="#团队OKR" class="headerlink" title="团队OKR"></a>团队OKR</h2><p><strong>Object：目标<br>Key Result： 关键结果</strong></p>
-<p>OKR的目标是引导，驱动团队成员主动的去思考， 主动的想怎样能达到对应的目标（Object）。 OKR需要团队成员参与制定，并了解每一项内容（Key Result）。</p>
-<p>每个团队都有自身的特点， okr需要根据不同的团队，不同特点进行设定。</p>
-<p>Object 目标，<strong>定性</strong>，定义事件的性质，不要定义数量，抽象化：如“赚到1亿”， 而是使用 “公司盈利，上市”。 </p>
-<p>Key Result 关键结果，<strong>定量</strong>，定义需要达到多少，如“赚一个亿”</p>
-<p>ORK 必须是公开透明的，由上到下， 公司的OKR，团队的OKR， 个人的OKR</p>
-<p>可以参考的<a target="_blank" rel="noopener" href="https://safe.menlosecurity.com/http://www.360doc.com/content/17/0510/19/32626470_652783216.shtml">制定规则</a></p>
-<h2 id="普遍的OKR示例"><a href="#普遍的OKR示例" class="headerlink" title="普遍的OKR示例"></a>普遍的OKR示例</h2><h3 id="提高发布频率"><a href="#提高发布频率" class="headerlink" title="提高发布频率"></a>提高发布频率</h3><h5 id="每周发布一次"><a href="#每周发布一次" class="headerlink" title="每周发布一次"></a>每周发布一次</h5><p>所有的发布都应该分割成较小的部分， 能够进行zero down time的部署， 不影响到生产环境使用（数据库修改除外）</p>
-<h5 id="参与发布的人数达到全员"><a href="#参与发布的人数达到全员" class="headerlink" title="参与发布的人数达到全员"></a>参与发布的人数达到全员</h5><p>团队所有成员都熟悉整个发布流程与工具，没有知识断层</p>
-<h5 id="提交代码到版本管理服务的人数达到全员"><a href="#提交代码到版本管理服务的人数达到全员" class="headerlink" title="提交代码到版本管理服务的人数达到全员"></a>提交代码到版本管理服务的人数达到全员</h5><p>所有开发人员都必须提交能够使用代码版本管理服务，提交代码到版本管理服务</p>
-<h5 id="15分钟完成所有发布工作"><a href="#15分钟完成所有发布工作" class="headerlink" title="15分钟完成所有发布工作"></a>15分钟完成所有发布工作</h5><p>完善发布工具， 减少发布时间，单个服务发布时间不能多于15分钟</p>
-<h5 id="其他能提高发布效率的举措"><a href="#其他能提高发布效率的举措" class="headerlink" title="其他能提高发布效率的举措"></a>其他能提高发布效率的举措</h5><hr>
-<h3 id="减少生产问题"><a href="#减少生产问题" class="headerlink" title="减少生产问题"></a>减少生产问题</h3><h5 id="减少生产问题数量-由10减少到5"><a href="#减少生产问题数量-由10减少到5" class="headerlink" title="减少生产问题数量 由10减少到5"></a>减少生产问题数量 由10减少到5</h5><p>生产环境的问题应当逐渐减少， 直至没有</p>
-<h5 id="生产问题影响"><a href="#生产问题影响" class="headerlink" title="生产问题影响"></a>生产问题影响</h5><p>生产问题的影响，应该能够衡量， 并且影响逐步减小</p>
-<h5 id="生产问题处理人员数量-由1加到4"><a href="#生产问题处理人员数量-由1加到4" class="headerlink" title="生产问题处理人员数量 由1加到4"></a>生产问题处理人员数量 由1加到4</h5><p>生产问题人员处理数量应当在合适的数量， 逐渐减少，建立良好的问题处理模型</p>
-<h5 id="减少-新的功能导致的生产问题，由10减少到5"><a href="#减少-新的功能导致的生产问题，由10减少到5" class="headerlink" title="减少 新的功能导致的生产问题，由10减少到5"></a>减少 新的功能导致的生产问题，由10减少到5</h5><p>新的功能导致的生产问题应当逐渐减少，如： 完善对应的测试， 自动化测试， 减少问题出现。</p>
-<h5 id="其他能够避免生产问题发生的举措"><a href="#其他能够避免生产问题发生的举措" class="headerlink" title="其他能够避免生产问题发生的举措"></a>其他能够避免生产问题发生的举措</h5><hr>
-<h3 id="团队建设"><a href="#团队建设" class="headerlink" title="团队建设"></a>团队建设</h3><h5 id="团队成员每月学习目标"><a href="#团队成员每月学习目标" class="headerlink" title="团队成员每月学习目标"></a>团队成员每月学习目标</h5><h5 id="团队分享每周有一次"><a href="#团队分享每周有一次" class="headerlink" title="团队分享每周有一次"></a>团队分享每周有一次</h5><h5 id="证书数量每人获取到一张新证书"><a href="#证书数量每人获取到一张新证书" class="headerlink" title="证书数量每人获取到一张新证书"></a>证书数量每人获取到一张新证书</h5><hr>
-<h3 id="提高工作效能"><a href="#提高工作效能" class="headerlink" title="提高工作效能"></a>提高工作效能</h3><h5 id="每月举行一次团队反馈会议"><a href="#每月举行一次团队反馈会议" class="headerlink" title="每月举行一次团队反馈会议"></a>每月举行一次团队反馈会议</h5><p>团队进行会议，评估自身团队： 好的，能够提升的，保持的，需要改变的。 稳定会议数量， 固定每月进行会议。</p>
-<h5 id="每次一篇团队知识文章"><a href="#每次一篇团队知识文章" class="headerlink" title="每次一篇团队知识文章"></a>每次一篇团队知识文章</h5><p>团队发布知识文章， 分享自己的知识给社区， 逐步提高数量</p>
-<h3 id="减少安全问题"><a href="#减少安全问题" class="headerlink" title="减少安全问题"></a>减少安全问题</h3><h5 id="代码扫描工具"><a href="#代码扫描工具" class="headerlink" title="代码扫描工具"></a>代码扫描工具</h5><p>所有的服务都必须使用代码扫描工具（sonar， checkmark）</p>
-<h5 id="减少-代码扫描问题，重大问题数量为0"><a href="#减少-代码扫描问题，重大问题数量为0" class="headerlink" title="减少 代码扫描问题，重大问题数量为0"></a>减少 代码扫描问题，重大问题数量为0</h5><p>扫描不能出现 紧急 的问题， 逐步减少代码扫描工具扫出来的问题</p>
 <hr>
-<h3 id="上市"><a href="#上市" class="headerlink" title="上市"></a>上市</h3><h5 id="总流水达到5000w"><a href="#总流水达到5000w" class="headerlink" title="总流水达到5000w"></a>总流水达到5000w</h5><h5 id="用户规模达到1000w"><a href="#用户规模达到1000w" class="headerlink" title="用户规模达到1000w"></a>用户规模达到1000w</h5><h5 id="用户日活达到100w"><a href="#用户日活达到100w" class="headerlink" title="用户日活达到100w"></a>用户日活达到100w</h5><hr>
-<h2 id="OKR-统一评判标准"><a href="#OKR-统一评判标准" class="headerlink" title="OKR 统一评判标准"></a>OKR 统一评判标准</h2><p>可以看到上面的Oeject 目标都是定性的，KeyResult 关键结果都是定量的。为了更好的对比各个团队的OKR完成情况。还需要一个统一的评判标准。 </p>
-<p>一个可以看到自动采集各个团队的数据情况， 并展示报表的内部系统。各个团队可以在系统看到其他团队完成情况，进行对比。</p>
-</div></div><a class="button-hover more" href="/2021/02/10/%E5%9B%A2%E9%98%9FOKR/#more">阅读全文</a></div></div><div id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/3/">Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/">Next</a></div></div></div></div><div class="button-hover" id="return-top"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><footer><div id="footer"><div class="button-hover" id="side-button"><i class="fas fa-arrow-right"></i></div><div class="right-content"><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_uv"><i class="fas fa-user"></i></span><span id="busuanzi_value_site_uv"></span><span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv"><i class="fas fa-eye"></i></span><span id="busuanzi_value_site_pv"></span><span></span></div><div class="copyright">&copy;2017 ～ 2021 By JIE</div></div></div></footer></div><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery-3.3.1.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/velocity.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery.mCustomScrollbar.concat.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/fan.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/canvas_bg.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/utils.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/scroll.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/sidebar.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/copy.js"></script><!--script(src=url)--></body></html>
+<h2 id="名词解析"><a href="#名词解析" class="headerlink" title="名词解析:"></a>名词解析:</h2><p>任务链:</p>
+<pre><code>同一类型的任务为一个链
+</code></pre><p>如:<br>玩家连续登陆任务,连续登陆1天,连续登陆2天,连续登陆3天,…为一种类型的任务链<br>获得多少金币,<br>通过多少次副本,<br>加多少好友<br>…</p></div></div><a class="button-hover more" href="/2015/11/16/%E6%88%91%E7%9A%84%E4%BB%BB%E5%8A%A1%E7%B3%BB%E7%BB%9F/#more">阅读全文</a></div></div><div id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/3/">Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/">Next</a></div></div></div></div><div class="button-hover" id="return-top"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><footer><div id="footer"><div class="button-hover" id="side-button"><i class="fas fa-arrow-right"></i></div><div class="right-content"><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_uv"><i class="fas fa-user"></i></span><span id="busuanzi_value_site_uv"></span><span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv"><i class="fas fa-eye"></i></span><span id="busuanzi_value_site_pv"></span><span></span></div><div class="copyright">&copy;2017 ～ 2021 By JIE</div></div></div></footer></div><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery-3.3.1.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/velocity.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery.mCustomScrollbar.concat.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/fan.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/canvas_bg.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/utils.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/scroll.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/sidebar.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/copy.js"></script><!--script(src=url)--></body></html>

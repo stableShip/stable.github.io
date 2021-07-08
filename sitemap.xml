@@ -170,14 +170,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/03/27/mongodb%20%20%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81/</loc>
+    <loc>http://yoursite.com/2019/01/29/mongoDb%20Base%20Rule/</loc>
     
     <lastmod>2021-06-11</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2019/01/29/mongoDb%20Base%20Rule/</loc>
+    <loc>http://yoursite.com/2016/03/27/mongodb%20%20%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81/</loc>
     
     <lastmod>2021-06-11</lastmod>
     
@@ -233,14 +233,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2020/08/10/%E8%BD%AE%E5%B2%97%E5%88%B6%E5%BA%A6/</loc>
+    <loc>http://yoursite.com/2020/08/02/%E6%AF%8F%E5%91%A8%E4%B8%80%E9%97%AE/</loc>
     
     <lastmod>2021-06-11</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2020/08/02/%E6%AF%8F%E5%91%A8%E4%B8%80%E9%97%AE/</loc>
+    <loc>http://yoursite.com/2020/08/10/%E8%BD%AE%E5%B2%97%E5%88%B6%E5%BA%A6/</loc>
     
     <lastmod>2021-06-11</lastmod>
     
@@ -256,13 +256,6 @@
 
   
   <url>
-    <loc>http://yoursite.com/tags/React/</loc>
-    <lastmod>2021-07-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/tags/Selenide/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
@@ -271,6 +264,13 @@
   
   <url>
     <loc>http://yoursite.com/tags/automatic-test/</loc>
+    <lastmod>2021-07-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/React/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -396,20 +396,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/pomelo/</loc>
-    <lastmod>2021-07-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/tags/pomelo-admin-web/</loc>
-    <lastmod>2021-07-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/tags/rpc/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
@@ -417,7 +403,21 @@
   </url>
   
   <url>
+    <loc>http://yoursite.com/tags/pomelo/</loc>
+    <lastmod>2021-07-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/tags/pomelo-rpc-ws/</loc>
+    <lastmod>2021-07-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/pomelo-admin-web/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -459,20 +459,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/chrome-extension/</loc>
-    <lastmod>2021-07-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/tags/browserify/</loc>
-    <lastmod>2021-07-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/tags/visual-studio-code/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
@@ -481,6 +467,20 @@
   
   <url>
     <loc>http://yoursite.com/tags/typescript/</loc>
+    <lastmod>2021-07-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/chrome-extension/</loc>
+    <lastmod>2021-07-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/browserify/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
