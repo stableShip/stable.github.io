@@ -49,7 +49,7 @@ if page.posts.length > 0
                                 each val in tags
                                     i.fa.fa-tag.article-icon(aria-hidden="true")
                                     - val=val[0].toUpperCase()+val.slice(1, val.length)
-                                    a.link-a(href=url_for(tags.path)) #[=val]
+                                    a.link-a(href=url_for(tag.path)) #[=val]
                                     if(index < post.tags.data.length - 1)
                                         span &nbsp;|&nbsp;
                 .post-content
