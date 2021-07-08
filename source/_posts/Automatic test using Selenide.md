@@ -1,4 +1,3 @@
-
 ---
 
 title: Automatic test using Selenide

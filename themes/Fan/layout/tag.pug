@@ -1,0 +1,31 @@
+extends includes/layout.pug
+
+block content
+    div#tag
+        h1.article-sort-item.title= _p('page.tags')
+        - var year
+        - var tagGroup = {}
+        - var posts = page.posts.sort("date")
+        - posts = posts.reverse()
+        - posts.each(function(article){
+            - var tempYear = date(article.date, 'YYYY')
+            - article.tags.each(function(tag){
+                - var tags = tag.name.indexOf(",") !== -1 && tag.name.split(",") || tag.name.split("，")
+                each val in tags
+                    - tagGroup[val.toLowerCase()] = tagGroup[val.toLowerCase()] || []
+                    - tagGroup[val.toLowerCase()].push(article)
+            - })
+             
+        - })
+        each val, key in tagGroup 
+            .article-sort-item.year= key[0].toUpperCase()+key.slice(1, key.length)
+            each arti in val 
+                .article-sort-item
+                    if arti.link
+                        time.article-time(datetime=date_xml(arti.date))= date(arti.date)
+                        a.article-link(href=url_for(arti.link) target="_blank")
+                        = article.title || 'No Title'
+                    else
+                        time.article-time(datetime=date_xml(arti.date))= date(arti.date)
+                        a.article-link(href=url_for(arti.path))= arti.title || 'No Title'
+

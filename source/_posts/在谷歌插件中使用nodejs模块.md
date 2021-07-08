@@ -1,7 +1,10 @@
+---
+
 title: 在谷歌插件中使用nodejs模块
 date: 2015-10-07 19:07:43
 categories: [node]
 tags: [node, chrome_extension,browserify]
+
 ----
 ## 相关
 这次要介绍如何在谷歌插件中使用nodejs模块,演示的项目是 **一个后台定时提醒的插件**
