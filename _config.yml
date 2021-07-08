@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://stableship.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -89,3 +89,8 @@ comments:
     repo: 'stableShip.github.io'
     client_id: 'c46c9f3ef71008d78507'
     client_secret: 'eb2076e0bdf1a61542aa07546a19c6094a3a8a10'
+
+algolia:
+  applicationID: 'PYAEPH3FVS'
+  apiKey: '20e67cefeeceb4a8696cc77c9c4c1019'
+  indexName: 'stableShip.github.io'
