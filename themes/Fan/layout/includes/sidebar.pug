@@ -45,9 +45,10 @@
                     a.friend-link-text(href=item.url target="_blank")= item.text
 
     if theme.recommended_posts.enable == true
-      div.recommended_posts
-        h3() 推荐阅读
         - var post_list = Object.values(site.data.recommended_posts)
-        .friend-link
-        - for (var link of post_list[0])
-                a.friend-link-text(href=link.permalink target="_blank")= link.title
+        if post_list[0].length > 0
+            div.recommended_posts
+                h3() 推荐阅读
+                .friend-link
+                - for (var link of post_list[0])
+                        a.friend-link-text(href=link.permalink target="_blank")= link.title
