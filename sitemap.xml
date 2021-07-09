@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://stableship.github.io/2019/01/30/What%20is%20MongoDb/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/2015/07/03/tornado%E7%9A%84mysql%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/2021/04/20/teambuild%E8%A7%84%E5%88%92/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://stableship.github.io/2015/05/17/pomelo%E5%90%AF%E7%94%A8pomelo-admin-web/</loc>
     
     <lastmod>2021-07-09</lastmod>
@@ -30,6 +51,13 @@
   </url>
   
   <url>
+    <loc>https://stableship.github.io/2019/01/29/mongoDb%20Base%20Rule/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://stableship.github.io/2016/03/27/mongodb%20%20%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81/</loc>
     
     <lastmod>2021-07-09</lastmod>
@@ -44,7 +72,49 @@
   </url>
   
   <url>
+    <loc>https://stableship.github.io/2019/02/15/How%20to%20deal%20with%20MongoDb%20without%20transaction/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/2019/02/22/Git%20Operation%20Specification/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://stableship.github.io/2016/04/10/CO%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/2019/06/12/Automatic%20test%20using%20Selenide/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/2015/10/07/%E5%9C%A8%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8nodejs%E6%A8%A1%E5%9D%97/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/2015/11/16/%E6%88%91%E7%9A%84%E4%BB%BB%E5%8A%A1%E7%B3%BB%E7%BB%9F/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/2021/02/10/%E5%9B%A2%E9%98%9FOKR/</loc>
     
     <lastmod>2021-07-09</lastmod>
     
@@ -53,42 +123,35 @@
   <url>
     <loc>https://stableship.github.io/2015/08/03/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8visual%20stdio%20code%E7%BC%96%E5%86%99TypeScript/</loc>
     
-    <lastmod>2021-07-08</lastmod>
+    <lastmod>2021-07-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/2021/03/31/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0/</loc>
+    
+    <lastmod>2021-07-09</lastmod>
     
   </url>
   
   <url>
     <loc>https://stableship.github.io/2021/07/03/%E6%95%8F%E6%8D%B7%E4%B9%8B%E8%87%AA%E9%A9%B1%E5%8A%9B/</loc>
     
-    <lastmod>2021-07-08</lastmod>
+    <lastmod>2021-07-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://stableship.github.io/2019/01/30/What%20is%20MongoDb/</loc>
+    <loc>https://stableship.github.io/2020/08/02/%E6%AF%8F%E5%91%A8%E4%B8%80%E9%97%AE/</loc>
     
-    <lastmod>2021-07-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/2019/06/12/Automatic%20test%20using%20Selenide/</loc>
-    
-    <lastmod>2021-07-07</lastmod>
+    <lastmod>2021-07-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://stableship.github.io/2015/10/07/%E5%9C%A8%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8nodejs%E6%A8%A1%E5%9D%97/</loc>
+    <loc>https://stableship.github.io/2020/08/10/%E8%BD%AE%E5%B2%97%E5%88%B6%E5%BA%A6/</loc>
     
-    <lastmod>2021-07-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/2015/11/16/%E6%88%91%E7%9A%84%E4%BB%BB%E5%8A%A1%E7%B3%BB%E7%BB%9F/</loc>
-    
-    <lastmod>2021-07-07</lastmod>
+    <lastmod>2021-07-09</lastmod>
     
   </url>
   
@@ -142,21 +205,7 @@
   </url>
   
   <url>
-    <loc>https://stableship.github.io/2019/02/22/Git%20Operation%20Specification/</loc>
-    
-    <lastmod>2021-06-11</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://stableship.github.io/2019/04/15/How%20to%20Manager%20log%20in%20Docker/</loc>
-    
-    <lastmod>2021-06-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/2019/02/15/How%20to%20deal%20with%20MongoDb%20without%20transaction/</loc>
     
     <lastmod>2021-06-11</lastmod>
     
@@ -190,55 +239,6 @@
     
   </url>
   
-  <url>
-    <loc>https://stableship.github.io/2019/01/29/mongoDb%20Base%20Rule/</loc>
-    
-    <lastmod>2021-06-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/2021/04/20/teambuild%E8%A7%84%E5%88%92/</loc>
-    
-    <lastmod>2021-06-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/2015/07/03/tornado%E7%9A%84mysql%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C/</loc>
-    
-    <lastmod>2021-06-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/2021/02/10/%E5%9B%A2%E9%98%9FOKR/</loc>
-    
-    <lastmod>2021-06-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/2021/03/31/%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E7%BB%A9%E6%95%88%E8%AF%84%E4%BC%B0/</loc>
-    
-    <lastmod>2021-06-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/2020/08/02/%E6%AF%8F%E5%91%A8%E4%B8%80%E9%97%AE/</loc>
-    
-    <lastmod>2021-06-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/2020/08/10/%E8%BD%AE%E5%B2%97%E5%88%B6%E5%BA%A6/</loc>
-    
-    <lastmod>2021-06-11</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>https://stableship.github.io/</loc>
@@ -256,35 +256,7 @@
   </url>
   
   <url>
-    <loc>https://stableship.github.io/tags/automatic-test/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://stableship.github.io/tags/React/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/co/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/nodejs/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/git/</loc>
     <lastmod>2021-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -299,13 +271,6 @@
   
   <url>
     <loc>https://stableship.github.io/tags/MongoDb/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/transaction/</loc>
     <lastmod>2021-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -333,84 +298,7 @@
   </url>
   
   <url>
-    <loc>https://stableship.github.io/tags/mongoDb/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/leancloud/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/node/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/mocha/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/blanket/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/rewire/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/should/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://stableship.github.io/tags/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/rpc/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/pomelo/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/pomelo-rpc-ws/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/pomelo-admin-web/</loc>
     <lastmod>2021-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -424,56 +312,7 @@
   </url>
   
   <url>
-    <loc>https://stableship.github.io/tags/teamwork/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/tornado/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/mysql/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://stableship.github.io/tags/%E5%BC%82%E6%AD%A5/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/visual-studio-code/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/typescript/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/chrome-extension/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/browserify/</loc>
     <lastmod>2021-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -488,13 +327,6 @@
   
   <url>
     <loc>https://stableship.github.io/tags/Linux/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/tags/game/</loc>
     <lastmod>2021-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -521,66 +353,171 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://stableship.github.io/tags/Automatic-Test/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/CO/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Nodejs/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Git/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Transaction/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Leancloud/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Node/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Mocha/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Blanket/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Rewire/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Should/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Pomelo/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Pomelo-admin-web/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/RPC/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Pomelo-RPC-WS/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Teamwork/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Tornado/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Mysql/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Chrome-Extension/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Browserify/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Visual-studio-code/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Typescript/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/tags/Game/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://stableship.github.io/categories/co/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/categories/co/nodejs/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/categories/leancloud/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/categories/mongoDb/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/categories/node/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/categories/python/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/categories/node/pomelo/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://stableship.github.io/categories/Windows/</loc>
-    <lastmod>2021-07-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://stableship.github.io/categories/game/</loc>
     <lastmod>2021-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -601,7 +538,63 @@
   </url>
   
   <url>
-    <loc>https://stableship.github.io/categories/game/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/</loc>
+    <loc>https://stableship.github.io/categories/Nodejs/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/categories/Nodejs/CO/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/categories/Leancloud/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/categories/MongoDb/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/categories/Node/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/categories/Python/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/categories/Node/Test/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2021-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://stableship.github.io/categories/Node/Pomelo/</loc>
     <lastmod>2021-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
