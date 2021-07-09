@@ -1,8 +1,8 @@
 ---
 title: Pomelo启用pomelo-admin-web
 date: 2015-05-17 19:07:43
-categories: [node,pomelo]
-tags: [node,pomelo,pomelo-admin-web]
+categories: [Node,Pomelo]
+tags: [Node,Pomelo,Pomelo-admin-web]
 ---
 
 

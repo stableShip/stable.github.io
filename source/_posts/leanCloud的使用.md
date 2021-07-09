@@ -2,8 +2,8 @@
 
 title: Leancloud的使用
 date: 2015-09-27 19:07:43
-tags: [leancloud]
-categories: [leancloud]
+tags: [Leancloud]
+categories: [Leancloud]
 
 ---
 ## leanCloud介绍

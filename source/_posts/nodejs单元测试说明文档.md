@@ -1,8 +1,8 @@
 ---
 title: Nodejs单元测试
 date: 2015-06-13 19:07:43
-categories: [node]
-tags: [node,mocha,blanket,rewire,should,单元测试]
+categories: [Node, Test]
+tags: [Node,Mocha,Blanket,Rewire,Should,单元测试]
 ---
 
 # 相关依赖包 

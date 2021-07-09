@@ -4,7 +4,7 @@ title: Automatic test using Selenide
 
 date: 2019-06-12 10:19:32
 
-tags: [Selenide, automatic test]
+tags: [Selenide, Automatic Test]
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: 在tornado中使用异步mysql操作
 date: 2015-07-03 19:07:43
-categories: [python]
-tags: [tornado,mysql,异步]
+categories: [Python]
+tags: [Tornado,Mysql,异步]
 ---
 
 >在使用tornado框架进行开发的过程中,发现tornado的mysql数据库操作并不是一步的,造成了所有用户行为的堵塞.tornado本身是一个异步的框架,要求所有的操作都应该是异步的,但是数据库这一层就把整个服务器都拖住了.

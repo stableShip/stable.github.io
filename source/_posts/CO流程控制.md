@@ -1,8 +1,8 @@
 ---
 title: CO流程控制
 date: 2016-04-10 16:07:43
-tags: [co,nodejs]
-categories: [co,nodejs]
+tags: [CO,Nodejs]
+categories: [Nodejs, CO]
 ---
 
 # co流程控制

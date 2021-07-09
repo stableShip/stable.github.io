@@ -2,7 +2,7 @@
 
 title: Git Operation Specification
 date: 2019-02-22 17:19:32
-tags: [git]
+tags: [Git]
 
 ---
 

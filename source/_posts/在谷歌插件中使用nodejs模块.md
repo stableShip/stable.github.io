@@ -2,8 +2,8 @@
 
 title: 在谷歌插件中使用nodejs模块
 date: 2015-10-07 19:07:43
-categories: [node]
-tags: [node, chrome_extension,browserify]
+categories: [Node]
+tags: [Node, Chrome_Extension,Browserify]
 
 ----
 ## 相关

@@ -2,8 +2,8 @@
 
 title: MongoDb Base Rule
 date: 2019-01-29 20:19:32
-tags: [mongoDb]
-categories: [mongoDb]
+tags: [MongoDb]
+categories: [MongoDb]
 
 ---
 

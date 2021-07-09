@@ -1,11 +1,11 @@
 ---
 title: 如何使用visual stdio code编写TypeScript
 date: 2015-08-03 19:07:43
-categories: [node]
+categories: [Node]
 tags: 
-    - visual_studio_code
-    - node
-    - typescript
+    - Visual_studio_code
+    - Node
+    - Typescript
 ---
 
 

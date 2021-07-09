@@ -1,8 +1,8 @@
 ---
 title: Mongodb3.* 设置用户认证
 date: 2016-03-27 20:07:43
-tags: [mongoDb]
-categories: [mongoDb]
+tags: [MongoDb]
+categories: [MongoDb]
 ---
 
 #mongodb3.* 设置用户认证
