@@ -1,5 +1,5 @@
 ---
-title: pomelo服务器部署文档
+title: Pomelo服务器部署文档
 date: 2015-04-23 11:07:43
 categories: [node,pomelo]
 tags: [pomelo,服务器]
