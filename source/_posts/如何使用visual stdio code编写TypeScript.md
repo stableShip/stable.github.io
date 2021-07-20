@@ -36,7 +36,7 @@ tags:
 
 ----
 
-##配置visual stdio code的TypeScript环境
+## 配置visual stdio code的TypeScript环境
 
 [msdn的例子](http://blogs.msdn.com/b/typescript/archive/2015/04/30/using-typescript-in-visual-studio-code.aspx)
 

@@ -13,7 +13,7 @@ tags: [Node,RPC,Pomelo,Pomelo-RPC-WS]
 * Linux 或 MacOS 操作系统
 * [pomelo-rpc-ws](https://github.com/skyblue/pomelo-rpc-ext)
 
-##安装
+## 安装
 
 `npm install pomelo-rpc-ws`
 

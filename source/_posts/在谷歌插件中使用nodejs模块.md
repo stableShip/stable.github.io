@@ -75,7 +75,7 @@ function notifyMe(msg, url) {
 
 ```
 
-###manifest.json
+### manifest.json
 ```
 {
   "manifest_version": 2,
@@ -95,7 +95,7 @@ function notifyMe(msg, url) {
 ```
 
 
-###注意事项
+### 注意事项
 >manifest.json中background - >scripts顺序必须是node-schedule.js在background.js前面才能够将node-schedule.js文件中的require函数被background.js识别到(和页面js加载相同原理)
 
 ##加载运行
