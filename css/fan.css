@@ -1850,6 +1850,25 @@ body .button-hover:hover::before {
   #sidebar .author-info-articles .article-meta.author-info-articles-categories {
     font-size: 14px;
   }
+  .recommended_posts {
+    padding: 0.5em 1em;
+    border-top: 3px solid #1b0a2a;
+    a: color #fff;
+    text-align: center;
+  }
+  .recommended_posts li {
+    margin: 5px 0;
+  }
+  .recommended_posts a:link {
+    color: #fff;
+  }
+  .recommended_posts a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+  .recommended_posts a:visited {
+    color: #008000;
+  }
 @-moz-keyframes avatar {
     25% {
       transform: rotateZ(30deg);
@@ -3921,6 +3940,25 @@ body .button-hover:hover::before {
   #sidebar .author-info-articles .article-meta.author-info-articles-tags,
   #sidebar .author-info-articles .article-meta.author-info-articles-categories {
     font-size: 14px;
+  }
+  .recommended_posts {
+    padding: 0.5em 1em;
+    border-top: 3px solid #1b0a2a;
+    a: color #fff;
+    text-align: center;
+  }
+  .recommended_posts li {
+    margin: 5px 0;
+  }
+  .recommended_posts a:link {
+    color: #fff;
+  }
+  .recommended_posts a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+  .recommended_posts a:visited {
+    color: #008000;
   }
 @-moz-keyframes avatar {
     25% {
