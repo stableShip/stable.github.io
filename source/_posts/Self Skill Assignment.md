@@ -14,14 +14,14 @@ date: 2020-01-29 20:19:32
 |Skill\Name| Alex| |
 |--|--|--|
 |English  | 6 | |
-|Java Base||
-|Spring Boot|
-|Spring Cloud|
-|React|
-|Vue|
-|Python|
-|Node JS|
-|C#|
-|Golang|
+|Java Base|||
+|Spring Boot|||
+|Spring Cloud|||
+|React|||
+|Vue|||
+|Python|||
+|Node JS|||
+|C#|||
+|Golang|||
 
 ...
