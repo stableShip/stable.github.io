@@ -177,11 +177,7 @@ public  void  getEmployeeByIdTest(){
 
   
 
-## integration test : embedded db(in-memory db) + sql initialization
-
-  
-
-  
+## Integration Test : TestContainer + SQL Initialization (Better)
 
   
 
@@ -189,9 +185,6 @@ Because the Layer Test is cause a lot of effort， so it is easy to give up. and
 
   
 
-  
-
-  
 
 **Integration test can test different modules are bounded correctly and if they work as expected in only one test case, no need to write for different layer , save a lot of effort.**
 
@@ -199,7 +192,7 @@ Because the Layer Test is cause a lot of effort， so it is easy to give up. and
 
   
 
-********Integration test can more similar as the prod by using the embedded db(H2).********
+********Integration test can more similar as the prod by using the testContainer or embedded db(H2).********
 
   
 
