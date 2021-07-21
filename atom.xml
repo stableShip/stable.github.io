@@ -6,7 +6,7 @@
   <link href="https://stableship.github.io/atom.xml" rel="self"/>
   
   <link href="https://stableship.github.io/"/>
-  <updated>2021-07-21T02:17:30.626Z</updated>
+  <updated>2021-07-21T02:18:15.002Z</updated>
   <id>https://stableship.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>谈谈敏捷基础之质量内建</title>
+    <link href="https://stableship.github.io/2021/07/21/%E6%95%8F%E6%8D%B7%E4%B9%8B%E8%B4%A8%E9%87%8F%E5%86%85%E5%BB%BA/"/>
+    <id>https://stableship.github.io/2021/07/21/%E6%95%8F%E6%8D%B7%E4%B9%8B%E8%B4%A8%E9%87%8F%E5%86%85%E5%BB%BA/</id>
+    <published>2021-07-21T07:19:32.000Z</published>
+    <updated>2021-07-21T02:18:15.002Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="敏捷基础之质量内建"><a href="#敏捷基础之质量内建" class="headerlink" title="敏捷基础之质量内建"></a>敏捷基础之质量内建</h2><p>质量内建：产品一旦被发布之后就有了好坏之分，通过某些检验方式已经无法提高或保证它的质量，所以质量检验必须内置<strong>在产品或服务构建的过程中</strong>，而不能在它发布之后。<br>总而言之，质量内建必须是在产品或服务构建的过程中的， 而不是发布之后的。</p><h3 id="非质量内建的一些质量维护措施"><a href="#非质量内建的一些质量维护措施" class="headerlink" title="非质量内建的一些质量维护措施"></a>非质量内建的一些质量维护措施</h3><h4 id="监控报警"><a href="#监控报警" class="headerlink" title="监控报警"></a>监控报警</h4><p>通过监控项目的日志， 数据库， 运行系统的运行情况，当发生错误（错误日志），cpu或内存 负载过高，发生了数据库慢查询 等等， 通过监控系统发出报警， 显示对应的报表。 开发再根据对应的时间点， 事后进行处理修复完善。</p><h4 id="代码回顾，日常的优秀代码show"><a href="#代码回顾，日常的优秀代码show" class="headerlink" title="代码回顾，日常的优秀代码show"></a>代码回顾，日常的优秀代码show</h4><p>有些公司会在代码发布后， 或者是 固定一段时间，让开发人员把自己认为好的代码， 认为不好的代码， 进行回顾讨论，期望能通过讨论提高开发人员的代码能力， 间接提高项目质量。</p><h4 id="测试人员测试"><a href="#测试人员测试" class="headerlink" title="测试人员测试"></a>测试人员测试</h4><p>测试人员测试 不属于质量内建。 一般测试发生于产品构建之后， 测试人员再进行对应的功能的测试。测试出结果， 开发修复，修复完再测试， 可以说无限循环。 </p><h3 id="质量内建措施"><a href="#质量内建措施" class="headerlink" title="质量内建措施"></a>质量内建措施</h3><p>上面这些居然都不是质量内建， 那么质量内建要怎么做呢？</p><h4 id="单元测试"><a href="#单元测试" class="headerlink" title="单元测试"></a>单元测试</h4><p>单元测试，单元测试是开发人员自我保证代码质量<strong>最好</strong>的方式， 假设你是一名开发人员， 开发了一个功能， 只是简单的进行调用测试，然后就丢给测试人员。测试完再修复bug， 有bug就继续修复，一直持续。 假设你现在是这个状态， 你应该想到为什么总是很多漏洞，怎样才能交付给测试人员一个质量比较有保证的版本，而不是依靠测试人员测试，返工修复。</p><p>做IT行业的都知道单元测试， 每个人都知道说有单元测试会保证质量，但是很多团队就是无法实施下去，“单元测试” 在他们看来就是一项<strong>耗时间，维护困难，没有太大意义的上级要求做的麻烦事情</strong>。 然而并不是， 在业界对单元测试已经发展了很久， 为了解决 单元测试 的一系列困难， 整个单元测试 框架 也不断的进化， 更加简单， 更加快速， 更加容易维护。睁眼看世界，多看看行业的变化。</p><p>后端单元测试可以看看<a href="https://stableship.github.io/2020/01/15/SpringBoot%20Unit%20Test/">这篇</a>，<br>前端单元测试可以参考这个<a href="https://github.com/stableShip/react_test_utils">工具</a></p><h4 id="代码扫描"><a href="#代码扫描" class="headerlink" title="代码扫描"></a>代码扫描</h4><p>使用代码扫描工具（Sonar， checkMark）进行代码扫描，在开发过程中， 分析有问题的代码， 并立即修复， 无须等到测试才发现。</p><h4 id="Git-Hook集成"><a href="#Git-Hook集成" class="headerlink" title="Git Hook集成"></a>Git Hook集成</h4><p>通过对git hook(<a href="https://github.com/typicode/husky">husky</a>)集成单元测试， 代码扫描工具， 在push到远程代码仓库之前，进行对应的代码检测，单元测试，单元测试覆盖率到达标准， 确保提交到远程的代码质量， 不达标，不予提交。</p><h4 id="Pull-Request-代码Review"><a href="#Pull-Request-代码Review" class="headerlink" title="Pull Request 代码Review"></a>Pull Request 代码Review</h4><p>对每一个所做的修改， 都使用pull request进行管理， 可以参照<a href="https://stableship.github.io/2019/02/22/Git%20Operation%20Specification/">Git工作流</a>，每个pull request都全团队进行代码review， 建议在每日早会之后， 开发人员进行代码<strong>昨天提交</strong>的pr的代码review。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>以上就是 敏捷中质量内建的一些方式，也是业界比较常见的做法， 可以再发散一下， 是否有其他方式，可以在产品 <strong>开发或构建</strong> 过程中，提高产品质量。 希望大家可以能够更好的实施敏捷！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;敏捷基础之质量内建&quot;&gt;&lt;a href=&quot;#敏捷基础之质量内建&quot; class=&quot;headerlink&quot; title=&quot;敏捷基础之质量内建&quot;&gt;&lt;/a&gt;敏捷基础之质量内建&lt;/h2&gt;&lt;p&gt;质量内建：产品一旦被发布之后就有了好坏之分，通过某些检验方式已经无法提高或保证它的质</summary>
+      
+    
+    
+    
+    
+    <category term="Teamwork" scheme="https://stableship.github.io/tags/Teamwork/"/>
+    
+    <category term="Agile" scheme="https://stableship.github.io/tags/Agile/"/>
+    
+  </entry>
   
   <entry>
     <title>敏捷之自驱力</title>
@@ -462,31 +486,6 @@
       
     
     
-    
-    
-    <category term="MongoDb" scheme="https://stableship.github.io/tags/MongoDb/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MongoDb Base Rule</title>
-    <link href="https://stableship.github.io/2019/01/29/mongoDb%20Base%20Rule/"/>
-    <id>https://stableship.github.io/2019/01/29/mongoDb%20Base%20Rule/</id>
-    <published>2019-01-29T12:19:32.000Z</published>
-    <updated>2021-07-09T02:55:08.669Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Select-只获取必要的字段"><a href="#Select-只获取必要的字段" class="headerlink" title="Select 只获取必要的字段"></a>Select 只获取必要的字段</h3><p>why:</p><p><em>select *会增加cpu/io/内存/带宽的消耗</em></p><p><em>指定字段能有效利用索引覆盖：find（{id： “test”}）.select({id: 1}) 命中索引id， 因只select了id， 所以mongo直接返回了id， 不会再索引到具体的document，效率大大提高。</em></p><h3 id="避免过度使用嵌入文档，最多只能一层，-不使用数组嵌套"><a href="#避免过度使用嵌入文档，最多只能一层，-不使用数组嵌套" class="headerlink" title="避免过度使用嵌入文档，最多只能一层， 不使用数组嵌套"></a>避免过度使用嵌入文档，最多只能一层， 不使用数组嵌套</h3><p>why:</p><p><em>document有16MB限制。</em></p><h3 id="尽量避免使用负向查询以及-开头的模糊查询"><a href="#尽量避免使用负向查询以及-开头的模糊查询" class="headerlink" title="尽量避免使用负向查询以及%开头的模糊查询"></a>尽量避免使用负向查询以及%开头的模糊查询</h3><p>why:</p><p><em>ne、nin %开头 无法有效使用索引</em></p><h3 id="禁止使用look-up"><a href="#禁止使用look-up" class="headerlink" title="禁止使用look up"></a>禁止使用look up</h3><p>why:</p><p><em>分片后，look up操作失效</em></p><h3 id="不在数据库中进行数据计算"><a href="#不在数据库中进行数据计算" class="headerlink" title="不在数据库中进行数据计算"></a>不在数据库中进行数据计算</h3><p>why:</p><p><em>js精度问题 （0.1 + 0.2 = 0.30000000000000004__）</em></p><p><em>cpu计算导致数据库卡顿，解放数据库CPU，把复杂逻辑计算放到服务层。</em></p><h3 id="平衡范式与冗余"><a href="#平衡范式与冗余" class="headerlink" title="平衡范式与冗余"></a>平衡范式与冗余</h3><p>为提高效率，可以冗余数据</p><h3 id="拒绝大sql，大批量-操作"><a href="#拒绝大sql，大批量-操作" class="headerlink" title="拒绝大sql，大批量 操作"></a>拒绝大sql，大批量 操作</h3><h3 id="禁止在更新十分频繁、区分度不高的属性上建立索引"><a href="#禁止在更新十分频繁、区分度不高的属性上建立索引" class="headerlink" title="禁止在更新十分频繁、区分度不高的属性上建立索引"></a>禁止在更新十分频繁、区分度不高的属性上建立索引</h3><p>why：</p><p><em>更新会变更B+树，更新频繁的字段建立索引会大大降低数据库性能</em></p><p><em>“性别”这种区分度不大的属性，建立索引是没有什么意义的，不能有效过滤数据，性能与全表扫描类似</em></p><p><em>索引内存也是有限的</em></p><h3 id="使用explain-优化查询"><a href="#使用explain-优化查询" class="headerlink" title="使用explain 优化查询"></a>使用explain 优化查询</h3><p><em>查看explain结果,</em></p><p><em>可以简单查看inputStages.stage判断查询效率。</em></p><p><em>COLLECTION：全表查询</em></p><p><em>IXSCAN：命中索引查询</em></p><h3 id="禁止使用自带全文索引"><a href="#禁止使用自带全文索引" class="headerlink" title="禁止使用自带全文索引"></a>禁止使用自带全文索引</h3><p>why:</p><p><em>效率低</em></p><p><a href="https://github.com/stableShip/Spring_MongoDb">MongoDb_Demo</a></p><p>参考： <a href="http://blog.51cto.com/lee90/2096461">mysql 50条军规</a></p><div><h1>推荐文章<span style="font-size:0.45em; color:gray"></span></h1><ul><li><a href="https://stableship.github.io/2019/01/30/What%20is%20MongoDb/">What is MongoDb?</a></li><li><a href="https://stableship.github.io/2016/03/27/mongodb%20%20%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81/">mongodb3.* 设置用户认证</a></li></ul></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;Select-只获取必要的字段&quot;&gt;&lt;a href=&quot;#Select-只获取必要的字段&quot; class=&quot;headerlink&quot; title=&quot;Select 只获取必要的字段&quot;&gt;&lt;/a&gt;Select 只获取必要的字段&lt;/h3&gt;&lt;p&gt;why:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;se</summary>
-      
-    
-    
-    
-    <category term="MongoDb" scheme="https://stableship.github.io/categories/MongoDb/"/>
     
     
     <category term="MongoDb" scheme="https://stableship.github.io/tags/MongoDb/"/>
