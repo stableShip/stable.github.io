@@ -22,7 +22,7 @@ Key Result 关键结果，**定量**，定义需要达到多少，如“赚一�
 
 ORK 必须是公开透明的，由上到下， 公司的OKR，团队的OKR， 个人的OKR
 
-可以参考的[制定规则](https://safe.menlosecurity.com/http://www.360doc.com/content/17/0510/19/32626470_652783216.shtml)
+可以参考的[制定规则](http://www.360doc.com/content/17/0510/19/32626470_652783216.shtml)
 
 ## 普遍的OKR示例
 
