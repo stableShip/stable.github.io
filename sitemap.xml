@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://stableship.github.io/2021/07/03/%E6%95%8F%E6%8D%B7%E4%B9%8B%E8%87%AA%E9%A9%B1%E5%8A%9B/</loc>
+    
+    <lastmod>2021-07-21</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://stableship.github.io/2016/03/27/mongodb%20%20%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81/</loc>
     
     <lastmod>2021-07-20</lastmod>
@@ -142,13 +149,6 @@
   </url>
   
   <url>
-    <loc>https://stableship.github.io/2021/07/03/%E6%95%8F%E6%8D%B7%E4%B9%8B%E8%87%AA%E9%A9%B1%E5%8A%9B/</loc>
-    
-    <lastmod>2021-07-09</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://stableship.github.io/2020/08/02/%E6%AF%8F%E5%91%A8%E4%B8%80%E9%97%AE/</loc>
     
     <lastmod>2021-07-09</lastmod>
@@ -242,7 +242,7 @@
 
   <url>
     <loc>https://stableship.github.io/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -250,266 +250,266 @@
   
   <url>
     <loc>https://stableship.github.io/tags/Selenide/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Automatic-Test/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/React/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/CO/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Nodejs/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Git/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Docker/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/MongoDb/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Transaction/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Interview/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/SpringBoot/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/UnitTest/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Leancloud/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Node/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Mocha/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Blanket/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Rewire/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Should/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Pomelo/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Pomelo-admin-web/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/RPC/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Pomelo-RPC-WS/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Teamwork/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Tornado/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Mysql/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/%E5%BC%82%E6%AD%A5/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Chrome-Extension/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Browserify/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Visual-studio-code/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Typescript/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Windows/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Linux/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Game/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/Agile/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/tags/API/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -518,84 +518,84 @@
   
   <url>
     <loc>https://stableship.github.io/categories/Nodejs/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/categories/Nodejs/CO/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/categories/Leancloud/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/categories/MongoDb/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/categories/Node/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/categories/Python/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/categories/Node/Test/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/categories/Node/Pomelo/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/categories/Windows/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/categories/IT/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://stableship.github.io/categories/Windows/Linux/</loc>
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
